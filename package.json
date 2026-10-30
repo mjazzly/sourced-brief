@@ -1,0 +1,22 @@
+{
+  "name": "sourced-brief",
+  "version": "1.2.0",
+  "description": "Tool server and eval harness for the sourced brief: a weekly status page written by the model where every sentence carries its source and the code checks every claim before release. Synthetic data only.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "data": "node scripts/make_week.js",
+    "mock": "node eval/run_eval.js --mock",
+    "eval": "node eval/run_eval.js"
+  },
+  "author": "Megat Jazly",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "3.25.76"
+  }
+}

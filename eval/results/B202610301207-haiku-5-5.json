@@ -1,0 +1,178 @@
+{
+  "label": "B202610301207-haiku-5-5",
+  "run_id": "B202610301207",
+  "date": "2026-10-30",
+  "started_at": "2026-10-30T12:07:27.020Z",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.2",
+  "server_version": "1.2.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 35,
+  "tokens": {
+    "input": 86,
+    "output": 85541,
+    "cache_read": 388599,
+    "cache_write": 165053
+  },
+  "total_input": 553738,
+  "cost_usd": 0.067296715,
+  "cost_per_brief_usd": 0.008412089375,
+  "cache": true,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 3,
+    "of_cases": 6,
+    "state_matched": 0,
+    "of_state": 2,
+    "claims_verified": 275,
+    "of_claims": 289,
+    "unsourced_caught": 4,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": false,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "01_clean: missing What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+        "01_clean: missing What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)"
+      ],
+      "facts_found": 46,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "02_disagreement: missing What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+        "02_disagreement: missing What moved: number \"12\" (decision_log.csv line 7)",
+        "02_disagreement: missing What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)",
+        "02_disagreement: missing What moved: number \"14\" (decision_log.csv line 10)",
+        "02_disagreement: missing What moved: number \"13\" (decision_log.csv line 10)",
+        "02_disagreement: missing What moved: number \"1\" (decision_log.csv line 10)"
+      ],
+      "facts_found": 41,
+      "facts_total": 47,
+      "removed": 2,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "04_gap: missing What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+        "04_gap: missing What moved: number \"12\" (decision_log.csv line 7)",
+        "04_gap: missing What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"14\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"13\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"1\" (decision_log.csv line 10)"
+      ],
+      "facts_found": 40,
+      "facts_total": 46,
+      "removed": 2,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 54,
+      "facts_total": 54,
+      "removed": 0,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_a: a claim from the clean run is missing after the new document: what_moved|text|decision_log.csv line 5|09_week44_a.xlsx",
+        "state_a: a claim from the clean run is missing after the new document: what_moved|text|decision_log.csv line 8|10_week44_b.xlsx",
+        "state_a: a new claim that does not cite risk_note.md: what_moved|text|decision_log.csv line 7|09_week44_a.xlsx",
+        "state_a: a new claim that does not cite risk_note.md: what_moved|text|decision_log.csv line 10|10_week44_b.xlsx"
+      ],
+      "facts_found": 2,
+      "facts_total": 2,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_b: claim in the first run and not the second: what_moved|text|decision_log.csv line 5|09_week44_a.xlsx",
+        "state_b: claim in the first run and not the second: what_moved|text|decision_log.csv line 8|10_week44_b.xlsx",
+        "state_b: claim in the second run and not the first: what_moved|text|decision_log.csv line 7|09_week44_a.xlsx",
+        "state_b: claim in the second run and not the first: what_moved|text|decision_log.csv line 10|10_week44_b.xlsx",
+        "state_b: claim in the second run and not the first: what_changed|number|answers.csv D202610300900-Q01|4210",
+        "state_b: claim in the second run and not the first: what_changed|number|answers.csv D202610300900-Q02|1604322.5",
+        "state_b: claim in the second run and not the first: what_changed|number|answers.csv D202610300900-Q03|7.92",
+        "state_b: claim in the second run and not the first: what_changed|number|answers.csv D202610300900-Q04|128.56"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": false
+    }
+  },
+  "note": "Fifth blind run, on the smallest tier, v1.2. Three of six cases, no state case, 275 of 289 claims verified, 4 sentences removed, 4 of 4 gates held: bar not met. Nothing false reached a page. The misses are citation precision: the model cited the merged file names at a decision log line that also holds them (the header row) instead of the reconcile line the shape names, and in two briefs claimed 44 from the file name week44, which the line does not hold as a number. The line it chose varied between runs, so State A and State B differed. 35 model calls, US$0.067."
+}

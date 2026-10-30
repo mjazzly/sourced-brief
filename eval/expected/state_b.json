@@ -1,0 +1,7 @@
+{
+  "case": "state_b",
+  "title": "State B: identical inputs, identical page",
+  "week_ending": "2026-10-30",
+  "based_on": "01_clean",
+  "rule": "identical"
+}

@@ -1,0 +1,21 @@
+node_modules/
+.env
+eval/runs/
+eval/runs-mock/
+
+# state written by the server when it runs on data/week/
+data/week/brief_2*.md
+data/week/unsourced.md
+data/week/claims.csv
+data/week/run_log.csv
+
+# never in the public repo
+.DS_Store
+*.pdf
+*.tar.gz
+
+# the working brief stays local
+BRIEF.md
+
+# scratch scripts
+_*.mjs

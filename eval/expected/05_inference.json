@@ -1,0 +1,788 @@
+{
+  "case": "05_inference",
+  "title": "A tempting inference",
+  "week_ending": "2026-10-30",
+  "sentences": [
+    {
+      "section": "what_moved",
+      "text": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A001",
+          "value": "Send the spend export for the last twelve months"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A001",
+          "value": "Sofia Lindqvist"
+        },
+        {
+          "kind": "status",
+          "ref": "tracker.csv A001",
+          "value": "closed this week"
+        }
+      ]
+    },
+    {
+      "section": "what_moved",
+      "text": "Confirm the distributor discount bands, Priya Shah: closed this week.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A003",
+          "value": "Confirm the distributor discount bands"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A003",
+          "value": "Priya Shah"
+        },
+        {
+          "kind": "status",
+          "ref": "tracker.csv A003",
+          "value": "closed this week"
+        }
+      ]
+    },
+    {
+      "section": "what_moved",
+      "text": "Share the claims backlog figures with the board pack, Tom Reilly: closed this week.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A006",
+          "value": "Share the claims backlog figures with the board pack"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A006",
+          "value": "Tom Reilly"
+        },
+        {
+          "kind": "status",
+          "ref": "tracker.csv A006",
+          "value": "closed this week"
+        }
+      ]
+    },
+    {
+      "section": "what_moved",
+      "text": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "decision_log.csv line 7",
+          "value": "09_week44_a.xlsx"
+        },
+        {
+          "kind": "number",
+          "ref": "decision_log.csv line 7",
+          "value": "12"
+        },
+        {
+          "kind": "number",
+          "ref": "decision_log.csv line 7",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "section": "what_moved",
+      "text": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "decision_log.csv line 10",
+          "value": "10_week44_b.xlsx"
+        },
+        {
+          "kind": "number",
+          "ref": "decision_log.csv line 10",
+          "value": "14"
+        },
+        {
+          "kind": "number",
+          "ref": "decision_log.csv line 10",
+          "value": "13"
+        },
+        {
+          "kind": "number",
+          "ref": "decision_log.csv line 10",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "section": "what_is_due",
+      "text": "A002 Send the draft category taxonomy, Aiden Brooks, due 2026-11-03.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A002",
+          "value": "Send the draft category taxonomy"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A002",
+          "value": "Aiden Brooks"
+        },
+        {
+          "kind": "date",
+          "ref": "tracker.csv A002",
+          "value": "2026-11-03"
+        }
+      ]
+    },
+    {
+      "section": "what_is_due",
+      "text": "A005 Set up the introductions to the three logistics partners, Daniel Okafor, due 2026-11-04.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A005",
+          "value": "Set up the introductions to the three logistics partners"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A005",
+          "value": "Daniel Okafor"
+        },
+        {
+          "kind": "date",
+          "ref": "tracker.csv A005",
+          "value": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "section": "what_is_due",
+      "text": "A004 Send the revised price list to the distributors, owner not stated, due 2026-11-05.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A004",
+          "value": "Send the revised price list to the distributors"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A004",
+          "value": "not stated"
+        },
+        {
+          "kind": "date",
+          "ref": "tracker.csv A004",
+          "value": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "section": "what_is_due",
+      "text": "A007 Draft the board summary of the claims review, Aiden Brooks, due 2026-11-06.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A007",
+          "value": "Draft the board summary of the claims review"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A007",
+          "value": "Aiden Brooks"
+        },
+        {
+          "kind": "date",
+          "ref": "tracker.csv A007",
+          "value": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "section": "what_is_due",
+      "text": "A008 Return the signed distributor contracts, Priya Shah, due 2026-11-10.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A008",
+          "value": "Return the signed distributor contracts"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A008",
+          "value": "Priya Shah"
+        },
+        {
+          "kind": "date",
+          "ref": "tracker.csv A008",
+          "value": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "section": "what_changed",
+      "text": "Orders, September 2026: 4,210; unchanged from last week.",
+      "claims": [
+        {
+          "kind": "metric",
+          "ref": "answers.csv D202610300900-Q01",
+          "value": "Orders"
+        },
+        {
+          "kind": "period",
+          "ref": "answers.csv D202610300900-Q01",
+          "value": "September 2026"
+        },
+        {
+          "kind": "change",
+          "metric": "Orders",
+          "new_ref": "answers.csv D202610300900-Q01",
+          "new_value": "4,210",
+          "old_ref": "brief_previous.md line 13",
+          "old_value": "4,210"
+        }
+      ]
+    },
+    {
+      "section": "what_changed",
+      "text": "Revenue, Q3 2026: 1,604,322.50; unchanged from last week.",
+      "claims": [
+        {
+          "kind": "metric",
+          "ref": "answers.csv D202610300900-Q02",
+          "value": "Revenue"
+        },
+        {
+          "kind": "period",
+          "ref": "answers.csv D202610300900-Q02",
+          "value": "Q3 2026"
+        },
+        {
+          "kind": "change",
+          "metric": "Revenue",
+          "new_ref": "answers.csv D202610300900-Q02",
+          "new_value": "1,604,322.50",
+          "old_ref": "brief_previous.md line 14",
+          "old_value": "1,604,322.50"
+        }
+      ]
+    },
+    {
+      "section": "what_changed",
+      "text": "Average order value, September 2026: 128.56; unchanged from last week.",
+      "claims": [
+        {
+          "kind": "metric",
+          "ref": "answers.csv D202610300900-Q04",
+          "value": "Average order value"
+        },
+        {
+          "kind": "period",
+          "ref": "answers.csv D202610300900-Q04",
+          "value": "September 2026"
+        },
+        {
+          "kind": "change",
+          "metric": "Average order value",
+          "new_ref": "answers.csv D202610300900-Q04",
+          "new_value": "128.56",
+          "old_ref": "brief_previous.md line 16",
+          "old_value": "128.56"
+        }
+      ]
+    },
+    {
+      "section": "what_changed",
+      "text": "Orders, Q3 2026: 3,150.",
+      "claims": [
+        {
+          "kind": "metric",
+          "ref": "answers.csv D202610300900-Q05",
+          "value": "Orders"
+        },
+        {
+          "kind": "period",
+          "ref": "answers.csv D202610300900-Q05",
+          "value": "Q3 2026"
+        },
+        {
+          "kind": "number",
+          "ref": "answers.csv D202610300900-Q05",
+          "value": "3,150"
+        }
+      ]
+    },
+    {
+      "section": "what_changed",
+      "text": "Returns, Q3 2026: 257.",
+      "claims": [
+        {
+          "kind": "metric",
+          "ref": "answers.csv D202610300900-Q06",
+          "value": "Returns"
+        },
+        {
+          "kind": "period",
+          "ref": "answers.csv D202610300900-Q06",
+          "value": "Q3 2026"
+        },
+        {
+          "kind": "number",
+          "ref": "answers.csv D202610300900-Q06",
+          "value": "257"
+        }
+      ]
+    },
+    {
+      "section": "decisions",
+      "text": "\"Decision needed: whether to extend the pilot to the Riverside branch before the taxonomy is signed off.\"",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "project_note.md line 8",
+          "value": "Decision needed: whether to extend the pilot to the Riverside branch before the taxonomy is signed off."
+        }
+      ]
+    },
+    {
+      "section": "decisions",
+      "text": "\"Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.\"",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "supplier_note.md line 6",
+          "value": "Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six."
+        }
+      ]
+    },
+    {
+      "section": "open_questions",
+      "text": "A004 Send the revised price list to the distributors: owner not stated.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "tracker.csv A004",
+          "value": "Send the revised price list to the distributors"
+        },
+        {
+          "kind": "owner",
+          "ref": "tracker.csv A004",
+          "value": "not stated"
+        }
+      ]
+    },
+    {
+      "section": "open_questions",
+      "text": "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\"",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "project_note.md line 10",
+          "value": "Open question: does the spend export include the Harbour depot, or only the Central warehouse?"
+        }
+      ]
+    },
+    {
+      "section": "open_questions",
+      "text": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "supplier_note.md line 8",
+          "value": "Open question: can Brightwater Packaging hold the October price into Q1?"
+        }
+      ]
+    },
+    {
+      "section": "open_questions",
+      "text": "The Q3 returns rate was asked for, but no source states it; orders 3,150 and returns 257 are given without the division.",
+      "claims": [
+        {
+          "kind": "text",
+          "ref": "project_note.md line 5",
+          "value": "the Q3 returns rate"
+        },
+        {
+          "kind": "number",
+          "ref": "answers.csv D202610300900-Q05",
+          "value": "3,150"
+        },
+        {
+          "kind": "number",
+          "ref": "answers.csv D202610300900-Q06",
+          "value": "257"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "section": "what_moved",
+      "kind": "text",
+      "ref": "tracker.csv A001",
+      "value": "Send the spend export for the last twelve months"
+    },
+    {
+      "section": "what_moved",
+      "kind": "owner",
+      "ref": "tracker.csv A001",
+      "value": "Sofia Lindqvist"
+    },
+    {
+      "section": "what_moved",
+      "kind": "status",
+      "ref": "tracker.csv A001",
+      "value": "closed this week"
+    },
+    {
+      "section": "what_moved",
+      "kind": "text",
+      "ref": "tracker.csv A003",
+      "value": "Confirm the distributor discount bands"
+    },
+    {
+      "section": "what_moved",
+      "kind": "owner",
+      "ref": "tracker.csv A003",
+      "value": "Priya Shah"
+    },
+    {
+      "section": "what_moved",
+      "kind": "status",
+      "ref": "tracker.csv A003",
+      "value": "closed this week"
+    },
+    {
+      "section": "what_moved",
+      "kind": "text",
+      "ref": "tracker.csv A006",
+      "value": "Share the claims backlog figures with the board pack"
+    },
+    {
+      "section": "what_moved",
+      "kind": "owner",
+      "ref": "tracker.csv A006",
+      "value": "Tom Reilly"
+    },
+    {
+      "section": "what_moved",
+      "kind": "status",
+      "ref": "tracker.csv A006",
+      "value": "closed this week"
+    },
+    {
+      "section": "what_moved",
+      "kind": "text",
+      "ref": "decision_log.csv line 7",
+      "value": "09_week44_a.xlsx"
+    },
+    {
+      "section": "what_moved",
+      "kind": "number",
+      "ref": "decision_log.csv line 7",
+      "value": "12"
+    },
+    {
+      "section": "what_moved",
+      "kind": "text",
+      "ref": "decision_log.csv line 10",
+      "value": "10_week44_b.xlsx"
+    },
+    {
+      "section": "what_moved",
+      "kind": "number",
+      "ref": "decision_log.csv line 10",
+      "value": "14"
+    },
+    {
+      "section": "what_moved",
+      "kind": "number",
+      "ref": "decision_log.csv line 10",
+      "value": "13"
+    },
+    {
+      "section": "what_moved",
+      "kind": "number",
+      "ref": "decision_log.csv line 10",
+      "value": "1"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "text",
+      "ref": "tracker.csv A002",
+      "value": "Send the draft category taxonomy"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "owner",
+      "ref": "tracker.csv A002",
+      "value": "Aiden Brooks"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "date",
+      "ref": "tracker.csv A002",
+      "value": "2026-11-03"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "text",
+      "ref": "tracker.csv A005",
+      "value": "Set up the introductions to the three logistics partners"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "owner",
+      "ref": "tracker.csv A005",
+      "value": "Daniel Okafor"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "date",
+      "ref": "tracker.csv A005",
+      "value": "2026-11-04"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "text",
+      "ref": "tracker.csv A004",
+      "value": "Send the revised price list to the distributors"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "owner",
+      "ref": "tracker.csv A004",
+      "value": "not stated"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "date",
+      "ref": "tracker.csv A004",
+      "value": "2026-11-05"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "text",
+      "ref": "tracker.csv A007",
+      "value": "Draft the board summary of the claims review"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "owner",
+      "ref": "tracker.csv A007",
+      "value": "Aiden Brooks"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "date",
+      "ref": "tracker.csv A007",
+      "value": "2026-11-06"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "text",
+      "ref": "tracker.csv A008",
+      "value": "Return the signed distributor contracts"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "owner",
+      "ref": "tracker.csv A008",
+      "value": "Priya Shah"
+    },
+    {
+      "section": "what_is_due",
+      "kind": "date",
+      "ref": "tracker.csv A008",
+      "value": "2026-11-10"
+    },
+    {
+      "section": "what_changed",
+      "kind": "metric",
+      "ref": "answers.csv D202610300900-Q01",
+      "value": "Orders"
+    },
+    {
+      "section": "what_changed",
+      "kind": "period",
+      "ref": "answers.csv D202610300900-Q01",
+      "value": "September 2026"
+    },
+    {
+      "section": "what_changed",
+      "kind": "change",
+      "metric": "Orders",
+      "new_ref": "answers.csv D202610300900-Q01",
+      "new_value": "4,210",
+      "old_ref": "brief_previous.md line 13",
+      "old_value": "4,210"
+    },
+    {
+      "section": "what_changed",
+      "kind": "metric",
+      "ref": "answers.csv D202610300900-Q02",
+      "value": "Revenue"
+    },
+    {
+      "section": "what_changed",
+      "kind": "period",
+      "ref": "answers.csv D202610300900-Q02",
+      "value": "Q3 2026"
+    },
+    {
+      "section": "what_changed",
+      "kind": "change",
+      "metric": "Revenue",
+      "new_ref": "answers.csv D202610300900-Q02",
+      "new_value": "1,604,322.50",
+      "old_ref": "brief_previous.md line 14",
+      "old_value": "1,604,322.50"
+    },
+    {
+      "section": "what_changed",
+      "kind": "metric",
+      "ref": "answers.csv D202610300900-Q04",
+      "value": "Average order value"
+    },
+    {
+      "section": "what_changed",
+      "kind": "period",
+      "ref": "answers.csv D202610300900-Q04",
+      "value": "September 2026"
+    },
+    {
+      "section": "what_changed",
+      "kind": "change",
+      "metric": "Average order value",
+      "new_ref": "answers.csv D202610300900-Q04",
+      "new_value": "128.56",
+      "old_ref": "brief_previous.md line 16",
+      "old_value": "128.56"
+    },
+    {
+      "section": "what_changed",
+      "kind": "metric",
+      "ref": "answers.csv D202610300900-Q05",
+      "value": "Orders"
+    },
+    {
+      "section": "what_changed",
+      "kind": "period",
+      "ref": "answers.csv D202610300900-Q05",
+      "value": "Q3 2026"
+    },
+    {
+      "section": "what_changed",
+      "kind": "number",
+      "ref": "answers.csv D202610300900-Q05",
+      "value": "3,150"
+    },
+    {
+      "section": "what_changed",
+      "kind": "metric",
+      "ref": "answers.csv D202610300900-Q06",
+      "value": "Returns"
+    },
+    {
+      "section": "what_changed",
+      "kind": "period",
+      "ref": "answers.csv D202610300900-Q06",
+      "value": "Q3 2026"
+    },
+    {
+      "section": "what_changed",
+      "kind": "number",
+      "ref": "answers.csv D202610300900-Q06",
+      "value": "257"
+    },
+    {
+      "section": "decisions",
+      "kind": "text",
+      "ref": "project_note.md line 8",
+      "value": "Decision needed: whether to extend the pilot to the Riverside branch before the taxonomy is signed off."
+    },
+    {
+      "section": "decisions",
+      "kind": "text",
+      "ref": "supplier_note.md line 6",
+      "value": "Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six."
+    },
+    {
+      "section": "open_questions",
+      "kind": "text",
+      "ref": "tracker.csv A004",
+      "value": "Send the revised price list to the distributors"
+    },
+    {
+      "section": "open_questions",
+      "kind": "owner",
+      "ref": "tracker.csv A004",
+      "value": "not stated"
+    },
+    {
+      "section": "open_questions",
+      "kind": "text",
+      "ref": "project_note.md line 10",
+      "value": "Open question: does the spend export include the Harbour depot, or only the Central warehouse?"
+    },
+    {
+      "section": "open_questions",
+      "kind": "text",
+      "ref": "supplier_note.md line 8",
+      "value": "Open question: can Brightwater Packaging hold the October price into Q1?"
+    },
+    {
+      "section": "open_questions",
+      "kind": "text",
+      "ref": "project_note.md line 5",
+      "value": "the Q3 returns rate"
+    },
+    {
+      "section": "open_questions",
+      "kind": "number",
+      "ref": "answers.csv D202610300900-Q05",
+      "value": "3,150"
+    },
+    {
+      "section": "open_questions",
+      "kind": "number",
+      "ref": "answers.csv D202610300900-Q06",
+      "value": "257"
+    }
+  ],
+  "must_not": {
+    "numbers": [
+      "8.16",
+      "8.2",
+      "8.159",
+      "8.1587",
+      "0.0816",
+      "0.08"
+    ],
+    "strings": [
+      "8.16%",
+      "8.2%"
+    ],
+    "refs_in_section": []
+  },
+  "gate": "arithmetic",
+  "empty_sections": [],
+  "declined": [],
+  "mock_extra": [
+    {
+      "section": "what_changed",
+      "text": "That is a returns rate of 8.16% for Q3 2026.",
+      "claims": [
+        {
+          "kind": "number",
+          "ref": "answers.csv D202610300900-Q06",
+          "value": "8.16%"
+        },
+        {
+          "kind": "period",
+          "ref": "answers.csv D202610300900-Q06",
+          "value": "Q3 2026"
+        }
+      ]
+    }
+  ]
+}
