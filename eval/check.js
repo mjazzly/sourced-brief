@@ -44,26 +44,51 @@ function factFound(f, claims, year) {
 const factName = (f) => f.kind === "change" ? `${TITLES[f.section]}: change ${f.new_value} (${f.new_ref}) from ${f.old_value} (${f.old_ref})` : `${TITLES[f.section]}: ${f.kind} "${f.value}" (${f.ref})`;
 const gateLogged = (run, reason) => run.log.some((l) => (l.step === "gate" || l.step === "stop") && l.reason === reason);
 
-export function checkCase(e, run, runs, year) {
+// Each released sentence as "section | its references", the references as written in its closing
+// brackets, sorted. A section reading only "No source this week." gives "section | none".
+function refLists(page) {
+  const out = [];
+  let section = null;
+  for (const line of page.split("\n")) {
+    const h = /^## (.+)$/.exec(line);
+    if (h) { section = Object.keys(TITLES).find((k) => TITLES[k] === h[1].trim()) || h[1].trim(); continue; }
+    if (!section || !line.startsWith("- ")) continue;
+    const m = /\[([^\]]+)\]\s*$/.exec(line);
+    out.push(`${section} | ${m ? m[1].split(";").map((r) => r.trim()).filter(Boolean).sort().join("; ") : "none"}`);
+  }
+  return out;
+}
+// What a holds that b does not, counting repeats.
+function minus(a, b) {
+  const left = [...b], out = [];
+  for (const x of a) { const i = left.indexOf(x); if (i >= 0) left.splice(i, 1); else out.push(x); }
+  return out;
+}
+
+export function checkCase(e, run, runs, year, byCase = {}) {
   const fails = [], P = passed(run);
   const out = { id: e.case, name: `${e.case}. ${e.title}`, group: e.rule ? "state" : "case", match: false, fails, facts_found: 0, facts_total: 0, removed: 0, gate: e.gate || null, gate_held: null, wording_identical: null };
   if (!run.released) { fails.push(`${e.case}: no page was released`); return out; }
   out.removed = run.log.filter((l) => l.step === "unsourced").length;
-  // state cases compare with the clean run
+  // State cases compare with the clean run, on what the page says: the expected facts, and each
+  // released sentence's references, section by section. (v1.3: until v1.2 they compared the claim
+  // tables, so the same page could pass or fail on whether the model also tagged a name already
+  // inside a quote it had claimed.)
   if (e.rule) {
     const base = runs[e.based_on];
     if (!base || !base.released) { fails.push(`${e.case}: no released ${e.based_on} run to compare with`); return out; }
-    const B = new Set(passed(base).map(tuple)), R = new Set(P.map(tuple));
+    const facts = e.facts || byCase[e.based_on]?.facts || [];
+    for (const f of facts) { out.facts_total++; if (factFound(f, P, year)) out.facts_found++; else fails.push(`${e.case}: missing ${factName(f)}`); }
+    const Bs = refLists(base.page), Rs = refLists(run.page);
     if (e.rule === "identical") {
-      for (const t of B) if (!R.has(t)) fails.push(`${e.case}: claim in the first run and not the second: ${t}`);
-      for (const t of R) if (!B.has(t)) fails.push(`${e.case}: claim in the second run and not the first: ${t}`);
+      for (const t of minus(Bs, Rs)) fails.push(`${e.case}: a sentence in the first run and not the second: ${t}`);
+      for (const t of minus(Rs, Bs)) fails.push(`${e.case}: a sentence in the second run and not the first: ${t}`);
       if (run.unsourced !== base.unsourced) fails.push(`${e.case}: the removed list differs between the two runs`);
       if (run.page.split("\n")[1] !== base.page.split("\n")[1]) fails.push(`${e.case}: the sources line differs between the two runs`);
       out.wording_identical = run.page === base.page;
     } else {
-      for (const t of B) if (!R.has(t)) fails.push(`${e.case}: a claim from the clean run is missing after the new document: ${t}`);
-      for (const c of P) if (!B.has(tuple(c)) && !c.ref.includes(e.new_file)) fails.push(`${e.case}: a new claim that does not cite ${e.new_file}: ${tuple(c)}`);
-      for (const f of e.facts.filter((f) => (f.ref || f.new_ref || "").includes(e.new_file))) { out.facts_total++; if (factFound(f, P, year)) out.facts_found++; else fails.push(`${e.case}: missing ${factName(f)}`); }
+      for (const t of minus(Bs, Rs)) fails.push(`${e.case}: a sentence from the clean run is missing after the new document: ${t}`);
+      for (const t of minus(Rs, Bs)) if (!t.includes(e.new_file)) fails.push(`${e.case}: a new sentence that does not cite ${e.new_file}: ${t}`);
     }
     out.match = fails.length === 0; return out;
   }
@@ -93,8 +118,8 @@ export function checkCase(e, run, runs, year) {
 }
 
 export function checkAll(expected, runs) {
-  const cases = {};
-  for (const e of expected.cases) cases[e.case] = checkCase(e, runs[e.case] || loadRun(""), runs, expected.year);
+  const cases = {}, byCase = Object.fromEntries(expected.cases.map((e) => [e.case, e]));
+  for (const e of expected.cases) cases[e.case] = checkCase(e, runs[e.case] || loadRun(""), runs, expected.year, byCase);
   return cases;
 }
 // The bar: all six cases match and both state cases match.

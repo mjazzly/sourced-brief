@@ -1,0 +1,18 @@
+{
+  "build": "sourced-brief",
+  "title": "Sourced brief",
+  "harness": "eval/run_eval.js",
+  "server": { "file": "server.js", "data_env": "SOURCED_BRIEF_DATA" },
+  "skill": "skill/SKILL.md",
+  "data": "data",
+  "expected": "eval/expected",
+  "answers": "eval/answers.txt",
+  "prices": "eval/prices.json",
+  "checker": "eval/check.js",
+  "runs": "eval/runs",
+  "runs_mock": "eval/runs-mock",
+  "record": "result.json",
+  "gates": { "held": "gates_held", "of": "of_gates" },
+  "bar": "every case and both state cases matched",
+  "max_minutes": 40
+}

@@ -1,4 +1,4 @@
-# Sourced Brief, v1.2
+# Sourced Brief, v1.3
 
 Every week someone writes the status brief: one page, read in three minutes, pulled from six places (the action tracker, the merged table and its decision log, a few answered questions, two short documents and last week's brief). It takes an afternoon, and afterwards nobody can tell which sentence came from where. This build writes that page, and **every sentence carries its source**: the file and the row, line or answer id it came from. The model reads the sources and drafts the page in five fixed sections with a claim on every number, name, date, quote and status; the code checks each claim against its source before the page is released, removes any sentence that fails and lists it with the reason, and releases the page only with what passed. Where two sources disagree the page shows both and never picks one quietly.
 

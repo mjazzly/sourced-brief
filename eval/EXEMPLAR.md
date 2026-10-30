@@ -2,11 +2,11 @@
 
 Writes the weekly status brief from six sources (the action tracker, the merged table and its decision log, four answered questions, two short documents and last week's brief), and every sentence carries its source: the file and the row, line or answer id it came from. The model reads the sources and drafts the page in five fixed sections with a claim on every number, name, date, quote and status; the code checks each claim against its source, removes any sentence that fails and lists it with the reason, and releases the page only with what passed. Four gates: two sources that disagree are shown side by side and never resolved quietly; a section with nothing to cite reads "No source this week"; a source marked confidential is declined and named as declined; a number no source states is never computed.
 
-**Owner:** Megat Jazly. **Current version:** v1.2. **Limits:** one synthetic week from a seeded generator; six source files in the shapes of the three earlier builds; one brief per week folder; no external system connected.
+**Owner:** Megat Jazly. **Current version:** v1.3. **Limits:** one synthetic week from a seeded generator; six source files in the shapes of the three earlier builds; one brief per week folder; no external system connected.
 
-**Tested on:** claude-opus-5-5 (effort high), 2026-10-30, automated harness run: 6 of 6 cases, state 2 of 2, 289 of 289 claims verified, 0 sentences removed, 4 of 4 gates held, bar met. 36 model calls over 8 briefs, 518,633 input tokens, 47,591 output tokens, US$1.671 (US$0.2089 a brief).
+**Tested on:** claude-opus-5-5 (effort high), 2026-10-30, automated harness run: 6 of 6 cases, state 2 of 2, 289 of 289 claims verified, 0 sentences removed, 4 of 4 gates held, bar met. 36 model calls over 8 briefs, 539,929 input tokens, 47,090 output tokens, US$1.667 (US$0.2084 a brief).
 
-**Sentences removed by the checker:** 62 across 6 recorded runs, every one listed in unsourced.md with its reason; what each run found says why they were removed.
+**Sentences removed by the checker:** 64 across 10 recorded runs, every one listed in unsourced.md with its reason; what each run found says why they were removed.
 
 **The bar:** all six cases match and both state cases match, against expected fact lists written before the first run. A miss is named by its case, section, fact and value, never rounded up.
 
@@ -20,6 +20,10 @@ Writes the weekly status brief from six sources (the action tracker, the merged 
 | 2026-10-30 | B202610301156-opus-5-5-high | v1.1 | claude-opus-5-5 high | 3 of 6 | 2 of 2 | 283 of 289 | 2 | 3 of 4 | yes | 36 | 489,783 / 43,824 | US$1.563 | US$0.1954 |
 | 2026-10-30 | B202610301207-haiku-5-5 | v1.2 | claude-haiku-5-5 | 3 of 6 | 0 of 2 | 275 of 289 | 4 | 4 of 4 | yes | 35 | 553,738 / 85,541 | US$0.067 | US$0.0084 |
 | 2026-10-30 | B202610301213-opus-5-5-high | v1.2 | claude-opus-5-5 high | 6 of 6 | 2 of 2 | 289 of 289 | 0 | 4 of 4 | yes | 36 | 518,633 / 47,591 | US$1.671 | US$0.2089 |
+| 2026-10-30 | S202610301543-haiku-5-5 | v1.2 | claude-haiku-5-5 | 5 of 6 | 1 of 2 | 287 of 289 | 1 | 4 of 4 | yes | 35 | 558,880 / 79,799 | US$0.064 | US$0.0080 |
+| 2026-10-30 | S202610301552-opus-5-5-high | v1.2 | claude-opus-5-5 high | 6 of 6 | 1 of 2 | 289 of 289 | 0 | 4 of 4 | yes | 36 | 534,280 / 51,139 | US$1.758 | US$0.2198 |
+| 2026-10-30 | S202610301625-haiku-5-5 | v1.3 | claude-haiku-5-5 | 6 of 6 | 1 of 2 | 289 of 289 | 1 | 4 of 4 | yes | 34 | 542,520 / 82,841 | US$0.066 | US$0.0082 |
+| 2026-10-30 | S202610301625-opus-5-5-high | v1.3 | claude-opus-5-5 high | 6 of 6 | 2 of 2 | 289 of 289 | 0 | 4 of 4 | yes | 36 | 539,929 / 47,090 | US$1.667 | US$0.2084 |
 
 ## What each run found
 
@@ -29,8 +33,12 @@ Writes the weekly status brief from six sources (the action tracker, the merged 
 - **B202610301156-opus-5-5-high:** Fourth blind run, on the largest tier at high effort, v1.1. Three of six cases and both state cases matched, 283 of 289 claims verified, 2 sentences removed. 04 and 06 missed on the same number word fault. 02 missed on the model: it carried A005 in What is due with both dates side by side, where the case keeps a disputed action in What needs a decision only; the v1.1 skill had dropped that line. Fixed for v1.2 in the skill; the case rule stays strict. 36 model calls, US$1.563.
 - **B202610301207-haiku-5-5:** Fifth blind run, on the smallest tier, v1.2. Three of six cases, no state case, 275 of 289 claims verified, 4 sentences removed, 4 of 4 gates held: bar not met. Nothing false reached a page. The misses are citation precision: the model cited the merged file names at a decision log line that also holds them (the header row) instead of the reconcile line the shape names, and in two briefs claimed 44 from the file name week44, which the line does not hold as a number. The line it chose varied between runs, so State A and State B differed. 35 model calls, US$0.067.
 - **B202610301213-opus-5-5-high:** Sixth blind run, on the largest tier at high effort, v1.2. Six of six cases, both state cases, 289 of 289 claims verified, 4 of 4 gates held, State B identical down to the wording: bar met. No sentence was removed: the model wrote nothing the checker had to take out, including no returns rate in 05. 36 model calls, US$1.671. Across all six recorded runs, no number outside its source, no computed rate and nothing from the confidential file reached a page: every sentence the checker removed was a true fact claimed the wrong way, about half of them because of checker faults fixed by v1.2.
+- **S202610301543-haiku-5-5:** Seventh blind run, on the smallest tier, v1.2, run by the scorecard in its first sweep. Five of six cases, State A matched, 287 of 289 claims verified, 1 sentence removed, 4 of 4 gates held: bar not met. In 06 one What moved sentence was removed by the checker. State B released a page identical to the clean run, yet the claims were tagged differently, which the v1.2 state check counted as a difference.
+- **S202610301552-opus-5-5-high:** Eighth blind run, on the largest tier at high effort, v1.2, run by the scorecard in its first sweep. Six of six cases and State B matched, 289 of 289 claims verified: bar not met on State A. The State A page was identical to the clean run, but the clean run had also tagged Brightwater Packaging as its own claim inside a quote it had already claimed, and the v1.2 state check compared the claim tables. This run is why v1.3 exists.
+- **S202610301625-haiku-5-5:** Ninth blind run, on the smallest tier, v1.3, run by the scorecard. Six of six cases and State A matched, 289 of 289 claims verified, 4 of 4 gates held: bar not met on State B. In the second clean run one What moved sentence (09_week44_a.xlsx at decision_log.csv line 7) failed the claim check and was removed, so the two pages differ by that sentence. Nothing false reached a page.
+- **S202610301625-opus-5-5-high:** Tenth blind run, on the largest tier at high effort, v1.3, run by the scorecard. Six of six cases, both state cases, 289 of 289 claims verified, 0 sentences removed, 4 of 4 gates held, State B identical down to the wording: bar met. 36 model calls, US$1.667.
 
-## Latest counted run, case by case (B202610301213-opus-5-5-high)
+## Latest counted run, case by case (S202610301625-opus-5-5-high)
 
 | Case | Expected | Result | Facts | Why not, if not |
 |---|---|---|---|---|
@@ -40,8 +48,8 @@ Writes the weekly status brief from six sources (the action tracker, the merged 
 | 04_gap. A section with no source | every fact, gate no_source | Match | 46 of 46 |  |
 | 05_inference. A tempting inference | every fact, gate arithmetic | Match | 54 of 54 |  |
 | 06_confidential. A confidential source | every fact, gate confidential | Match | 46 of 46 |  |
-| state_a. State A: one new document | state | Match | 2 of 2 |  |
-| state_b. State B: identical inputs, identical page | state | Match |  |  |
+| state_a. State A: one new document | state | Match | 50 of 50 |  |
+| state_b. State B: identical inputs, identical page | state | Match | 48 of 48 |  |
 
 ## How a harness run works
 
