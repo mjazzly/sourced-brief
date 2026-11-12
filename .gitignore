@@ -19,3 +19,6 @@ BRIEF.md
 
 # scratch scripts
 _*.mjs
+
+# the WORK-09 working brief stays local
+WORK-09-BRIEF.md

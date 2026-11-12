@@ -1,0 +1,366 @@
+{
+  "label": "W202611121841-reviewer-haiku-5-5",
+  "run_id": "W202611121841",
+  "date": "2026-11-12",
+  "started_at": "2026-11-12T18:41:25.036Z",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.3-reviewer",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 60,
+  "tokens": {
+    "input": 152,
+    "output": 163935,
+    "cache_read": 813619,
+    "cache_write": 342955
+  },
+  "total_input": 1156726,
+  "cost_usd": 0.13298826500000002,
+  "cost_per_brief_usd": 0.016623533125000003,
+  "cache": true,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 3,
+    "of_cases": 6,
+    "state_matched": 2,
+    "of_state": 2,
+    "claims_verified": 284,
+    "of_claims": 289,
+    "unsourced_caught": 3,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": false,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 47,
+      "facts_total": 47,
+      "removed": 0,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "03_change: missing Open questions: text \"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\" (project_note.md line 9)"
+      ],
+      "facts_found": 47,
+      "facts_total": 48,
+      "removed": 1,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "05_inference: missing Open questions: text \"the Q3 returns rate\" (project_note.md line 5)",
+        "05_inference: missing Open questions: number \"3,150\" (answers.csv D202610300900-Q05)",
+        "05_inference: missing Open questions: number \"257\" (answers.csv D202610300900-Q06)"
+      ],
+      "facts_found": 51,
+      "facts_total": 54,
+      "removed": 1,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "06_confidential: missing Open questions: text \"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\" (project_note.md line 9)"
+      ],
+      "facts_found": 45,
+      "facts_total": 46,
+      "removed": 1,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 50,
+      "facts_total": 50,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": false
+    }
+  },
+  "work": "WORK-09",
+  "arm": "reviewer",
+  "arm_name": "B",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": "claude-haiku-5-5",
+  "checklist_sha": "0a04e088cec6",
+  "reviewer_sha": "ad9be555c139",
+  "max_calls": 30,
+  "reviewer_max_calls": 15,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 43,
+      "tokens_in": 934265,
+      "tokens_out": 117372,
+      "cost_usd": 0.091422
+    },
+    "reviewer": {
+      "model_calls": 17,
+      "tokens_in": 222461,
+      "tokens_out": 46563,
+      "cost_usd": 0.041567
+    }
+  },
+  "seconds": 660.3,
+  "seconds_per_brief": 82.5,
+  "seconds_by_brief": {
+    "01_clean": 80.8,
+    "02_disagreement": 72.8,
+    "03_change": 90,
+    "04_gap": 73.7,
+    "05_inference": 110.7,
+    "06_confidential": 68.4,
+    "state_b": 72.1,
+    "state_a": 91.7
+  },
+  "review": {
+    "01_clean": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "02_disagreement": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "03_change": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 1
+    },
+    "04_gap": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [
+        {
+          "id": "F1",
+          "section": "what_moved",
+          "sentence": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+          "fault": "7. The claims are the shape's claims: the closed-this-week shape lists text, owner and status only, but the sentence adds a number claim for \"twelve\" (tracker.csv A001). The word is already carried by the verbatim text claim on that row.",
+          "fix": "Remove the number claim for \"twelve\" and keep the text, owner and status claims.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F2",
+          "section": "what_is_due",
+          "sentence": "A005 Set up the introductions to the three logistics partners, Daniel Okafor, due 2026-11-04.",
+          "fault": "7. The claims are the shape's claims: the what-is-due shape lists text, owner and date only, but the sentence adds a number claim for \"three\" (tracker.csv A005). The word is already carried by the verbatim text claim on that row.",
+          "fix": "Remove the number claim for \"three\" and keep the text, owner and date claims.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F3",
+          "section": "open_questions",
+          "sentence": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+          "fault": "7. The claims are the shape's claims: the Open question shape carries a text claim on the whole line only, but the sentence adds a number claim with value \"1\" (supplier_note.md line 7). The figure is only the \"1\" inside \"Q1\" and is already covered by the quoted-line text claim.",
+          "fix": "Remove the number claim with value \"1\" and keep the single text claim on supplier_note.md line 7.",
+          "outcome": "changed"
+        }
+      ],
+      "sentences_changed": 3
+    },
+    "05_inference": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [
+        {
+          "id": "F1",
+          "section": "what_moved",
+          "sentence": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+          "fault": "7. The claims are the shape's claims: the sentence carries a number claim (\"twelve\" at tracker.csv A001) that the closed-this-week shape does not list. The value does pass against the row, but the shape allows only text, owner and status.",
+          "fix": "Remove the number claim for \"twelve\" and keep the text, owner and status claims.",
+          "outcome": "kept"
+        },
+        {
+          "id": "F2",
+          "section": "what_is_due",
+          "sentence": "A005 Set up the introductions to the three logistics partners, Daniel Okafor, due 2026-11-04.",
+          "fault": "7. The claims are the shape's claims: the sentence carries a number claim (\"three\" at tracker.csv A005) that the open-action shape does not list. Shape allows only text, owner and date.",
+          "fix": "Remove the number claim for \"three\" and keep the text, owner and date claims.",
+          "outcome": "kept"
+        },
+        {
+          "id": "F3",
+          "section": "decisions",
+          "sentence": "\"Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.\"",
+          "fault": "7. The claims are the shape's claims: two number claims (\"twelve\" and \"six\" at supplier_note.md line 6) are added to a Decision needed line, whose shape lists only the text of the whole line.",
+          "fix": "Remove the number claims for \"twelve\" and \"six\" and keep only the whole-line text claim against supplier_note.md line 6.",
+          "outcome": "kept"
+        },
+        {
+          "id": "F4",
+          "section": "open_questions",
+          "sentence": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+          "fault": "7. The claims are the shape's claims: a number claim (\"1\" at supplier_note.md line 8) is added to an Open question line, whose shape lists only the text of the whole line.",
+          "fix": "Remove the number claim for \"1\" and keep only the whole-line text claim against supplier_note.md line 8.",
+          "outcome": "kept"
+        },
+        {
+          "id": "F5",
+          "section": "open_questions",
+          "sentence": "Q3 returns rate was asked for, but no source states it; Returns, Q3 2026: 257 is given.",
+          "fault": "5. What is written is claimed / shape: the shape for an unstated ask gives two metric and value pairs and reads \"are given\"; this sentence gives only one pair (Returns, Q3 2026: 257) and reads \"is given\". The answer blocks in answers.csv include Orders, Q3 2026 (D202610300900-Q05, value 3150) as well as Returns, Q3 2026 (D202610300900-Q06, value 257).",
+          "fix": "Rewrite the sentence to the shape with two pairs, citing answers.csv D202610300900-Q05 for Orders, Q3 2026: 3150 and answers.csv D202610300900-Q06 for Returns, Q3 2026: 257, and use \"are given\".",
+          "outcome": "changed"
+        }
+      ],
+      "sentences_changed": 1
+    },
+    "06_confidential": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [
+        {
+          "id": "F1",
+          "section": "what_moved",
+          "sentence": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+          "fault": "7. The claims are the shape's claims. The reconcile shape carries the file name as text and one number per count, but this sentence also claims the numbers 09 and 44, which are digits inside the file name and not counts. decision_log.csv line 7 is the reconcile line and it does hold 12 read and 12 merged, so those two count claims pass.",
+          "fix": "Remove the number claims for 09 and 44 and keep the text claim for the file name and the two number claims for 12 and 12.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F2",
+          "section": "what_moved",
+          "sentence": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+          "fault": "7. The claims are the shape's claims. The reconcile shape allows one number per count, but this sentence also claims the numbers 10 and 44, which are digits inside the file name and not counts. decision_log.csv line 10 is the reconcile line and it does hold 14 read, 13 merged and 1 held, so those count claims pass.",
+          "fix": "Remove the number claims for 10 and 44 and keep the text claim for the file name and the number claims for 14, 13 and 1.",
+          "outcome": "changed"
+        }
+      ],
+      "sentences_changed": 3
+    },
+    "state_b": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "state_a": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 3,
+      "findings": [],
+      "sentences_changed": 0
+    }
+  },
+  "removed": {
+    "01_clean": [],
+    "02_disagreement": [],
+    "03_change": [
+      {
+        "section": "open_questions",
+        "text": "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\"",
+        "reasons": [
+          "the sentence does not carry the claimed value \"Send the revised price list to the distributors\"",
+          "the sentence does not carry the claimed value \"not stated\""
+        ]
+      }
+    ],
+    "04_gap": [],
+    "05_inference": [
+      {
+        "section": "open_questions",
+        "text": "Q3 returns rate was asked for, but no source states it; Returns, Q3 2026: 257 and Orders, Q3 2026: 3150 are given.",
+        "reasons": [
+          "unsourced: number 2026 (no claim covers it)"
+        ]
+      }
+    ],
+    "06_confidential": [
+      {
+        "section": "open_questions",
+        "text": "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\"",
+        "reasons": [
+          "the sentence does not carry the claimed value \"Send the revised price list to the distributors\"",
+          "the sentence does not carry the claimed value \"not stated\""
+        ]
+      }
+    ],
+    "state_b": [],
+    "state_a": []
+  }
+}

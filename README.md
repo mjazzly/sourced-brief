@@ -79,6 +79,67 @@ It needs an Anthropic API key in a file called `.env` in this folder (see `.env.
 
 Put the week's six files in a folder and point `SOURCED_BRIEF_DATA` at it, or delete `brief_<week>.md`, `unsourced.md`, `claims.csv` and `run_log.csv` from `data/week/` to draft the sample week again. One brief is released per week folder.
 
+## WORK-09: a second agent, tested for its place
+
+Does a second agent lift the smallest model to the bar on the same eight briefs and the same checker, and does it cost less a brief than the largest model alone? Four arms, all on the same server, cases, expected fact lists, fixed gate answer and checker. The design, the reviewer's instructions in full and the review checklist are in `WORK-09-DESIGN.md`; the words the agents get live in `arms/`.
+
+| Arm | Flag | What runs | Runs |
+|---|---|---|---|
+| A1 | `--arm one`, smallest model | one agent, one pass, the skill as it stands | 5 |
+| A2 | `--arm review` | one agent that goes through the review checklist on its own draft and records it with `record_review` before `draft_brief` | 5 |
+| B | `--arm reviewer` | a drafter that sends its draft once to `review_draft`, where a reviewer agent in a fresh conversation reads the same sources and returns findings | 5 |
+| Ceiling | `--arm one`, largest model, effort high | one agent, one pass | 3 |
+
+With `--arm`, a run is recorded in `eval/results-arms/<label>.json` with a trace per brief in `eval/results-arms/<label>/`, and `eval/ARMS.md` is rebuilt; `eval/results/` and `eval/EXEMPLAR.md` are untouched. Without `--arm`, the harness runs and records as it does for v1.3.
+
+| Path | What it is |
+|---|---|
+| `arms/checklist.md` | The review checklist: the same bytes in the A2 drafter, the B drafter and the B reviewer. |
+| `arms/review_step.md`, `arms/reviewer_step.md` | The tool line and step 5 that replace step 5 of the skill for A2 and for B. |
+| `arms/reviewer.md` | The reviewer's instructions; the checklist goes in at `{{CHECKLIST}}`. |
+| `eval/arms.js` | Builds each arm's instructions and harness tools; the change matcher; the trace. |
+| `eval/arms_page.js` | Builds `eval/ARMS.md` and applies the verdict rule once every arm has its runs. |
+| `eval/review_effect.js` | The before-review check: runs the unchanged checker on each A2 and B draft as it stood before review and names every sentence the review broke or fixed. |
+| `eval/results-arms/` | One record per counted arm run, and its eight traces. |
+| `eval/ARMS.md` | The arms page, rebuilt from `eval/results-arms/` after every run. |
+
+Prove the plumbing first (no API call, never recorded). Each mock also checks that the reviewer's copied tables match `skill/SKILL.md` and that the checklist is carried whole in all three places:
+
+```
+node eval/run_eval.js --mock --arm one
+node eval/run_eval.js --mock --arm review
+node eval/run_eval.js --mock --arm reviewer
+```
+
+The real runs, 18 in all, in this order, so the arms take turns and a change in the API over the hours of running falls on every arm alike. Each needs the key in `.env`:
+
+```
+node eval/run_eval.js --arm one --model claude-haiku-5-5
+node eval/run_eval.js --arm review --model claude-haiku-5-5
+node eval/run_eval.js --arm reviewer --model claude-haiku-5-5
+node eval/run_eval.js --arm one --model claude-opus-5-5 --effort high
+node eval/run_eval.js --arm one --model claude-haiku-5-5
+node eval/run_eval.js --arm review --model claude-haiku-5-5
+node eval/run_eval.js --arm reviewer --model claude-haiku-5-5
+node eval/run_eval.js --arm one --model claude-opus-5-5 --effort high
+node eval/run_eval.js --arm one --model claude-haiku-5-5
+node eval/run_eval.js --arm review --model claude-haiku-5-5
+node eval/run_eval.js --arm reviewer --model claude-haiku-5-5
+node eval/run_eval.js --arm one --model claude-opus-5-5 --effort high
+node eval/run_eval.js --arm one --model claude-haiku-5-5
+node eval/run_eval.js --arm review --model claude-haiku-5-5
+node eval/run_eval.js --arm reviewer --model claude-haiku-5-5
+node eval/run_eval.js --arm one --model claude-haiku-5-5
+node eval/run_eval.js --arm review --model claude-haiku-5-5
+node eval/run_eval.js --arm reviewer --model claude-haiku-5-5
+```
+
+`node eval/run_eval.js --arms-page` rebuilds `eval/ARMS.md` from the records without running anything. `node eval/review_effect.js` reruns the before-review check on every recorded A2 and B run (or `node eval/review_effect.js <label>` on one) and prints each sentence broken or fixed by review, with its reason; it also confirms that the checker, run again on each submitted draft, removes exactly what the run recorded. `eval/ARMS.md` carries the same counts per arm and marks every miss and removal the review introduced. A run that ends on a missed bar exits with code 1, as every harness run does; the next command still runs.
+
+**The verdict rule, fixed before the first run:** B earns its place only if it meets the bar in more of its five runs than A2 and its median cost a brief stays below the ceiling's median over its three runs. If A2 meets the bar in as many of five runs as B, or more, the second agent is folded, and the review step stays in the skill only if A2 meets the bar in more of five runs than A1. Ties go to the arm with fewer parts. If neither A2 nor B meets the bar in any run, the page says so and names every miss.
+
 ## Limits
 
 One synthetic week folder; six source files in the shapes of the three earlier builds; five fixed sections; the disagreement rule reads an action id and a date on one document line; a name is any two capitalised words; one brief per week folder; a number is checked as present at its source, not for what the sentence uses it to count; no chart, no export, no external system connected.
+
+Found in WORK-09: the v1.3 results records keep the count of removed sentences and drop the checker's reason, and the run folders that held `unsourced.md` sit outside this repo, so the reason for the last smallest model State B removal is unknown here (the arm traces keep every reason); the v1.3 transcript cuts each tool result at 4,000 characters (the arm traces keep them whole); the reviewer's reads go through the same server and add read lines to `run_log.csv`, which the checker does not score; the review checklist restates the skill, so it can catch only a fault the skill already describes; five runs per small model arm separate arms by whole runs out of five, and a one run difference is weak evidence; the arms page first linked a miss to a finding by matching text alone, so a removal the review caused read as a fault the review named (A2 run W202611121907, finding F5), and the page now marks every removal whose sentence passed the checker before review as introduced after review; the before-review check judges sentences with the claim checker and does not run the case checker on the draft before review, so it says which removals the review caused and cannot say which runs would have met the bar without review; it pairs each sentence after review with one before review by exact text, then by order within its section, so a reordered section can pair two unrelated sentences.

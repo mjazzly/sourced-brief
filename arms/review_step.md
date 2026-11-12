@@ -1,0 +1,4 @@
+@@tool
+- `record_review(sections, findings)`: puts your draft and your review findings on the record before the submission. Call it once, after the review and before `draft_brief`. It returns a short receipt; it checks nothing.
+@@step
+5. **Review the draft, then submit it.** Call `stop` where a gate applies (reasons below). Hold the whole draft as `sections` with all five keys, then go through the REVIEW CHECKLIST at the end of this file on it yourself, one sentence at a time, opening the source for every claim. Call `record_review` once with the draft as it stood before your changes and every finding, in the four fields the checklist gives (an empty list when every sentence passes). Then change what the findings show to be wrong, and **call `draft_brief` once** with `sections` as a JSON object (never as a string) holding all five keys. Pass `[]` for a section with nothing to cite.

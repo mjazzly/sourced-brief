@@ -1,0 +1,4 @@
+@@tool
+- `review_draft(sections)`: sends your draft to a reviewer, an agent that reads the same sources with `list_sources` and `read_source`, goes through the REVIEW CHECKLIST at the end of this file on your draft, and returns its findings in the four fields the checklist gives. The reviewer writes no sentences and cannot submit. Call it once, before `draft_brief`. A second call is refused.
+@@step
+5. **Have the draft reviewed, then submit it.** Call `stop` where a gate applies (reasons below). Call `review_draft` once with the whole draft as `sections`, a JSON object holding all five keys. For each finding, open the source it names and decide: change the sentence where the source shows the finding is right, and keep it where the source shows it is wrong. Then **call `draft_brief` once** with `sections` as a JSON object (never as a string) holding all five keys. Pass `[]` for a section with nothing to cite.
