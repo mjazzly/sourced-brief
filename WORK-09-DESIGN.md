@@ -366,16 +366,16 @@ The cost half of rule 1 is close to certain to hold: two runs of the smallest mo
 
 ## 9. Megat's predictions, signed before the first run
 
-One line each, in Megat's words. Left blank for Megat.
+One line each, in Megat's words.
 
 | Arm | Prediction (bar met in n of N, and why) |
 |---|---|
-| A1 | |
-| A2 | |
-| B | |
-| Ceiling | |
+| A1 | 3 of 5. |
+| A2 | 4 of 5, because it has another round of checking that is focused on the checklist. |
+| B | 5 of 5, because a fresh review that focuses only on reviewing is able to catch anything that was missed, since it has done no heavy work on the draft yet compared to the first agent. |
+| Ceiling | 3 of 3, all will pass without any issue. |
 
-Signed: ______ Date: ______
+Signed: Megat Jazly. Date: 12 Nov 2026.
 
 ## 10. Arm C, designed and held
 
