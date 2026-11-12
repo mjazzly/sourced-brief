@@ -1,0 +1,288 @@
+{
+  "label": "W202611122008-review-haiku-5-5",
+  "run_id": "W202611122008",
+  "date": "2026-11-12",
+  "started_at": "2026-11-12T20:08:30.007Z",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.3-review",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 41,
+  "tokens": {
+    "input": 98,
+    "output": 114433,
+    "cache_read": 676198,
+    "cache_write": 198256
+  },
+  "total_input": 874552,
+  "cost_usd": 0.08877028,
+  "cost_per_brief_usd": 0.011096285,
+  "cache": true,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 5,
+    "of_cases": 6,
+    "state_matched": 2,
+    "of_state": 2,
+    "claims_verified": 286,
+    "of_claims": 289,
+    "unsourced_caught": 1,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": false,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 47,
+      "facts_total": 47,
+      "removed": 0,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "05_inference: missing Open questions: text \"the Q3 returns rate\" (project_note.md line 5)",
+        "05_inference: missing Open questions: number \"3,150\" (answers.csv D202610300900-Q05)",
+        "05_inference: missing Open questions: number \"257\" (answers.csv D202610300900-Q06)"
+      ],
+      "facts_found": 51,
+      "facts_total": 54,
+      "removed": 1,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 50,
+      "facts_total": 50,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": false
+    }
+  },
+  "work": "WORK-09",
+  "arm": "review",
+  "arm_name": "A2",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": null,
+  "checklist_sha": "0a04e088cec6",
+  "reviewer_sha": null,
+  "max_calls": 30,
+  "reviewer_max_calls": null,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 41,
+      "tokens_in": 874552,
+      "tokens_out": 114433,
+      "cost_usd": 0.08877
+    }
+  },
+  "seconds": 424.4,
+  "seconds_per_brief": 53.1,
+  "seconds_by_brief": {
+    "01_clean": 47.4,
+    "02_disagreement": 51.5,
+    "03_change": 49.4,
+    "04_gap": 51.9,
+    "05_inference": 63.1,
+    "06_confidential": 42.3,
+    "state_b": 61.9,
+    "state_a": 56.9
+  },
+  "review": {
+    "01_clean": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "02_disagreement": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "03_change": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "04_gap": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "05_inference": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "06_confidential": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "state_b": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [
+        {
+          "id": "F1",
+          "section": "what_moved",
+          "sentence": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+          "fault": "6. What is written is claimed: the number word 'twelve' has no number claim; tracker.csv A001 row holds it in the action text.",
+          "fix": "Add a number claim with value 'twelve' at tracker.csv A001.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F2",
+          "section": "what_is_due",
+          "sentence": "A005 Set up the introductions to the logistics partners, Daniel Okafor, due 2026-11-04.",
+          "fault": "5. What is claimed is written: the sentence drops 'three' from the action text, which the text claim quotes in full; the sentence and its claim disagree; also 6: number word 'three' is not claimed.",
+          "fix": "Write the action word for word, 'Set up the introductions to the three logistics partners', and add a number claim 'three' at tracker.csv A005.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F3",
+          "section": "decisions",
+          "sentence": "\"Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.\"",
+          "fault": "6. What is written is claimed: 'Brightwater Packaging', 'twelve' and 'six' are not claimed separately, and the quote claim does not cover names or number words inside it.",
+          "fix": "Add text claim 'Brightwater Packaging' and number claims 'twelve' and 'six' at supplier_note.md line 6.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F4",
+          "section": "open_questions",
+          "sentence": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+          "fault": "6. What is written is claimed: 'Brightwater Packaging' and the digit in 'Q1' have no claim of their own.",
+          "fix": "Add text claim 'Brightwater Packaging' and number claim '1' (the Q1 label) at supplier_note.md line 8.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F5",
+          "section": "open_questions",
+          "sentence": "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\"",
+          "fault": "6. What is written is claimed: 'Harbour' and 'Central' inside the quote have no claims of their own.",
+          "fix": "Add text claims 'Harbour' and 'Central' at project_note.md line 9.",
+          "outcome": "changed"
+        }
+      ],
+      "sentences_changed": 6
+    },
+    "state_a": {
+      "ran": true,
+      "status": "RECORDED",
+      "findings": [],
+      "sentences_changed": 0
+    }
+  },
+  "removed": {
+    "01_clean": [],
+    "02_disagreement": [],
+    "03_change": [],
+    "04_gap": [],
+    "05_inference": [
+      {
+        "section": "open_questions",
+        "text": "The Q3 returns rate was asked for, but no source states it; Returns 257 and Orders 3150 are given, both for Q3 2026.",
+        "reasons": [
+          "unsourced: number 2026 (no claim covers it)"
+        ]
+      }
+    ],
+    "06_confidential": [],
+    "state_b": [],
+    "state_a": []
+  }
+}

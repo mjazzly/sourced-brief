@@ -1,0 +1,344 @@
+{
+  "label": "W202611121805-reviewer-haiku-5-5",
+  "run_id": "W202611121805",
+  "date": "2026-11-12",
+  "started_at": "2026-11-12T18:05:50.467Z",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.3-reviewer",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 62,
+  "tokens": {
+    "input": 156,
+    "output": 170256,
+    "cache_read": 848195,
+    "cache_write": 350085
+  },
+  "total_input": 1198436,
+  "cost_usd": 0.137386175,
+  "cost_per_brief_usd": 0.017173271875,
+  "cache": true,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 4,
+    "of_cases": 6,
+    "state_matched": 0,
+    "of_state": 2,
+    "claims_verified": 282,
+    "of_claims": 289,
+    "unsourced_caught": 3,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": false,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "01_clean: missing Open questions: text \"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\" (project_note.md line 9)"
+      ],
+      "facts_found": 47,
+      "facts_total": 48,
+      "removed": 1,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 47,
+      "facts_total": 47,
+      "removed": 0,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "04_gap: missing What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+        "04_gap: missing What moved: number \"12\" (decision_log.csv line 7)",
+        "04_gap: missing What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"14\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"13\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"1\" (decision_log.csv line 10)"
+      ],
+      "facts_found": 40,
+      "facts_total": 46,
+      "removed": 2,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 54,
+      "facts_total": 54,
+      "removed": 0,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_a: a new sentence that does not cite risk_note.md: open_questions | project_note.md line 9"
+      ],
+      "facts_found": 50,
+      "facts_total": 50,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_b: a sentence in the second run and not the first: open_questions | project_note.md line 9",
+        "state_b: the removed list differs between the two runs"
+      ],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": false
+    }
+  },
+  "work": "WORK-09",
+  "arm": "reviewer",
+  "arm_name": "B",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": "claude-haiku-5-5",
+  "checklist_sha": "0a04e088cec6",
+  "reviewer_sha": "ad9be555c139",
+  "max_calls": 30,
+  "reviewer_max_calls": 15,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 43,
+      "tokens_in": 946827,
+      "tokens_out": 120458,
+      "cost_usd": 0.093357
+    },
+    "reviewer": {
+      "model_calls": 19,
+      "tokens_in": 251609,
+      "tokens_out": 49798,
+      "cost_usd": 0.044029
+    }
+  },
+  "seconds": 661.6,
+  "seconds_per_brief": 82.7,
+  "seconds_by_brief": {
+    "01_clean": 79.7,
+    "02_disagreement": 81.6,
+    "03_change": 78.9,
+    "04_gap": 86.7,
+    "05_inference": 100.3,
+    "06_confidential": 79.7,
+    "state_b": 73.4,
+    "state_a": 81.2
+  },
+  "review": {
+    "01_clean": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 1
+    },
+    "02_disagreement": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [
+        {
+          "id": "F1",
+          "section": "what_moved",
+          "sentence": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+          "fault": "7. The claims are the shape's claims: the closed-row shape lists text, owner and status only, but this sentence adds a number claim for \"twelve\" at tracker.csv A001. The word is already covered by the text claim against the action words on that row.",
+          "fix": "Remove the number claim with value \"twelve\" and keep the text, owner and status claims.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F2",
+          "section": "decisions",
+          "sentence": "\"Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.\"",
+          "fault": "7. The claims are the shape's claims: a \"Decision needed:\" line shape lists text (the whole line) only, but this sentence adds number claims for \"twelve\" and \"six\" at supplier_note.md line 6. Both words are already inside the quoted text claim.",
+          "fix": "Remove the two number claims (\"twelve\" and \"six\") and keep only the text claim for supplier_note.md line 6.",
+          "outcome": "changed"
+        },
+        {
+          "id": "F3",
+          "section": "open_questions",
+          "sentence": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+          "fault": "7. The claims are the shape's claims: an \"Open question:\" line shape lists text (the whole line) only, but this sentence adds a number claim with value \"1\" at supplier_note.md line 8. That digit is only the \"1\" in \"Q1\", a quarter label, not a figure the sentence reports.",
+          "fix": "Remove the number claim with value \"1\" and keep only the text claim for supplier_note.md line 8.",
+          "outcome": "changed"
+        }
+      ],
+      "sentences_changed": 3
+    },
+    "03_change": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 4,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "04_gap": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 6
+    },
+    "05_inference": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [
+        {
+          "id": "F1",
+          "section": "what_moved",
+          "sentence": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+          "fault": "7. The claims are the shape's claims: the sentence carries a number claim for \"twelve\" against tracker.csv A001, but the what_moved shape for a closed tracker row lists only text, owner and status. The word is already covered by the text claim.",
+          "fix": "Remove the number claim for \"twelve\" and keep the text, owner and status claims.",
+          "outcome": "kept"
+        },
+        {
+          "id": "F2",
+          "section": "what_is_due",
+          "sentence": "A005 Set up the introductions to the three logistics partners, Daniel Okafor, due 2026-11-04.",
+          "fault": "7. The claims are the shape's claims: the sentence carries a number claim for \"three\" against tracker.csv A005, but the what_is_due shape lists only text, owner and date. The word is already covered by the text claim.",
+          "fix": "Remove the number claim for \"three\" and keep the text, owner and date claims.",
+          "outcome": "kept"
+        },
+        {
+          "id": "F3",
+          "section": "decisions",
+          "sentence": "\"Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.\"",
+          "fault": "7. The claims are the shape's claims: the decisions shape for a Decision needed line lists only a text claim on the whole line, but this sentence adds number claims for \"twelve\" and \"six\" against supplier_note.md line 6.",
+          "fix": "Remove the two number claims for \"twelve\" and \"six\" and keep only the text claim on supplier_note.md line 6.",
+          "outcome": "kept"
+        },
+        {
+          "id": "F4",
+          "section": "open_questions",
+          "sentence": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+          "fault": "7. The claims are the shape's claims: the open_questions shape for an Open question line lists only a text claim on the whole line, but this sentence adds a number claim for \"1\" against supplier_note.md line 8, which is a label in \"Q1\" and not a count.",
+          "fix": "Remove the number claim for \"1\" and keep only the text claim on supplier_note.md line 8.",
+          "outcome": "kept"
+        }
+      ],
+      "sentences_changed": 0
+    },
+    "06_confidential": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "state_b": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "state_a": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 3,
+      "findings": [],
+      "sentences_changed": 0
+    }
+  },
+  "removed": {
+    "01_clean": [
+      {
+        "section": "open_questions",
+        "text": "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\"",
+        "reasons": [
+          "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\" does not appear in project_note.md line 7"
+        ]
+      }
+    ],
+    "02_disagreement": [],
+    "03_change": [],
+    "04_gap": [
+      {
+        "section": "what_moved",
+        "text": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+        "reasons": [
+          "decision_log.csv line 7 does not hold the number 44"
+        ]
+      },
+      {
+        "section": "what_moved",
+        "text": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+        "reasons": [
+          "decision_log.csv line 10 does not hold the number 44"
+        ]
+      }
+    ],
+    "05_inference": [],
+    "06_confidential": [],
+    "state_b": [],
+    "state_a": []
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "label": "W202611121747-one-haiku-5-5",
+  "run_id": "W202611121747",
+  "date": "2026-11-12",
+  "started_at": "2026-11-12T17:47:08.785Z",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.3",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 35,
+  "tokens": {
+    "input": 86,
+    "output": 75912,
+    "cache_read": 422091,
+    "cache_write": 157133
+  },
+  "total_input": 579310,
+  "cost_usd": 0.06182713499999999,
+  "cost_per_brief_usd": 0.007728391874999999,
+  "cache": true,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 5,
+    "of_cases": 6,
+    "state_matched": 2,
+    "of_state": 2,
+    "claims_verified": 286,
+    "of_claims": 289,
+    "unsourced_caught": 1,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": true,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 47,
+      "facts_total": 47,
+      "removed": 0,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "05_inference: missing Open questions: text \"the Q3 returns rate\" (project_note.md line 5)",
+        "05_inference: missing Open questions: number \"3,150\" (answers.csv D202610300900-Q05)",
+        "05_inference: missing Open questions: number \"257\" (answers.csv D202610300900-Q06)"
+      ],
+      "facts_found": 51,
+      "facts_total": 54,
+      "removed": 1,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 50,
+      "facts_total": 50,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": true
+    }
+  },
+  "work": "WORK-09",
+  "arm": "one",
+  "arm_name": "A1",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": null,
+  "checklist_sha": null,
+  "reviewer_sha": null,
+  "max_calls": 30,
+  "reviewer_max_calls": null,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 35,
+      "tokens_in": 579310,
+      "tokens_out": 75912,
+      "cost_usd": 0.061827
+    }
+  },
+  "seconds": 302,
+  "seconds_per_brief": 37.7,
+  "seconds_by_brief": {
+    "01_clean": 34.5,
+    "02_disagreement": 34.8,
+    "03_change": 38,
+    "04_gap": 47.6,
+    "05_inference": 47.5,
+    "06_confidential": 33.1,
+    "state_b": 33.1,
+    "state_a": 33.4
+  },
+  "review": null,
+  "removed": {
+    "01_clean": [],
+    "02_disagreement": [],
+    "03_change": [],
+    "04_gap": [],
+    "05_inference": [
+      {
+        "section": "open_questions",
+        "text": "Q3 returns rate was asked for, but no source states it; returns 257 and orders 3,150 are given, both for Q3 2026.",
+        "reasons": [
+          "unsourced: number 2026 (no claim covers it)"
+        ]
+      }
+    ],
+    "06_confidential": [],
+    "state_b": [],
+    "state_a": []
+  }
+}

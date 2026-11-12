@@ -1,0 +1,293 @@
+{
+  "label": "W202611121918-reviewer-haiku-5-5",
+  "run_id": "W202611121918",
+  "date": "2026-11-12",
+  "started_at": "2026-11-12T19:18:09.965Z",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.3-reviewer",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 59,
+  "tokens": {
+    "input": 150,
+    "output": 157587,
+    "cache_read": 771437,
+    "cache_write": 338440
+  },
+  "total_input": 1110027,
+  "cost_usd": 0.12882786999999998,
+  "cost_per_brief_usd": 0.016103483749999998,
+  "cache": true,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 4,
+    "of_cases": 6,
+    "state_matched": 1,
+    "of_state": 2,
+    "claims_verified": 287,
+    "of_claims": 289,
+    "unsourced_caught": 4,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": false,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "02_disagreement: missing Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 8)"
+      ],
+      "facts_found": 46,
+      "facts_total": 47,
+      "removed": 1,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "04_gap: missing Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 7)"
+      ],
+      "facts_found": 45,
+      "facts_total": 46,
+      "removed": 1,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 54,
+      "facts_total": 54,
+      "removed": 0,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_a: missing What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+        "state_a: missing What moved: number \"12\" (decision_log.csv line 7)",
+        "state_a: missing What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)",
+        "state_a: missing What moved: number \"14\" (decision_log.csv line 10)",
+        "state_a: missing What moved: number \"13\" (decision_log.csv line 10)",
+        "state_a: missing What moved: number \"1\" (decision_log.csv line 10)",
+        "state_a: a sentence from the clean run is missing after the new document: what_moved | decision_log.csv line 7",
+        "state_a: a sentence from the clean run is missing after the new document: what_moved | decision_log.csv line 10"
+      ],
+      "facts_found": 44,
+      "facts_total": 50,
+      "removed": 2,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": false
+    }
+  },
+  "work": "WORK-09",
+  "arm": "reviewer",
+  "arm_name": "B",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": "claude-haiku-5-5",
+  "checklist_sha": "0a04e088cec6",
+  "reviewer_sha": "ad9be555c139",
+  "max_calls": 30,
+  "reviewer_max_calls": 15,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 41,
+      "tokens_in": 867152,
+      "tokens_out": 111604,
+      "cost_usd": 0.086976
+    },
+    "reviewer": {
+      "model_calls": 18,
+      "tokens_in": 242875,
+      "tokens_out": 45983,
+      "cost_usd": 0.041852
+    }
+  },
+  "seconds": 616.3,
+  "seconds_per_brief": 77,
+  "seconds_by_brief": {
+    "01_clean": 85.9,
+    "02_disagreement": 77.5,
+    "03_change": 72.3,
+    "04_gap": 72.3,
+    "05_inference": 78.7,
+    "06_confidential": 62,
+    "state_b": 78.8,
+    "state_a": 88.8
+  },
+  "review": {
+    "01_clean": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 3,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "02_disagreement": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "03_change": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "04_gap": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "05_inference": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "06_confidential": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "state_b": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 2,
+      "findings": [],
+      "sentences_changed": 0
+    },
+    "state_a": {
+      "ran": true,
+      "status": "FINDINGS",
+      "reviewer_calls": 3,
+      "findings": [],
+      "sentences_changed": 0
+    }
+  },
+  "removed": {
+    "01_clean": [],
+    "02_disagreement": [
+      {
+        "section": "open_questions",
+        "text": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+        "reasons": [
+          "\"Q1\" is not a number"
+        ]
+      }
+    ],
+    "03_change": [],
+    "04_gap": [
+      {
+        "section": "open_questions",
+        "text": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+        "reasons": [
+          "\"Q1\" is not a number"
+        ]
+      }
+    ],
+    "05_inference": [],
+    "06_confidential": [],
+    "state_b": [],
+    "state_a": [
+      {
+        "section": "what_moved",
+        "text": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+        "reasons": [
+          "decision_log.csv line 7 does not hold the number 44"
+        ]
+      },
+      {
+        "section": "what_moved",
+        "text": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+        "reasons": [
+          "decision_log.csv line 10 does not hold the number 44"
+        ]
+      }
+    ]
+  }
+}
