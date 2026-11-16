@@ -1,0 +1,484 @@
+{
+  "label": "G20261116154635-P-haiku-5-5",
+  "run_id": "G20261116154635",
+  "date": "20261116",
+  "started_at": "20261116154635",
+  "mode": "harness",
+  "blind": true,
+  "counted": false,
+  "skill_version": "v1.3-graph",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 8,
+  "tokens": {
+    "input": 104607,
+    "output": 111744,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "total_input": 104607,
+  "cost_usd": 0.066333,
+  "cost_per_brief_usd": 0.008292,
+  "cache": false,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 3,
+    "of_cases": 6,
+    "state_matched": 0,
+    "of_state": 2,
+    "claims_verified": 279,
+    "of_claims": 289,
+    "unsourced_caught": 5,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": false,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "01_clean: missing Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 8)"
+      ],
+      "facts_found": 47,
+      "facts_total": 48,
+      "removed": 1,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 47,
+      "facts_total": 47,
+      "removed": 0,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "04_gap: missing What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+        "04_gap: missing What moved: number \"12\" (decision_log.csv line 7)",
+        "04_gap: missing What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"14\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"13\" (decision_log.csv line 10)",
+        "04_gap: missing What moved: number \"1\" (decision_log.csv line 10)"
+      ],
+      "facts_found": 40,
+      "facts_total": 46,
+      "removed": 2,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "05_inference: missing Open questions: text \"the Q3 returns rate\" (project_note.md line 5)",
+        "05_inference: missing Open questions: number \"3,150\" (answers.csv D202610300900-Q05)",
+        "05_inference: missing Open questions: number \"257\" (answers.csv D202610300900-Q06)"
+      ],
+      "facts_found": 51,
+      "facts_total": 54,
+      "removed": 1,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null,
+      "miss_kind": "truncated"
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_a: missing Open questions: text \"Send the revised price list to the distributors\" (tracker.csv A004)",
+        "state_a: missing Open questions: owner \"not stated\" (tracker.csv A004)",
+        "state_a: missing Open questions: text \"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\" (project_note.md line 9)",
+        "state_a: missing Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 8)",
+        "state_a: missing Open questions: text \"Open question: has Meridian Foods confirmed which distributor raised the term first?\" (risk_note.md line 7)",
+        "state_a: a sentence from the clean run is missing after the new document: open_questions | tracker.csv A004",
+        "state_a: a sentence from the clean run is missing after the new document: open_questions | project_note.md line 9",
+        "state_a: a new sentence that does not cite risk_note.md: open_questions | none"
+      ],
+      "facts_found": 45,
+      "facts_total": 50,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null,
+      "miss_kind": "truncated"
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_b: missing Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 8)"
+      ],
+      "facts_found": 47,
+      "facts_total": 48,
+      "removed": 1,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": false
+    }
+  },
+  "work": "WORK-10",
+  "arm": "P",
+  "arm_name": "P",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": null,
+  "checklist_sha": null,
+  "reviewer_sha": null,
+  "max_calls": 1,
+  "reviewer_max_calls": null,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 8,
+      "tokens_in": 104607,
+      "tokens_out": 111744,
+      "cost_usd": 0.066333
+    }
+  },
+  "seconds": 412.8,
+  "seconds_per_brief": 51.6,
+  "seconds_by_brief": {
+    "01_clean": 53.14,
+    "02_disagreement": 49.04,
+    "03_change": 44.89,
+    "04_gap": 53.73,
+    "05_inference": 59.59,
+    "06_confidential": 43.15,
+    "state_b": 50.41,
+    "state_a": 58.85
+  },
+  "review": null,
+  "removed": [
+    {
+      "case": "01_clean",
+      "section": "Open questions",
+      "text": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+      "reasons": [
+        "\"Q1\" is not a number"
+      ]
+    },
+    {
+      "case": "04_gap",
+      "section": "What moved",
+      "text": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+      "reasons": [
+        "decision_log.csv line 7 does not hold the number 44"
+      ]
+    },
+    {
+      "case": "04_gap",
+      "section": "What moved",
+      "text": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+      "reasons": [
+        "decision_log.csv line 10 does not hold the number 44"
+      ]
+    },
+    {
+      "case": "05_inference",
+      "section": "Open questions",
+      "text": "The Q3 returns rate was asked for, but no source states it; Returns, Q3 2026: 257 and Orders, Q3 2026: 3150 are given.",
+      "reasons": [
+        "reference \"\" is not of the form \"<file> line N\" or \"<file> <id>\""
+      ]
+    },
+    {
+      "case": "state_b",
+      "section": "Open questions",
+      "text": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+      "reasons": [
+        "\"Q1\" is not a number"
+      ]
+    }
+  ],
+  "retriever": "none",
+  "lines_per_section": null,
+  "outside_verdict": false,
+  "note": null,
+  "index_entries": {
+    "01_clean": 86,
+    "02_disagreement": 86,
+    "03_change": 86,
+    "04_gap": 84,
+    "05_inference": 88,
+    "06_confidential": 81,
+    "state_b": 86,
+    "state_a": 90
+  },
+  "index_seconds": {
+    "01_clean": 0.0,
+    "02_disagreement": 0.0,
+    "03_change": 0.0,
+    "04_gap": 0.0,
+    "05_inference": 0.0,
+    "06_confidential": 0.0,
+    "state_b": 0.0,
+    "state_a": 0.0
+  },
+  "recall_by_case": {
+    "01_clean": {
+      "found": 22,
+      "of": 22,
+      "recall": 1
+    },
+    "02_disagreement": {
+      "found": 23,
+      "of": 23,
+      "recall": 1
+    },
+    "03_change": {
+      "found": 22,
+      "of": 22,
+      "recall": 1
+    },
+    "04_gap": {
+      "found": 20,
+      "of": 20,
+      "recall": 1
+    },
+    "05_inference": {
+      "found": 23,
+      "of": 23,
+      "recall": 1
+    },
+    "06_confidential": {
+      "found": 20,
+      "of": 20,
+      "recall": 1
+    },
+    "state_a": {
+      "found": 24,
+      "of": 24,
+      "recall": 1
+    },
+    "state_b": {
+      "found": 22,
+      "of": 22,
+      "recall": 1
+    }
+  },
+  "retrieval_misses": [],
+  "drafting_misses": [
+    {
+      "case": "01_clean",
+      "section": "open_questions",
+      "fact": "Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 8)",
+      "refs": [
+        "supplier_note.md line 8"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "04_gap",
+      "section": "what_moved",
+      "fact": "What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+      "refs": [
+        "decision_log.csv line 7"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "04_gap",
+      "section": "what_moved",
+      "fact": "What moved: number \"12\" (decision_log.csv line 7)",
+      "refs": [
+        "decision_log.csv line 7"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "04_gap",
+      "section": "what_moved",
+      "fact": "What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)",
+      "refs": [
+        "decision_log.csv line 10"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "04_gap",
+      "section": "what_moved",
+      "fact": "What moved: number \"14\" (decision_log.csv line 10)",
+      "refs": [
+        "decision_log.csv line 10"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "04_gap",
+      "section": "what_moved",
+      "fact": "What moved: number \"13\" (decision_log.csv line 10)",
+      "refs": [
+        "decision_log.csv line 10"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "04_gap",
+      "section": "what_moved",
+      "fact": "What moved: number \"1\" (decision_log.csv line 10)",
+      "refs": [
+        "decision_log.csv line 10"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "05_inference",
+      "section": "open_questions",
+      "fact": "Open questions: text \"the Q3 returns rate\" (project_note.md line 5)",
+      "refs": [
+        "project_note.md line 5"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "05_inference",
+      "section": "open_questions",
+      "fact": "Open questions: number \"3,150\" (answers.csv D202610300900-Q05)",
+      "refs": [
+        "answers.csv D202610300900-Q05"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "05_inference",
+      "section": "open_questions",
+      "fact": "Open questions: number \"257\" (answers.csv D202610300900-Q06)",
+      "refs": [
+        "answers.csv D202610300900-Q06"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "state_a",
+      "section": "open_questions",
+      "fact": "Open questions: text \"Send the revised price list to the distributors\" (tracker.csv A004)",
+      "refs": [
+        "tracker.csv A004"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "state_a",
+      "section": "open_questions",
+      "fact": "Open questions: owner \"not stated\" (tracker.csv A004)",
+      "refs": [
+        "tracker.csv A004"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "state_a",
+      "section": "open_questions",
+      "fact": "Open questions: text \"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\" (project_note.md line 9)",
+      "refs": [
+        "project_note.md line 9"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "state_a",
+      "section": "open_questions",
+      "fact": "Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 8)",
+      "refs": [
+        "supplier_note.md line 8"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "state_a",
+      "section": "open_questions",
+      "fact": "Open questions: text \"Open question: has Meridian Foods confirmed which distributor raised the term first?\" (risk_note.md line 7)",
+      "refs": [
+        "risk_note.md line 7"
+      ],
+      "not_shown": []
+    },
+    {
+      "case": "state_b",
+      "section": "open_questions",
+      "fact": "Open questions: text \"Open question: can Brightwater Packaging hold the October price into Q1?\" (supplier_note.md line 8)",
+      "refs": [
+        "supplier_note.md line 8"
+      ],
+      "not_shown": []
+    }
+  ],
+  "framework_version": {
+    "langgraph": "1.2.22",
+    "langchain": "1.5.0",
+    "langchain-core": "1.8.1",
+    "langchain-anthropic": "1.7.10",
+    "anthropic": "2.8.0",
+    "mcp": "2.3.0",
+    "fastmcp": "4.2.0",
+    "bm25s": "0.3.16",
+    "fastembed": "0.9.1",
+    "uv_lock_sha": "546c6d414fee",
+    "python": "3.12.13"
+  },
+  "queries_version": 1,
+  "queries_hash": "0cf884ee0e52043ad02034644dbb3eaaa36880f2af8ff13e0a489f71522f2f1c",
+  "instructions_sha": "838b18a27a07",
+  "mcp_route": "adapter",
+  "stage": 1,
+  "forecast_usd": 0.049229999999999996,
+  "prices": "graph/prices.json",
+  "folder": "data/cases",
+  "expected_opened_by_graph": [],
+  "truncated_briefs": [
+    "05_inference",
+    "state_a"
+  ],
+  "not_counted_reason": "run under the 16,000 cap, changed before the stage"
+}

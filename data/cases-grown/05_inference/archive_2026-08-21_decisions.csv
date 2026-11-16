@@ -1,0 +1,10 @@
+run_id,at,file,step,source,target,result,detail
+N2026-08-13-1,2026-08-13T09:29:00,week33_b.xlsx,header,,,found,header on row 1
+N2026-08-13-1,2026-08-13T09:29:00,week33_b.xlsx,map,Store,branch,mapped,synonym of branch
+N2026-08-13-1,2026-08-13T09:29:02,week33_b.xlsx,reconcile,,,ok,12 read = 12 merged + 0 held + 0 removed
+N2026-08-20-1,2026-08-20T09:26:00,week34_a.xlsx,header,,,found,header on row 1
+N2026-08-20-1,2026-08-20T09:26:00,week34_a.xlsx,map,Item,product,mapped,synonym of product
+N2026-08-20-1,2026-08-20T09:26:02,week34_a.xlsx,reconcile,,,ok,12 read = 12 merged + 0 held + 0 removed
+N2026-08-20-1,2026-08-20T09:23:00,week34_b.xlsx,header,,,found,header on row 1
+N2026-08-20-1,2026-08-20T09:23:00,week34_b.xlsx,map,Store,branch,mapped,synonym of branch
+N2026-08-20-1,2026-08-20T09:23:02,week34_b.xlsx,reconcile,,,ok,13 read = 13 merged + 0 held + 0 removed

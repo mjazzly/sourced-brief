@@ -1,0 +1,8 @@
+run_id,at,file,step,source,target,result,detail
+N2026-08-27-1,2026-08-27T09:20:00,week35.xlsx,header,,,found,header on row 2; 1 title row set aside
+N2026-08-27-1,2026-08-27T09:20:00,week35.xlsx,map,Txn date,sale_date,mapped,synonym of sale_date
+N2026-08-27-1,2026-08-27T09:20:02,week35.xlsx,reconcile,,,ok,13 read = 13 merged + 0 held + 0 removed
+N2026-09-03-1,2026-09-03T09:30:00,week36.xlsx,header,,,found,header on row 2; 1 title row set aside
+N2026-09-03-1,2026-09-03T09:30:00,week36.xlsx,map,Item,product,mapped,synonym of product
+N2026-09-03-1,2026-09-03T09:30:01,week36.xlsx,hold_row,row 4,sale_date,held,"sale_date ""TBC"" fails date"
+N2026-09-03-1,2026-09-03T09:30:02,week36.xlsx,reconcile,,,ok,9 read = 8 merged + 1 held + 0 removed

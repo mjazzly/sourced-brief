@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,01_halden_kickoff.txt,3,Send the spend export for the last twelve months,Sofia Lindqvist,Halden Logistics,Head of Procurement,2026-10-22,"""by Thursday"", meeting date 2026-10-20",closed,R2026-10-23-1,R2026-10-30-1,07_halden_followup.txt line 2
+A002,01_halden_kickoff.txt,5,Send the draft category taxonomy,Aiden Brooks,Our firm,Consultant,2026-11-03,"""by 3 November"", meeting date 2026-10-20",open,R2026-10-23-1,,
+A003,02_meridian_pricing.txt,4,Confirm the distributor discount bands,Priya Shah,Meridian Foods,Commercial Director,2026-10-28,"""by the 28th"", meeting date 2026-10-21",closed,R2026-10-23-1,R2026-10-30-1,08_meridian_contracts.txt line 5
+A004,02_meridian_pricing.txt,3,Send the revised price list to the distributors,not stated,,,2026-11-05,"""by 5 November"", meeting date 2026-10-21",open,R2026-10-23-1,,
+A005,01_halden_kickoff.txt,6,Set up the introductions to the three logistics partners,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-11-04,"""by the 4th"", meeting date 2026-10-20",open,R2026-10-23-1,,
+A006,03_northgate_claims.txt,7,Share the claims backlog figures with the board pack,Tom Reilly,Northgate Insurance,Head of Claims,2026-10-29,"""by the 29th"", meeting date 2026-10-27",closed,R2026-10-30-1,R2026-10-30-1,06_northgate_board.txt line 4
+A007,06_northgate_board.txt,9,Draft the board summary of the claims review,Aiden Brooks,Our firm,Consultant,2026-11-06,"""by 6 November"", meeting date 2026-10-28",open,R2026-10-30-1,,
+A008,08_meridian_contracts.txt,6,Return the signed distributor contracts,Priya Shah,Meridian Foods,Commercial Director,2026-11-10,"""by the 10th"", meeting date 2026-10-29",open,R2026-10-30-1,,

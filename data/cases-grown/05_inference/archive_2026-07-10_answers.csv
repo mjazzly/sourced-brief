@@ -1,0 +1,5 @@
+answer_id,time,run_id,question_id,tool,metric,unit,dimensions,filters,period,period_b,value,rows,rows_over,data_version,data_rows,lineage,corrections,signature
+D202607100900-Q01,2026-07-10T09:00:00,D202607100900,Q01,run_metric,orders,orders,,{},2026-06,,4375,null,4375,8,9867,same as D202607030900-Q01,{},
+D202607100900-Q02,2026-07-10T09:00:00,D202607100900,Q02,run_metric,revenue,amount,,{},2026-Q2,,1553514.82,null,9867,8,9867,data changed since D202607030900-Q02: 169 rows added,{},
+D202607100900-Q03,2026-07-10T09:00:00,D202607100900,Q03,run_metric,returns_rate,%,,{},2026-Q2,,7.55,null,9867,8,9867,data changed since D202607030900-Q03: 169 rows added,{},
+D202607100900-Q04,2026-07-10T09:00:00,D202607100900,Q04,run_metric,average_order_value,amount,,{},2026-06,,121.35,null,4375,8,9867,data changed since D202607030900-Q04: 169 rows added,{},

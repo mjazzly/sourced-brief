@@ -1,0 +1,7 @@
+run_id,at,file,step,source,target,result,detail
+N2026-05-21-1,2026-05-21T09:36:00,week21.xlsx,header,,,found,header on row 2; 1 title row set aside
+N2026-05-21-1,2026-05-21T09:36:00,week21.xlsx,map,Store,branch,mapped,synonym of branch
+N2026-05-21-1,2026-05-21T09:36:02,week21.xlsx,reconcile,,,ok,14 read = 12 merged + 2 held + 0 removed
+N2026-05-28-1,2026-05-28T09:43:00,week22.xlsx,header,,,found,header on row 1
+N2026-05-28-1,2026-05-28T09:43:00,week22.xlsx,map,Client,customer,mapped,synonym of customer
+N2026-05-28-1,2026-05-28T09:43:02,week22.xlsx,reconcile,,,ok,14 read = 14 merged + 0 held + 0 removed

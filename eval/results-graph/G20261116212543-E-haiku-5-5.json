@@ -1,0 +1,123 @@
+{
+  "label": "G20261116212543-E-haiku-5-5",
+  "work": "WORK-10",
+  "arm": "E",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "stage": 2,
+  "counted": false,
+  "max_calls": 120,
+  "command": "node eval/run_eval.js --arm one --model claude-haiku-5-5 --max-calls 120 --only 01_clean",
+  "cost_usd": 0.061158,
+  "cost_is_upper_bound": true,
+  "cost_by_brief_usd": {},
+  "model_calls": 4,
+  "node_cost_usd": 0.012231515,
+  "verdict": {
+    "cases_matched": 1,
+    "of_cases": 1,
+    "state_matched": 0,
+    "of_state": 0,
+    "claims_verified": 48,
+    "of_claims": 48,
+    "unsourced_caught": 0,
+    "gates_held": 0,
+    "of_gates": 0,
+    "wording_identical": null,
+    "passed": true
+  },
+  "seconds": 45.4,
+  "forecast_usd": 0.12656,
+  "cache_check": {
+    "ok": true,
+    "detail": [
+      "eval/run_eval.js sets top-level cache_control {type: 'ephemeral'} on every call unless --no-cache; the E command does not pass --no-cache"
+    ]
+  },
+  "prices": "graph/prices.json",
+  "framework_version": {
+    "node": "v24.18.0",
+    "server_version": "1.3.0"
+  },
+  "node_record": {
+    "label": "W202611162125-one-haiku-5-5",
+    "run_id": "W202611162125",
+    "date": "2026-11-16",
+    "started_at": "2026-11-16T21:25:43.735Z",
+    "mode": "one case",
+    "blind": true,
+    "counted": false,
+    "skill_version": "v1.3",
+    "server_version": "1.3.0",
+    "model": "claude-haiku-5-5",
+    "effort": null,
+    "briefs": 8,
+    "model_calls": 4,
+    "tokens": {
+      "input": 10,
+      "output": 11162,
+      "cache_read": 67714,
+      "cache_write": 47779
+    },
+    "total_input": 115503,
+    "cost_usd": 0.012231515,
+    "cost_per_brief_usd": 0.001528939375,
+    "cache": true,
+    "completed": true,
+    "error": null,
+    "verdict": {
+      "cases_matched": 1,
+      "of_cases": 1,
+      "state_matched": 0,
+      "of_state": 0,
+      "claims_verified": 48,
+      "of_claims": 48,
+      "unsourced_caught": 0,
+      "gates_held": 0,
+      "of_gates": 0,
+      "wording_identical": null,
+      "passed": true
+    },
+    "cases": {
+      "01_clean": {
+        "id": "01_clean",
+        "name": "01_clean. Clean week",
+        "group": "case",
+        "match": true,
+        "fails": [],
+        "facts_found": 48,
+        "facts_total": 48,
+        "removed": 0,
+        "gate": null,
+        "gate_held": null,
+        "wording_identical": null
+      }
+    },
+    "work": "WORK-09",
+    "arm": "one",
+    "arm_name": "A1",
+    "drafter_model": "claude-haiku-5-5",
+    "reviewer_model": null,
+    "checklist_sha": null,
+    "reviewer_sha": null,
+    "max_calls": 120,
+    "reviewer_max_calls": null,
+    "by_agent": {
+      "drafter": {
+        "model_calls": 4,
+        "tokens_in": 115503,
+        "tokens_out": 11162,
+        "cost_usd": 0.012232
+      }
+    },
+    "seconds": 45.2,
+    "seconds_per_brief": 5.6,
+    "seconds_by_brief": {
+      "01_clean": 45.2
+    },
+    "review": null,
+    "removed": {
+      "01_clean": []
+    }
+  }
+}

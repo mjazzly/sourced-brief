@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,w26_halden_call.txt,7,Send the carrier list for the first export,Sofia Lindqvist,Halden Logistics,Head of Procurement,2026-07-12,"""by 12 July"", meeting date 2026-06-24",closed,R2026-06-26-1,R2026-07-17-1,w29_halden_call.txt line 2
+A002,w27_halden_call.txt,3,Write up the supplier interviews,Aiden Brooks,Our firm,Consultant,2026-07-08,"""by 8 July"", meeting date 2026-06-30",closed,R2026-07-03-1,R2026-07-17-1,w29_halden_call.txt line 3
+A003,w27_meridian_call.txt,6,Draft the pricing survey for the distributors,Aiden Brooks,Our firm,Consultant,2026-07-10,"""by 10 July"", meeting date 2026-07-01",closed,R2026-07-03-1,R2026-07-17-1,w29_meridian_call.txt line 6
+A004,w26_meridian_call.txt,2,Collect the survey returns from the distributors,not stated,,,2026-07-05,"""by 5 July"", meeting date 2026-06-24",closed,R2026-06-26-1,R2026-07-10-1,w28_meridian_call.txt line 8
+A005,w29_halden_call.txt,7,Share the depot map for the category review,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-07-26,"""by 26 July"", meeting date 2026-07-14",open,R2026-07-17-1,,
+A006,w27_northgate_call.txt,7,Draft the outline of the claims review,Aiden Brooks,Our firm,Consultant,2026-07-09,"""by 9 July"", meeting date 2026-06-30",closed,R2026-07-03-1,R2026-07-17-1,w29_northgate_call.txt line 6
+A007,w29_northgate_call.txt,5,Send the claims extract for the last quarter,Tom Reilly,Northgate Insurance,Head of Claims,2026-07-21,"""by 21 July"", meeting date 2026-07-14",open,R2026-07-17-1,,
+A008,w28_meridian_call.txt,4,Write up the distributor interviews,Aiden Brooks,Our firm,Consultant,2026-07-22,"""by 22 July"", meeting date 2026-07-08",open,R2026-07-10-1,,

@@ -1,0 +1,124 @@
+{
+  "label": "G20261116161032-P-haiku-5-5",
+  "run_id": "G20261116161032",
+  "date": "20261116",
+  "started_at": "20261116161032",
+  "mode": "one case",
+  "blind": true,
+  "counted": false,
+  "skill_version": "v1.3-graph",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 1,
+  "model_calls": 1,
+  "tokens": {
+    "input": 13316,
+    "output": 15980,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "total_input": 13316,
+  "cost_usd": 0.009322,
+  "cost_per_brief_usd": 0.009322,
+  "cache": false,
+  "completed": false,
+  "error": null,
+  "verdict": {
+    "cases_matched": 1,
+    "of_cases": 1,
+    "state_matched": 0,
+    "of_state": 0,
+    "claims_verified": 54,
+    "of_claims": 54,
+    "unsourced_caught": 0,
+    "gates_held": 1,
+    "of_gates": 1,
+    "wording_identical": null,
+    "passed": true
+  },
+  "cases": {
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 54,
+      "facts_total": 54,
+      "removed": 0,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    }
+  },
+  "work": "WORK-10",
+  "arm": "P",
+  "arm_name": "P",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": null,
+  "checklist_sha": null,
+  "reviewer_sha": null,
+  "max_calls": 1,
+  "reviewer_max_calls": null,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 1,
+      "tokens_in": 13316,
+      "tokens_out": 15980,
+      "cost_usd": 0.009322
+    }
+  },
+  "seconds": 60.0,
+  "seconds_per_brief": 60.0,
+  "seconds_by_brief": {
+    "05_inference": 60.05
+  },
+  "review": null,
+  "removed": [],
+  "removed_empty_reference": [],
+  "max_tokens": 32000,
+  "streamed": true,
+  "retriever": "none",
+  "lines_per_section": null,
+  "outside_verdict": false,
+  "note": null,
+  "index_entries": {
+    "05_inference": 88
+  },
+  "index_seconds": {
+    "05_inference": 0.0
+  },
+  "recall_by_case": {
+    "05_inference": {
+      "found": 23,
+      "of": 23,
+      "recall": 1
+    }
+  },
+  "retrieval_misses": [],
+  "drafting_misses": [],
+  "framework_version": {
+    "langgraph": "1.2.22",
+    "langchain": "1.5.0",
+    "langchain-core": "1.8.1",
+    "langchain-anthropic": "1.7.10",
+    "anthropic": "2.8.0",
+    "mcp": "2.3.0",
+    "fastmcp": "4.2.0",
+    "bm25s": "0.3.16",
+    "fastembed": "0.9.1",
+    "uv_lock_sha": "546c6d414fee",
+    "python": "3.12.13"
+  },
+  "queries_version": 1,
+  "queries_hash": "0cf884ee0e52043ad02034644dbb3eaaa36880f2af8ff13e0a489f71522f2f1c",
+  "instructions_sha": "c73753407980",
+  "mcp_route": "adapter",
+  "stage": 1,
+  "forecast_usd": 0.008302,
+  "prices": "graph/prices.json",
+  "folder": "data/cases",
+  "expected_opened_by_graph": [],
+  "truncated_briefs": []
+}

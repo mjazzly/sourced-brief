@@ -1,0 +1,271 @@
+{
+  "label": "G20261116202332-F-haiku-5-5",
+  "run_id": "G20261116202332",
+  "date": "20261116",
+  "started_at": "20261116202332",
+  "mode": "harness",
+  "blind": true,
+  "counted": true,
+  "skill_version": "v1.3-graph",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 8,
+  "model_calls": 8,
+  "tokens": {
+    "input": 130423,
+    "output": 114574,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "total_input": 130423,
+  "cost_usd": 0.070329,
+  "cost_per_brief_usd": 0.008791,
+  "cache": false,
+  "completed": true,
+  "error": null,
+  "verdict": {
+    "cases_matched": 6,
+    "of_cases": 6,
+    "state_matched": 2,
+    "of_state": 2,
+    "claims_verified": 289,
+    "of_claims": 289,
+    "unsourced_caught": 0,
+    "gates_held": 4,
+    "of_gates": 4,
+    "wording_identical": false,
+    "passed": true
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 47,
+      "facts_total": 47,
+      "removed": 0,
+      "gate": "disagreement",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "no_source",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 54,
+      "facts_total": 54,
+      "removed": 0,
+      "gate": "arithmetic",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": true,
+      "fails": [],
+      "facts_found": 46,
+      "facts_total": 46,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": true,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 50,
+      "facts_total": 50,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": true,
+      "fails": [],
+      "facts_found": 48,
+      "facts_total": 48,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": false
+    }
+  },
+  "work": "WORK-10",
+  "arm": "F",
+  "arm_name": "F",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": null,
+  "checklist_sha": null,
+  "reviewer_sha": null,
+  "max_calls": 1,
+  "reviewer_max_calls": null,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 8,
+      "tokens_in": 130423,
+      "tokens_out": 114574,
+      "cost_usd": 0.070329
+    }
+  },
+  "seconds": 422.4,
+  "seconds_per_brief": 52.8,
+  "seconds_by_brief": {
+    "01_clean": 52.21,
+    "02_disagreement": 57.08,
+    "03_change": 53.87,
+    "04_gap": 52.87,
+    "05_inference": 51.46,
+    "06_confidential": 44.15,
+    "state_b": 52.79,
+    "state_a": 58.02
+  },
+  "review": null,
+  "removed": [],
+  "removed_empty_reference": [],
+  "max_tokens": 32000,
+  "streamed": true,
+  "retriever": "week filter",
+  "lines_per_section": null,
+  "outside_verdict": false,
+  "note": null,
+  "index_entries": {
+    "01_clean": 1712,
+    "02_disagreement": 1712,
+    "03_change": 1712,
+    "04_gap": 1710,
+    "05_inference": 1714,
+    "06_confidential": 1707,
+    "state_b": 1712,
+    "state_a": 1716
+  },
+  "index_seconds": {
+    "01_clean": 0.004,
+    "02_disagreement": 0.004,
+    "03_change": 0.004,
+    "04_gap": 0.004,
+    "05_inference": 0.004,
+    "06_confidential": 0.004,
+    "state_b": 0.004,
+    "state_a": 0.004
+  },
+  "recall_by_case": {
+    "01_clean": {
+      "found": 22,
+      "of": 22,
+      "recall": 1
+    },
+    "02_disagreement": {
+      "found": 23,
+      "of": 23,
+      "recall": 1
+    },
+    "03_change": {
+      "found": 22,
+      "of": 22,
+      "recall": 1
+    },
+    "04_gap": {
+      "found": 20,
+      "of": 20,
+      "recall": 1
+    },
+    "05_inference": {
+      "found": 23,
+      "of": 23,
+      "recall": 1
+    },
+    "06_confidential": {
+      "found": 20,
+      "of": 20,
+      "recall": 1
+    },
+    "state_a": {
+      "found": 24,
+      "of": 24,
+      "recall": 1
+    },
+    "state_b": {
+      "found": 22,
+      "of": 22,
+      "recall": 1
+    }
+  },
+  "retrieval_misses": [],
+  "drafting_misses": [],
+  "framework_version": {
+    "langgraph": "1.2.22",
+    "langchain": "1.5.0",
+    "langchain-core": "1.8.1",
+    "langchain-anthropic": "1.7.10",
+    "anthropic": "2.8.0",
+    "mcp": "2.3.0",
+    "fastmcp": "4.2.0",
+    "bm25s": "0.3.16",
+    "fastembed": "0.9.1",
+    "uv_lock_sha": "546c6d414fee",
+    "python": "3.12.13"
+  },
+  "queries_version": 1,
+  "queries_hash": "0cf884ee0e52043ad02034644dbb3eaaa36880f2af8ff13e0a489f71522f2f1c",
+  "instructions_sha": "c73753407980",
+  "mcp_route": "adapter",
+  "stage": 1,
+  "forecast_usd": 0.068807,
+  "prices": "graph/prices.json",
+  "folder": "data/cases-grown",
+  "expected_opened_by_graph": [],
+  "truncated_briefs": []
+}

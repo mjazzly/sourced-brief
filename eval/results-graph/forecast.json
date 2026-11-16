@@ -1,0 +1,306 @@
+{
+  "stage0": "202611161338",
+  "queries_hash": "0cf884ee0e52043ad02034644dbb3eaaa36880f2af8ff13e0a489f71522f2f1c",
+  "counts": {
+    "P.claude-haiku-5-5.01_clean": 15384,
+    "P.claude-haiku-5-5.02_disagreement": 15389,
+    "P.claude-haiku-5-5.03_change": 15393,
+    "P.claude-haiku-5-5.04_gap": 15294,
+    "P.claude-haiku-5-5.05_inference": 15555,
+    "P.claude-haiku-5-5.06_confidential": 15183,
+    "P.claude-haiku-5-5.state_b": 15384,
+    "P.claude-haiku-5-5.state_a": 15553,
+    "P.claude-opus-5-5-high.01_clean": 15384,
+    "P.claude-opus-5-5-high.02_disagreement": 15389,
+    "P.claude-opus-5-5-high.03_change": 15393,
+    "P.claude-opus-5-5-high.04_gap": 15294,
+    "P.claude-opus-5-5-high.05_inference": 15555,
+    "P.claude-opus-5-5-high.06_confidential": 15183,
+    "P.claude-opus-5-5-high.state_b": 15384,
+    "P.claude-opus-5-5-high.state_a": 15553,
+    "PG.claude-haiku-5-5.01_clean": 143204,
+    "PG.claude-haiku-5-5.02_disagreement": 143209,
+    "PG.claude-haiku-5-5.03_change": 143213,
+    "PG.claude-haiku-5-5.04_gap": 143114,
+    "PG.claude-haiku-5-5.05_inference": 143375,
+    "PG.claude-haiku-5-5.06_confidential": 143003,
+    "PG.claude-haiku-5-5.state_b": 143204,
+    "PG.claude-haiku-5-5.state_a": 143373,
+    "PG.claude-opus-5-5-high.01_clean": 143204,
+    "PG.claude-opus-5-5-high.02_disagreement": 143209,
+    "PG.claude-opus-5-5-high.03_change": 143213,
+    "PG.claude-opus-5-5-high.04_gap": 143114,
+    "PG.claude-opus-5-5-high.05_inference": 143375,
+    "PG.claude-opus-5-5-high.06_confidential": 143003,
+    "PG.claude-opus-5-5-high.state_b": 143204,
+    "PG.claude-opus-5-5-high.state_a": 143373,
+    "K.claude-haiku-5-5.01_clean": 19378,
+    "K.claude-haiku-5-5.02_disagreement": 19378,
+    "K.claude-haiku-5-5.03_change": 19378,
+    "K.claude-haiku-5-5.04_gap": 19416,
+    "K.claude-haiku-5-5.05_inference": 19432,
+    "K.claude-haiku-5-5.06_confidential": 19581,
+    "K.claude-haiku-5-5.state_b": 19378,
+    "K.claude-haiku-5-5.state_a": 19585,
+    "K.claude-opus-5-5-high.01_clean": 19378,
+    "K.claude-opus-5-5-high.02_disagreement": 19378,
+    "K.claude-opus-5-5-high.03_change": 19378,
+    "K.claude-opus-5-5-high.04_gap": 19416,
+    "K.claude-opus-5-5-high.05_inference": 19432,
+    "K.claude-opus-5-5-high.06_confidential": 19581,
+    "K.claude-opus-5-5-high.state_b": 19378,
+    "K.claude-opus-5-5-high.state_a": 19585,
+    "V.claude-haiku-5-5.01_clean": 18816,
+    "V.claude-haiku-5-5.02_disagreement": 18816,
+    "V.claude-haiku-5-5.03_change": 18816,
+    "V.claude-haiku-5-5.04_gap": 18839,
+    "V.claude-haiku-5-5.05_inference": 18832,
+    "V.claude-haiku-5-5.06_confidential": 18845,
+    "V.claude-haiku-5-5.state_b": 18816,
+    "V.claude-haiku-5-5.state_a": 18823,
+    "V.claude-opus-5-5-high.01_clean": 18816,
+    "V.claude-opus-5-5-high.02_disagreement": 18816,
+    "V.claude-opus-5-5-high.03_change": 18816,
+    "V.claude-opus-5-5-high.04_gap": 18839,
+    "V.claude-opus-5-5-high.05_inference": 18832,
+    "V.claude-opus-5-5-high.06_confidential": 18845,
+    "V.claude-opus-5-5-high.state_b": 18816,
+    "V.claude-opus-5-5-high.state_a": 18823,
+    "E.claude-haiku-5-5.01_clean": 150859,
+    "E.claude-opus-5-5-high.01_clean": 150859,
+    "E.claude-haiku-5-5.02_disagreement": 150864,
+    "E.claude-opus-5-5-high.02_disagreement": 150864,
+    "E.claude-haiku-5-5.03_change": 150868,
+    "E.claude-opus-5-5-high.03_change": 150868,
+    "E.claude-haiku-5-5.04_gap": 150781,
+    "E.claude-opus-5-5-high.04_gap": 150781,
+    "E.claude-haiku-5-5.05_inference": 151122,
+    "E.claude-opus-5-5-high.05_inference": 151122,
+    "E.claude-haiku-5-5.06_confidential": 150551,
+    "E.claude-opus-5-5-high.06_confidential": 150551,
+    "E.claude-haiku-5-5.state_b": 150859,
+    "E.claude-opus-5-5-high.state_b": 150859,
+    "E.claude-haiku-5-5.state_a": 151187,
+    "E.claude-opus-5-5-high.state_a": 151187,
+    "F.claude-haiku-5-5.01_clean": 18534,
+    "F.claude-haiku-5-5.02_disagreement": 18539,
+    "F.claude-haiku-5-5.03_change": 18543,
+    "F.claude-haiku-5-5.04_gap": 18444,
+    "F.claude-haiku-5-5.05_inference": 18705,
+    "F.claude-haiku-5-5.06_confidential": 18333,
+    "F.claude-haiku-5-5.state_b": 18534,
+    "F.claude-haiku-5-5.state_a": 18703
+  },
+  "median_output_per_brief": {
+    "claude-haiku-5-5": 9692.25,
+    "claude-opus-5-5-high": 6025.875
+  },
+  "per_brief_usd": {
+    "P": {
+      "claude-haiku-5-5": {
+        "01_clean": 0.008285,
+        "02_disagreement": 0.008286,
+        "03_change": 0.008286,
+        "04_gap": 0.008276,
+        "05_inference": 0.008302,
+        "06_confidential": 0.008265,
+        "state_b": 0.008285,
+        "state_a": 0.008302
+      },
+      "claude-opus-5-5-high": {
+        "01_clean": 0.182054,
+        "02_disagreement": 0.182073,
+        "03_change": 0.182089,
+        "04_gap": 0.181694,
+        "05_inference": 0.182737,
+        "06_confidential": 0.18125,
+        "state_b": 0.182054,
+        "state_a": 0.182729
+      }
+    },
+    "PG": {
+      "claude-haiku-5-5": {
+        "01_clean": 0.105336,
+        "02_disagreement": 0.105339,
+        "03_change": 0.105341,
+        "04_gap": 0.105291,
+        "05_inference": 0.105422,
+        "06_confidential": 0.105236,
+        "state_b": 0.105336,
+        "state_a": 0.105421
+      },
+      "claude-opus-5-5-high": {
+        "01_clean": 0.693334,
+        "02_disagreement": 0.693353,
+        "03_change": 0.693369,
+        "04_gap": 0.692974,
+        "05_inference": 0.694017,
+        "06_confidential": 0.69253,
+        "state_b": 0.693334,
+        "state_a": 0.694009
+      }
+    },
+    "K": {
+      "claude-haiku-5-5": {
+        "01_clean": 0.008685,
+        "02_disagreement": 0.008685,
+        "03_change": 0.008685,
+        "04_gap": 0.008689,
+        "05_inference": 0.00869,
+        "06_confidential": 0.008705,
+        "state_b": 0.008685,
+        "state_a": 0.008705
+      },
+      "claude-opus-5-5-high": {
+        "01_clean": 0.198029,
+        "02_disagreement": 0.198029,
+        "03_change": 0.198029,
+        "04_gap": 0.198182,
+        "05_inference": 0.198245,
+        "06_confidential": 0.198842,
+        "state_b": 0.198029,
+        "state_a": 0.198857
+      }
+    },
+    "V": {
+      "claude-haiku-5-5": {
+        "01_clean": 0.008629,
+        "02_disagreement": 0.008629,
+        "03_change": 0.008629,
+        "04_gap": 0.008631,
+        "05_inference": 0.00863,
+        "06_confidential": 0.008631,
+        "state_b": 0.008629,
+        "state_a": 0.008629
+      },
+      "claude-opus-5-5-high": {
+        "01_clean": 0.195781,
+        "02_disagreement": 0.195781,
+        "03_change": 0.195781,
+        "04_gap": 0.195874,
+        "05_inference": 0.195846,
+        "06_confidential": 0.195898,
+        "state_b": 0.195781,
+        "state_a": 0.195809
+      }
+    },
+    "E": {
+      "claude-haiku-5-5": {
+        "01_clean": 0.12656,
+        "02_disagreement": 0.126564,
+        "03_change": 0.126567,
+        "04_gap": 0.126508,
+        "05_inference": 0.126738,
+        "06_confidential": 0.126353,
+        "state_b": 0.12656,
+        "state_a": 0.126782
+      },
+      "claude-opus-5-5-high": {
+        "01_clean": 0.908984,
+        "02_disagreement": 0.90901,
+        "03_change": 0.909031,
+        "04_gap": 0.908579,
+        "05_inference": 0.910352,
+        "06_confidential": 0.907383,
+        "state_b": 0.908984,
+        "state_a": 0.91069
+      }
+    },
+    "F": {
+      "claude-haiku-5-5": {
+        "01_clean": 0.0086,
+        "02_disagreement": 0.008601,
+        "03_change": 0.008601,
+        "04_gap": 0.008591,
+        "05_inference": 0.008617,
+        "06_confidential": 0.00858,
+        "state_b": 0.0086,
+        "state_a": 0.008617
+      }
+    }
+  },
+  "per_run_usd": {
+    "P": {
+      "claude-haiku-5-5": 0.066287,
+      "claude-opus-5-5-high": 1.45668
+    },
+    "PG": {
+      "claude-haiku-5-5": 0.842722,
+      "claude-opus-5-5-high": 5.54692
+    },
+    "K": {
+      "claude-haiku-5-5": 0.069529,
+      "claude-opus-5-5-high": 1.586242
+    },
+    "V": {
+      "claude-haiku-5-5": 0.069037,
+      "claude-opus-5-5-high": 1.566551
+    },
+    "E": {
+      "claude-haiku-5-5": 1.012632,
+      "claude-opus-5-5-high": 7.273013
+    },
+    "F": {
+      "claude-haiku-5-5": 0.068807
+    }
+  },
+  "method": "token counts from messages.count_tokens on the exact requests (an estimate, per the token counting page); output tokens are each model's median output a brief in its WORK-09 records; the graph's one call priced as fresh input at its tier (no cache_control); E priced as one write and one read of its read-everything prompt plus the median output",
+  "stage0_F": "202611161504",
+  "before_schema_change": {
+    "per_run_usd_smallest": {
+      "P": 0.051083,
+      "PG": 0.766693,
+      "K": 0.054322,
+      "V": 0.05383,
+      "F": 0.053603
+    }
+  },
+  "counts_after_schema_change": {
+    "P.claude-haiku-5-5.01_clean": 13068,
+    "P.claude-haiku-5-5.02_disagreement": 13073,
+    "P.claude-haiku-5-5.03_change": 13077,
+    "P.claude-haiku-5-5.04_gap": 12978,
+    "P.claude-haiku-5-5.05_inference": 13239,
+    "P.claude-haiku-5-5.06_confidential": 12867,
+    "P.claude-haiku-5-5.state_b": 13068,
+    "P.claude-haiku-5-5.state_a": 13237,
+    "PG.claude-haiku-5-5.01_clean": 140888,
+    "PG.claude-haiku-5-5.02_disagreement": 140893,
+    "PG.claude-haiku-5-5.03_change": 140897,
+    "PG.claude-haiku-5-5.04_gap": 140798,
+    "PG.claude-haiku-5-5.05_inference": 141059,
+    "PG.claude-haiku-5-5.06_confidential": 140687,
+    "PG.claude-haiku-5-5.state_b": 140888,
+    "PG.claude-haiku-5-5.state_a": 141057,
+    "K.claude-haiku-5-5.01_clean": 17062,
+    "K.claude-haiku-5-5.02_disagreement": 17062,
+    "K.claude-haiku-5-5.03_change": 17062,
+    "K.claude-haiku-5-5.04_gap": 17100,
+    "K.claude-haiku-5-5.05_inference": 17116,
+    "K.claude-haiku-5-5.06_confidential": 17265,
+    "K.claude-haiku-5-5.state_b": 17062,
+    "K.claude-haiku-5-5.state_a": 17269,
+    "V.claude-haiku-5-5.01_clean": 16500,
+    "V.claude-haiku-5-5.02_disagreement": 16500,
+    "V.claude-haiku-5-5.03_change": 16500,
+    "V.claude-haiku-5-5.04_gap": 16523,
+    "V.claude-haiku-5-5.05_inference": 16516,
+    "V.claude-haiku-5-5.06_confidential": 16529,
+    "V.claude-haiku-5-5.state_b": 16500,
+    "V.claude-haiku-5-5.state_a": 16507,
+    "F.claude-haiku-5-5.01_clean": 16218,
+    "F.claude-haiku-5-5.02_disagreement": 16223,
+    "F.claude-haiku-5-5.03_change": 16227,
+    "F.claude-haiku-5-5.04_gap": 16128,
+    "F.claude-haiku-5-5.05_inference": 16389,
+    "F.claude-haiku-5-5.06_confidential": 16017,
+    "F.claude-haiku-5-5.state_b": 16218,
+    "F.claude-haiku-5-5.state_a": 16387
+  },
+  "recount": "20261116153216",
+  "note": "graph arms recounted on the smallest model after the flat output schema (16 Nov 2026); the largest model's graph figures are from before it, and stage 3 is dropped; graph arms on the smallest model forecast with the measured median output of the first P run (16 Nov 2026), E with WORK-09's A1 median",
+  "median_output_per_brief_graph": {
+    "claude-haiku-5-5": 13957.0,
+    "source": "G20261116154635-P-haiku-5-5, its eight briefs (two capped at 16,000)"
+  }
+}

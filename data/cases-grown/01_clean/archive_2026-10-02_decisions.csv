@@ -1,0 +1,7 @@
+run_id,at,file,step,source,target,result,detail
+N2026-09-24-1,2026-09-24T09:12:00,week39_b.xlsx,header,,,found,header on row 1
+N2026-09-24-1,2026-09-24T09:12:00,week39_b.xlsx,map,Qty,quantity,mapped,synonym of quantity
+N2026-09-24-1,2026-09-24T09:12:02,week39_b.xlsx,reconcile,,,ok,9 read = 9 merged + 0 held + 0 removed
+N2026-10-01-1,2026-10-01T09:29:00,week40.xlsx,header,,,found,header on row 1
+N2026-10-01-1,2026-10-01T09:29:00,week40.xlsx,map,Qty,quantity,mapped,synonym of quantity
+N2026-10-01-1,2026-10-01T09:29:02,week40.xlsx,reconcile,,,ok,9 read = 9 merged + 0 held + 0 removed

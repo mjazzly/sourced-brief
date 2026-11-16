@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,w37_halden_call.txt,5,Write up the supplier interviews,Aiden Brooks,Our firm,Consultant,2026-09-24,"""by 24 September"", meeting date 2026-09-08",closed,R2026-09-11-1,R2026-10-02-1,w40_halden_call.txt line 4
+A002,w39_halden_call.txt,8,Confirm the cost centre codes for the export,Sofia Lindqvist,Halden Logistics,Head of Procurement,2026-10-11,"""by 11 October"", meeting date 2026-09-22",open,R2026-09-25-1,,
+A003,w41_meridian_call.txt,3,Share the margin by product line,Priya Shah,Meridian Foods,Commercial Director,2026-10-17,"""by 17 October"", meeting date 2026-10-06",open,R2026-10-09-1,,
+A004,w41_meridian_call.txt,4,Collect the survey returns from the distributors,not stated,,,2026-10-13,"""by 13 October"", meeting date 2026-10-06",open,R2026-10-09-1,,
+A005,w41_halden_call.txt,8,Draft the interview guide for the category owners,Aiden Brooks,Our firm,Consultant,2026-10-21,"""by 21 October"", meeting date 2026-10-07",open,R2026-10-09-1,,
+A006,w39_northgate_call.txt,5,Draft the outline of the claims review,Aiden Brooks,Our firm,Consultant,2026-10-19,"""by 19 October"", meeting date 2026-09-22",open,R2026-09-25-1,,
+A007,w39_northgate_call.txt,9,Send the claims extract for the last quarter,Tom Reilly,Northgate Insurance,Head of Claims,2026-10-07,"""by 7 October"", meeting date 2026-09-22",open,R2026-09-25-1,,
+A008,w37_meridian_call.txt,2,Write up the distributor interviews,Aiden Brooks,Our firm,Consultant,2026-09-17,"""by 17 September"", meeting date 2026-09-08",closed,R2026-09-11-1,R2026-10-02-1,w40_meridian_call.txt line 4

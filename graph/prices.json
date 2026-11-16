@@ -1,0 +1,14 @@
+{
+  "source": "Claude pricing page, https://platform.claude.com/docs/en/about-claude/pricing, read 16 Nov 2026 (WORK-10-DESIGN.md section 2). US dollars per million tokens. A request's prompt length counts all of its input tokens, including cache reads and cache writes; Haiku 5.5 prices a call by that length, over 100,000 tokens at the second tier. Opus 5.5 is one price across its 1M context. Every call is priced from its own fresh, cache-write and cache-read tokens (decision 12).",
+  "claude-haiku-5-5": {
+    "tiers": [
+      { "max_prompt_tokens": 100000, "input": 0.10, "cache_write_5m": 0.125, "cache_read": 0.01, "output": 0.50 },
+      { "max_prompt_tokens": null,   "input": 0.50, "cache_write_5m": 0.625, "cache_read": 0.05, "output": 2.50 }
+    ]
+  },
+  "claude-opus-5-5": {
+    "tiers": [
+      { "max_prompt_tokens": null, "input": 4.00, "cache_write_5m": 5.00, "cache_read": 0.20, "output": 20.00 }
+    ]
+  }
+}

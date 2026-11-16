@@ -1,0 +1,166 @@
+{
+  "recall": {
+    "01_clean": {
+      "found": 22,
+      "of": 22,
+      "recall": 1,
+      "missed": []
+    },
+    "02_disagreement": {
+      "found": 23,
+      "of": 23,
+      "recall": 1,
+      "missed": []
+    },
+    "03_change": {
+      "found": 22,
+      "of": 22,
+      "recall": 1,
+      "missed": []
+    },
+    "04_gap": {
+      "found": 20,
+      "of": 20,
+      "recall": 1,
+      "missed": []
+    },
+    "05_inference": {
+      "found": 23,
+      "of": 23,
+      "recall": 1,
+      "missed": []
+    },
+    "06_confidential": {
+      "found": 20,
+      "of": 20,
+      "recall": 1,
+      "missed": []
+    },
+    "state_b": {
+      "found": 22,
+      "of": 22,
+      "recall": 1,
+      "missed": []
+    },
+    "state_a": {
+      "found": 24,
+      "of": 24,
+      "recall": 1,
+      "missed": []
+    }
+  },
+  "weeks": {
+    "01_clean": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "supplier_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    },
+    "02_disagreement": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "supplier_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    },
+    "03_change": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "supplier_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    },
+    "04_gap": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "supplier_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    },
+    "05_inference": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "supplier_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    },
+    "06_confidential": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    },
+    "state_b": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "supplier_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    },
+    "state_a": {
+      "kept_files": [
+        "answers.csv",
+        "brief_previous.md",
+        "decision_log.csv",
+        "merged.csv",
+        "project_note.md",
+        "risk_note.md",
+        "supplier_note.md",
+        "tracker.csv"
+      ],
+      "fallback": [
+        "merged.csv"
+      ]
+    }
+  }
+}

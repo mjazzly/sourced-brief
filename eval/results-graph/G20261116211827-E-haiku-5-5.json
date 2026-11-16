@@ -1,0 +1,145 @@
+{
+  "label": "G20261116211827-E-haiku-5-5",
+  "work": "WORK-10",
+  "arm": "E",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "stage": 2,
+  "counted": false,
+  "max_calls": 120,
+  "command": "node eval/run_eval.js --arm one --model claude-haiku-5-5 --max-calls 120 --only 01_clean",
+  "cost_usd": 0.06674,
+  "cost_is_upper_bound": true,
+  "cost_by_brief_usd": {},
+  "model_calls": 4,
+  "node_cost_usd": 0.01334801,
+  "verdict": {
+    "cases_matched": 0,
+    "of_cases": 1,
+    "state_matched": 0,
+    "of_state": 0,
+    "claims_verified": 42,
+    "of_claims": 48,
+    "unsourced_caught": 2,
+    "gates_held": 0,
+    "of_gates": 0,
+    "wording_identical": null,
+    "passed": false
+  },
+  "seconds": 52.1,
+  "forecast_usd": 0.12656,
+  "cache_check": {
+    "ok": true,
+    "detail": [
+      "eval/run_eval.js sets top-level cache_control {type: 'ephemeral'} on every call unless --no-cache; the E command does not pass --no-cache"
+    ]
+  },
+  "prices": "graph/prices.json",
+  "framework_version": {
+    "node": "v24.18.0",
+    "server_version": "1.3.0"
+  },
+  "node_record": {
+    "label": "W202611162118-one-haiku-5-5",
+    "run_id": "W202611162118",
+    "date": "2026-11-16",
+    "started_at": "2026-11-16T21:18:27.447Z",
+    "mode": "one case",
+    "blind": true,
+    "counted": false,
+    "skill_version": "v1.3",
+    "server_version": "1.3.0",
+    "model": "claude-haiku-5-5",
+    "effort": null,
+    "briefs": 8,
+    "model_calls": 4,
+    "tokens": {
+      "input": 10,
+      "output": 12973,
+      "cache_read": 67676,
+      "cache_write": 49470
+    },
+    "total_input": 117156,
+    "cost_usd": 0.01334801,
+    "cost_per_brief_usd": 0.00166850125,
+    "cache": true,
+    "completed": true,
+    "error": null,
+    "verdict": {
+      "cases_matched": 0,
+      "of_cases": 1,
+      "state_matched": 0,
+      "of_state": 0,
+      "claims_verified": 42,
+      "of_claims": 48,
+      "unsourced_caught": 2,
+      "gates_held": 0,
+      "of_gates": 0,
+      "wording_identical": null,
+      "passed": false
+    },
+    "cases": {
+      "01_clean": {
+        "id": "01_clean",
+        "name": "01_clean. Clean week",
+        "group": "case",
+        "match": false,
+        "fails": [
+          "01_clean: missing What moved: text \"09_week44_a.xlsx\" (decision_log.csv line 7)",
+          "01_clean: missing What moved: number \"12\" (decision_log.csv line 7)",
+          "01_clean: missing What moved: text \"10_week44_b.xlsx\" (decision_log.csv line 10)",
+          "01_clean: missing What moved: number \"14\" (decision_log.csv line 10)",
+          "01_clean: missing What moved: number \"13\" (decision_log.csv line 10)",
+          "01_clean: missing What moved: number \"1\" (decision_log.csv line 10)"
+        ],
+        "facts_found": 42,
+        "facts_total": 48,
+        "removed": 2,
+        "gate": null,
+        "gate_held": null,
+        "wording_identical": null
+      }
+    },
+    "work": "WORK-09",
+    "arm": "one",
+    "arm_name": "A1",
+    "drafter_model": "claude-haiku-5-5",
+    "reviewer_model": null,
+    "checklist_sha": null,
+    "reviewer_sha": null,
+    "max_calls": 120,
+    "reviewer_max_calls": null,
+    "by_agent": {
+      "drafter": {
+        "model_calls": 4,
+        "tokens_in": 117156,
+        "tokens_out": 12973,
+        "cost_usd": 0.013348
+      }
+    },
+    "seconds": 51.8,
+    "seconds_per_brief": 6.5,
+    "seconds_by_brief": {
+      "01_clean": 51.8
+    },
+    "review": null,
+    "removed": {
+      "01_clean": [
+        {
+          "section": "what_moved",
+          "text": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+          "reasons": [
+            "decision_log.csv line 7 does not hold the number 44"
+          ]
+        },
+        {
+          "section": "what_moved",
+          "text": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+          "reasons": [
+            "decision_log.csv line 10 does not hold the number 44"
+          ]
+        }
+      ]
+    }
+  }
+}

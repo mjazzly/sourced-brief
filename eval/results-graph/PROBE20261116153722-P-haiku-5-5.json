@@ -1,0 +1,16 @@
+{
+  "label": "PROBE20261116153722-P-haiku-5-5",
+  "status": "accepted",
+  "stop_reason": "max_tokens",
+  "model": "claude-haiku-5-5",
+  "id": "msg_011Ch6DyHu3Xi4evir3mCVHc",
+  "tokens": {
+    "in": 13068,
+    "fresh": 13068,
+    "cache_read": 0,
+    "cache_write": 0,
+    "out": 1
+  },
+  "cost_usd": 0.001307,
+  "seconds": 3.41
+}
