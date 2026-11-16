@@ -1,0 +1,12 @@
+{
+  "note": "WORK-10-DESIGN.md decision 6: one fixed query per section, written from the skill's shape table only, with two values filled from list_sources ({week_ending}, {latest_run}). No query names a file. Fixed before any recall is measured; the hash of this object's templates and tokenizer goes into every record. A change after the first recall run is a new version, and the page shows every version with its recall.",
+  "version": 1,
+  "tokenizer": "lowercase; ids (action ids A001, answer ids D202610300900-Q03, run ids R2026-10-30-1 and N2026-10-29-1, dates 2026-10-30) kept whole; every other token split on non-alphanumerics; no stemming; no stopwords",
+  "templates": {
+    "what_moved": "closed this week {latest_run} reconcile read merged held",
+    "what_is_due": "open action owner due date {week_ending}",
+    "what_changed": "orders revenue returns rate average order value period value last week",
+    "decisions": "decision needed whether disagreement",
+    "open_questions": "open question owner not stated asked for"
+  }
+}

@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,w18_halden_call.txt,6,Send the carrier list for the first export,Sofia Lindqvist,Halden Logistics,Head of Procurement,2026-05-08,"""by 8 May"", meeting date 2026-04-28",open,R2026-05-01-1,,
+A002,w16_halden_call.txt,3,Book the warehouse walk-through at the Central branch,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-04-25,"""by 25 April"", meeting date 2026-04-14",open,R2026-04-17-1,,
+A003,w16_meridian_call.txt,4,Confirm the promotion calendar for the quarter,Priya Shah,Meridian Foods,Commercial Director,2026-04-21,"""by 21 April"", meeting date 2026-04-15",closed,R2026-04-17-1,R2026-05-01-1,w18_meridian_call.txt line 3
+A004,w16_meridian_call.txt,9,Share the margin by product line,Priya Shah,Meridian Foods,Commercial Director,2026-04-28,"""by 28 April"", meeting date 2026-04-15",closed,R2026-04-17-1,R2026-05-01-1,w18_meridian_call.txt line 5
+A005,w18_halden_call.txt,5,Write up the supplier interviews,Aiden Brooks,Our firm,Consultant,2026-05-05,"""by 5 May"", meeting date 2026-04-29",open,R2026-05-01-1,,
+A006,w17_northgate_call.txt,2,Send the claims extract for the last quarter,Tom Reilly,Northgate Insurance,Head of Claims,2026-05-08,"""by 8 May"", meeting date 2026-04-22",open,R2026-04-24-1,,
+A007,w17_northgate_call.txt,6,Confirm the claim types for the review,Tom Reilly,Northgate Insurance,Head of Claims,2026-04-28,"""by 28 April"", meeting date 2026-04-21",closed,R2026-04-24-1,R2026-05-01-1,w18_northgate_call.txt line 2
+A008,w17_meridian_call.txt,3,Collect the survey returns from the distributors,not stated,,,2026-05-01,"""by 1 May"", meeting date 2026-04-22",open,R2026-04-24-1,,

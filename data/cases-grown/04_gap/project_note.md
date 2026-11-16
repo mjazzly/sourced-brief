@@ -1,0 +1,10 @@
+# Project note, Halden category review, week ending 2026-10-30
+
+Status: the spend export from Sofia Lindqvist arrived on Tuesday and has been loaded.
+The category taxonomy draft is with Aiden Brooks for a final pass.
+A007, the board summary draft, is on track for 2026-11-06.
+
+
+Open question: does the spend export include the Harbour depot, or only the Central warehouse?
+
+Next review with Halden Logistics is booked for 2026-11-05.

@@ -1,0 +1,8 @@
+# the uv environment; uv.lock is committed
+.venv/
+__pycache__/
+# per-run scratch: copied week folders, the E arm's scratch repo, mock runs
+runs/
+runs-mock/
+# the embedding model cache (decision 3a), downloaded once with Megat's OK
+models/

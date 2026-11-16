@@ -1,0 +1,1094 @@
+{
+  "cap_usd": 8.0,
+  "total_usd": 1.926507,
+  "entries": [
+    {
+      "label": "S0202611161338",
+      "stage": 0,
+      "kind": "token count",
+      "cost_usd": 0.0,
+      "model_calls": 0,
+      "at": "2026-11-16T14:15:05",
+      "note": "80 count_tokens requests, free"
+    },
+    {
+      "label": "S0F202611161504",
+      "stage": 0,
+      "kind": "token count",
+      "cost_usd": 0.0,
+      "model_calls": 0,
+      "at": "2026-11-16T15:04:51",
+      "note": "8 count_tokens requests for arm F, free"
+    },
+    {
+      "label": "S0R20261116153216",
+      "stage": 0,
+      "kind": "token count",
+      "cost_usd": 0.0,
+      "model_calls": 0,
+      "at": "2026-11-16T15:37:05",
+      "note": "40 count_tokens requests after the schema change, free"
+    },
+    {
+      "label": "PROBE20261116153722-P-haiku-5-5",
+      "stage": 1,
+      "kind": "probe",
+      "cost_usd": 0.001307,
+      "model_calls": 1,
+      "at": "2026-11-16T15:37:26",
+      "note": "accepted; stop_reason max_tokens"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.00847,
+      "model_calls": 1,
+      "at": "2026-11-16T15:47:28",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008128,
+      "model_calls": 1,
+      "at": "2026-11-16T15:48:17",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007311,
+      "model_calls": 1,
+      "at": "2026-11-16T15:49:02",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008347,
+      "model_calls": 1,
+      "at": "2026-11-16T15:49:56",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009324,
+      "model_calls": 1,
+      "at": "2026-11-16T15:50:55",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007215,
+      "model_calls": 1,
+      "at": "2026-11-16T15:51:39",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008214,
+      "model_calls": 1,
+      "at": "2026-11-16T15:52:29",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116154635-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009324,
+      "model_calls": 1,
+      "at": "2026-11-16T15:53:28",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116161032-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009322,
+      "model_calls": 1,
+      "at": "2026-11-16T16:11:32",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007541,
+      "model_calls": 1,
+      "at": "2026-11-16T16:19:03",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.00853,
+      "model_calls": 1,
+      "at": "2026-11-16T16:19:55",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007749,
+      "model_calls": 1,
+      "at": "2026-11-16T16:20:41",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008011,
+      "model_calls": 1,
+      "at": "2026-11-16T16:21:32",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008444,
+      "model_calls": 1,
+      "at": "2026-11-16T16:22:24",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007307,
+      "model_calls": 1,
+      "at": "2026-11-16T16:23:08",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008967,
+      "model_calls": 1,
+      "at": "2026-11-16T16:24:04",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116161815-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008225,
+      "model_calls": 1,
+      "at": "2026-11-16T16:24:55",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008316,
+      "model_calls": 1,
+      "at": "2026-11-16T16:30:12",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008851,
+      "model_calls": 1,
+      "at": "2026-11-16T16:31:05",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.00829,
+      "model_calls": 1,
+      "at": "2026-11-16T16:31:53",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008226,
+      "model_calls": 1,
+      "at": "2026-11-16T16:32:44",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009366,
+      "model_calls": 1,
+      "at": "2026-11-16T16:33:40",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008762,
+      "model_calls": 1,
+      "at": "2026-11-16T16:34:33",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008621,
+      "model_calls": 1,
+      "at": "2026-11-16T16:35:25",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116162922-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008481,
+      "model_calls": 1,
+      "at": "2026-11-16T16:36:14",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007891,
+      "model_calls": 1,
+      "at": "2026-11-16T16:39:33",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008075,
+      "model_calls": 1,
+      "at": "2026-11-16T16:40:23",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007854,
+      "model_calls": 1,
+      "at": "2026-11-16T16:41:11",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008081,
+      "model_calls": 1,
+      "at": "2026-11-16T16:42:01",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009893,
+      "model_calls": 1,
+      "at": "2026-11-16T16:43:02",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008432,
+      "model_calls": 1,
+      "at": "2026-11-16T16:43:55",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008214,
+      "model_calls": 1,
+      "at": "2026-11-16T16:44:51",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116163844-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008639,
+      "model_calls": 1,
+      "at": "2026-11-16T16:45:45",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008138,
+      "model_calls": 1,
+      "at": "2026-11-16T16:49:32",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009206,
+      "model_calls": 1,
+      "at": "2026-11-16T16:50:30",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008672,
+      "model_calls": 1,
+      "at": "2026-11-16T16:51:23",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008689,
+      "model_calls": 1,
+      "at": "2026-11-16T16:52:15",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009912,
+      "model_calls": 1,
+      "at": "2026-11-16T16:53:17",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008098,
+      "model_calls": 1,
+      "at": "2026-11-16T16:54:05",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008705,
+      "model_calls": 1,
+      "at": "2026-11-16T16:54:57",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116164842-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007807,
+      "model_calls": 1,
+      "at": "2026-11-16T16:55:42",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007428,
+      "model_calls": 1,
+      "at": "2026-11-16T16:57:24",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008585,
+      "model_calls": 1,
+      "at": "2026-11-16T16:58:18",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007454,
+      "model_calls": 1,
+      "at": "2026-11-16T16:59:04",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007221,
+      "model_calls": 1,
+      "at": "2026-11-16T16:59:49",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.010225,
+      "model_calls": 1,
+      "at": "2026-11-16T17:01:13",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007571,
+      "model_calls": 1,
+      "at": "2026-11-16T17:02:00",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008502,
+      "model_calls": 1,
+      "at": "2026-11-16T17:03:12",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116165638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008169,
+      "model_calls": 1,
+      "at": "2026-11-16T17:04:01",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007752,
+      "model_calls": 1,
+      "at": "2026-11-16T17:07:48",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.00871,
+      "model_calls": 1,
+      "at": "2026-11-16T17:08:41",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009316,
+      "model_calls": 1,
+      "at": "2026-11-16T17:09:39",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.00821,
+      "model_calls": 1,
+      "at": "2026-11-16T17:10:29",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008434,
+      "model_calls": 1,
+      "at": "2026-11-16T17:11:19",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007674,
+      "model_calls": 1,
+      "at": "2026-11-16T17:12:02",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008266,
+      "model_calls": 1,
+      "at": "2026-11-16T17:12:51",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116170703-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008053,
+      "model_calls": 1,
+      "at": "2026-11-16T17:13:38",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008507,
+      "model_calls": 1,
+      "at": "2026-11-16T17:17:31",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008335,
+      "model_calls": 1,
+      "at": "2026-11-16T17:18:24",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009017,
+      "model_calls": 1,
+      "at": "2026-11-16T17:19:19",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007573,
+      "model_calls": 1,
+      "at": "2026-11-16T17:20:06",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.01025,
+      "model_calls": 1,
+      "at": "2026-11-16T17:21:13",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008093,
+      "model_calls": 1,
+      "at": "2026-11-16T17:22:03",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007472,
+      "model_calls": 1,
+      "at": "2026-11-16T17:22:48",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116171638-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008689,
+      "model_calls": 1,
+      "at": "2026-11-16T17:23:42",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008758,
+      "model_calls": 1,
+      "at": "2026-11-16T20:06:07",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008436,
+      "model_calls": 1,
+      "at": "2026-11-16T20:06:59",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008725,
+      "model_calls": 1,
+      "at": "2026-11-16T20:07:52",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007557,
+      "model_calls": 1,
+      "at": "2026-11-16T20:08:37",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.010829,
+      "model_calls": 1,
+      "at": "2026-11-16T20:09:45",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.006986,
+      "model_calls": 1,
+      "at": "2026-11-16T20:10:26",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008071,
+      "model_calls": 1,
+      "at": "2026-11-16T20:11:13",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116200514-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008651,
+      "model_calls": 1,
+      "at": "2026-11-16T20:12:04",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008361,
+      "model_calls": 1,
+      "at": "2026-11-16T20:16:13",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007985,
+      "model_calls": 1,
+      "at": "2026-11-16T20:17:02",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007532,
+      "model_calls": 1,
+      "at": "2026-11-16T20:17:48",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007345,
+      "model_calls": 1,
+      "at": "2026-11-16T20:18:32",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007422,
+      "model_calls": 1,
+      "at": "2026-11-16T20:19:23",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.005736,
+      "model_calls": 1,
+      "at": "2026-11-16T20:19:59",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.007985,
+      "model_calls": 1,
+      "at": "2026-11-16T20:20:46",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116201521-P-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009147,
+      "model_calls": 1,
+      "at": "2026-11-16T20:21:43",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008573,
+      "model_calls": 1,
+      "at": "2026-11-16T20:24:25",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009524,
+      "model_calls": 1,
+      "at": "2026-11-16T20:25:22",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008967,
+      "model_calls": 1,
+      "at": "2026-11-16T20:26:16",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008545,
+      "model_calls": 1,
+      "at": "2026-11-16T20:27:09",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008727,
+      "model_calls": 1,
+      "at": "2026-11-16T20:28:01",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.00763,
+      "model_calls": 1,
+      "at": "2026-11-16T20:28:45",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.008807,
+      "model_calls": 1,
+      "at": "2026-11-16T20:29:38",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116202332-F-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.009555,
+      "model_calls": 1,
+      "at": "2026-11-16T20:30:36",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.004185,
+      "model_calls": 1,
+      "at": "2026-11-16T20:43:57",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.004806,
+      "model_calls": 1,
+      "at": "2026-11-16T20:44:24",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.004407,
+      "model_calls": 1,
+      "at": "2026-11-16T20:44:48",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.002664,
+      "model_calls": 1,
+      "at": "2026-11-16T20:44:58",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003665,
+      "model_calls": 1,
+      "at": "2026-11-16T20:45:15",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003295,
+      "model_calls": 1,
+      "at": "2026-11-16T20:45:29",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003818,
+      "model_calls": 1,
+      "at": "2026-11-16T20:45:48",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116204334-K-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.004049,
+      "model_calls": 1,
+      "at": "2026-11-16T20:46:08",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003366,
+      "model_calls": 1,
+      "at": "2026-11-16T20:49:50",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003446,
+      "model_calls": 1,
+      "at": "2026-11-16T20:50:33",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003993,
+      "model_calls": 1,
+      "at": "2026-11-16T20:51:21",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003432,
+      "model_calls": 1,
+      "at": "2026-11-16T20:52:05",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003156,
+      "model_calls": 1,
+      "at": "2026-11-16T20:52:47",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.004358,
+      "model_calls": 1,
+      "at": "2026-11-16T20:53:40",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003341,
+      "model_calls": 1,
+      "at": "2026-11-16T20:54:26",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116204906-V-haiku-5-5",
+      "stage": 1,
+      "kind": "brief",
+      "cost_usd": 0.003648,
+      "model_calls": 1,
+      "at": "2026-11-16T20:55:15",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116211827-E-haiku-5-5",
+      "stage": 2,
+      "kind": "E probe",
+      "cost_usd": 0.06674,
+      "model_calls": 4,
+      "at": "2026-11-16T21:19:19",
+      "note": "Node harness; its own figure US$0.01334801"
+    },
+    {
+      "label": "G20261116212543-E-haiku-5-5",
+      "stage": 2,
+      "kind": "E probe",
+      "cost_usd": 0.061158,
+      "model_calls": 4,
+      "at": "2026-11-16T21:26:29",
+      "note": "Node harness; its own figure US$0.012231515"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.11146,
+      "model_calls": 1,
+      "at": "2026-11-16T21:35:03",
+      "note": "01_clean"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.10706,
+      "model_calls": 1,
+      "at": "2026-11-16T21:35:58",
+      "note": "02_disagreement"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.111375,
+      "model_calls": 1,
+      "at": "2026-11-16T21:36:59",
+      "note": "03_change"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.107578,
+      "model_calls": 1,
+      "at": "2026-11-16T21:37:56",
+      "note": "04_gap"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.127388,
+      "model_calls": 1,
+      "at": "2026-11-16T21:39:24",
+      "note": "05_inference"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.105907,
+      "model_calls": 1,
+      "at": "2026-11-16T21:40:17",
+      "note": "06_confidential"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.107122,
+      "model_calls": 1,
+      "at": "2026-11-16T21:41:13",
+      "note": "state_b"
+    },
+    {
+      "label": "G20261116213400-PG-haiku-5-5",
+      "stage": 2,
+      "kind": "brief",
+      "cost_usd": 0.121382,
+      "model_calls": 1,
+      "at": "2026-11-16T21:42:31",
+      "note": "state_a"
+    },
+    {
+      "label": "G20261116214312-E-haiku-5-5",
+      "stage": 2,
+      "kind": "run",
+      "cost_usd": 0.093393,
+      "model_calls": 35,
+      "at": "2026-11-16T21:49:24",
+      "note": "Node harness; its own figure US$0.093392645"
+    }
+  ],
+  "holds": [
+    {
+      "stage": 1,
+      "why": "G20261116154635-P-haiku-5-5: 2 brief(s) ended on max_tokens: 05_inference, state_a",
+      "at": "2026-11-16T15:53:28",
+      "released": "2026-11-16T16:11:43"
+    }
+  ]
+}

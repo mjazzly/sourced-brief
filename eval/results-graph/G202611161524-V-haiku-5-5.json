@@ -1,0 +1,257 @@
+{
+  "label": "G202611161524-V-haiku-5-5",
+  "run_id": "G202611161524",
+  "date": "20261116",
+  "started_at": "202611161524",
+  "mode": "harness",
+  "blind": true,
+  "counted": false,
+  "skill_version": "v1.3-graph",
+  "server_version": "1.3.0",
+  "model": "claude-haiku-5-5",
+  "effort": null,
+  "briefs": 0,
+  "model_calls": 0,
+  "tokens": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "total_input": 0,
+  "cost_usd": 0.0,
+  "cost_per_brief_usd": 0.0,
+  "cache": false,
+  "completed": false,
+  "error": "AnthropicInvalidRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'The compiled grammar is too large, which would cause performance issues. Simplify your tool schemas or reduce the number of strict tools.'}, 'request_id': 'req_011Ch6D4E4d1LjhUdMMW4Bhc'}",
+  "verdict": {
+    "cases_matched": 0,
+    "of_cases": 6,
+    "state_matched": 0,
+    "of_state": 2,
+    "claims_verified": 0,
+    "of_claims": 0,
+    "unsourced_caught": 0,
+    "gates_held": 0,
+    "of_gates": 4,
+    "wording_identical": null,
+    "passed": false
+  },
+  "cases": {
+    "01_clean": {
+      "id": "01_clean",
+      "name": "01_clean. Clean week",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "01_clean: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "02_disagreement": {
+      "id": "02_disagreement",
+      "name": "02_disagreement. A disagreement",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "02_disagreement: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": "disagreement",
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "03_change": {
+      "id": "03_change",
+      "name": "03_change. A change since last week",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "03_change: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "04_gap": {
+      "id": "04_gap",
+      "name": "04_gap. A section with no source",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "04_gap: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": "no_source",
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "05_inference": {
+      "id": "05_inference",
+      "name": "05_inference. A tempting inference",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "05_inference: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": "arithmetic",
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "06_confidential": {
+      "id": "06_confidential",
+      "name": "06_confidential. A confidential source",
+      "group": "case",
+      "match": false,
+      "fails": [
+        "06_confidential: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": "confidential",
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_a": {
+      "id": "state_a",
+      "name": "state_a. State A: one new document",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_a: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    },
+    "state_b": {
+      "id": "state_b",
+      "name": "state_b. State B: identical inputs, identical page",
+      "group": "state",
+      "match": false,
+      "fails": [
+        "state_b: no page was released"
+      ],
+      "facts_found": 0,
+      "facts_total": 0,
+      "removed": 0,
+      "gate": null,
+      "gate_held": null,
+      "wording_identical": null
+    }
+  },
+  "work": "WORK-10",
+  "arm": "V",
+  "arm_name": "V",
+  "drafter_model": "claude-haiku-5-5",
+  "reviewer_model": null,
+  "checklist_sha": null,
+  "reviewer_sha": null,
+  "max_calls": 1,
+  "reviewer_max_calls": null,
+  "by_agent": {
+    "drafter": {
+      "model_calls": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cost_usd": 0.0
+    }
+  },
+  "seconds": 0,
+  "seconds_per_brief": 0.0,
+  "seconds_by_brief": {},
+  "review": null,
+  "removed": [],
+  "retriever": "vector",
+  "lines_per_section": 20,
+  "outside_verdict": true,
+  "note": "illustration, outside the verdict (section 6, revised plan)",
+  "index_entries": {},
+  "index_seconds": {},
+  "recall_by_case": {
+    "01_clean": {
+      "found": 0,
+      "of": 22,
+      "recall": 0
+    },
+    "02_disagreement": {
+      "found": 0,
+      "of": 23,
+      "recall": 0
+    },
+    "03_change": {
+      "found": 0,
+      "of": 22,
+      "recall": 0
+    },
+    "04_gap": {
+      "found": 0,
+      "of": 20,
+      "recall": 0
+    },
+    "05_inference": {
+      "found": 0,
+      "of": 23,
+      "recall": 0
+    },
+    "06_confidential": {
+      "found": 0,
+      "of": 20,
+      "recall": 0
+    },
+    "state_a": {
+      "found": 0,
+      "of": 24,
+      "recall": 0
+    },
+    "state_b": {
+      "found": 0,
+      "of": 22,
+      "recall": 0
+    }
+  },
+  "retrieval_misses": [],
+  "drafting_misses": [],
+  "framework_version": {
+    "langgraph": "1.2.22",
+    "langchain": "1.5.0",
+    "langchain-core": "1.8.1",
+    "langchain-anthropic": "1.7.10",
+    "anthropic": "2.8.0",
+    "mcp": "2.3.0",
+    "fastmcp": "4.2.0",
+    "bm25s": "0.3.16",
+    "fastembed": "0.9.1",
+    "uv_lock_sha": "546c6d414fee",
+    "python": "3.12.13"
+  },
+  "queries_version": 1,
+  "queries_hash": "0cf884ee0e52043ad02034644dbb3eaaa36880f2af8ff13e0a489f71522f2f1c",
+  "instructions_sha": "2a09b547034b",
+  "mcp_route": "adapter",
+  "stage": 1,
+  "forecast_usd": 0.053829999999999996,
+  "prices": "graph/prices.json",
+  "folder": "data/cases-grown",
+  "expected_opened_by_graph": [],
+  "truncated_briefs": []
+}

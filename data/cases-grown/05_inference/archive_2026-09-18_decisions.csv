@@ -1,0 +1,7 @@
+run_id,at,file,step,source,target,result,detail
+N2026-09-10-1,2026-09-10T09:21:00,week37_b.xlsx,header,,,found,header on row 1
+N2026-09-10-1,2026-09-10T09:21:00,week37_b.xlsx,map,Store,branch,mapped,synonym of branch
+N2026-09-10-1,2026-09-10T09:21:02,week37_b.xlsx,reconcile,,,ok,9 read = 9 merged + 0 held + 0 removed
+N2026-09-17-1,2026-09-17T09:30:00,week38.xlsx,header,,,found,header on row 1
+N2026-09-17-1,2026-09-17T09:30:00,week38.xlsx,map,Store,branch,mapped,synonym of branch
+N2026-09-17-1,2026-09-17T09:30:02,week38.xlsx,reconcile,,,ok,13 read = 13 merged + 0 held + 0 removed

@@ -1,0 +1,20 @@
+[project]
+name = "sourced-brief-graph"
+version = "0.1.0"
+description = "WORK-10: the sourced brief as a LangGraph state graph over the existing tool server, with keyword and vector retrieval over a grown week. Synthetic data only."
+requires-python = "==3.12.*"
+# Every direct dependency pinned exactly (WORK-10-DESIGN.md, decision 4a), read from PyPI on 16 Nov 2026.
+# uv.lock records every transitive version; framework_version in each record points at it.
+dependencies = [
+    "langgraph==1.2.22",
+    "langchain-core==1.8.1",
+    "langchain[mcp]==1.5.0",
+    "langchain-anthropic==1.7.10",
+    "anthropic==2.8.0",          # token counting for stage 0 (messages.count_tokens)
+    "mcp==2.3.0",                # decision 7b, the official SDK, if MCPAdapter fails its one attempt
+    "bm25s==0.3.16",
+    "fastembed==0.9.1",
+]
+
+[tool.uv]
+package = false

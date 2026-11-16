@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,w21_halden_call.txt,7,Share the depot map for the category review,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-05-31,"""by 31 May"", meeting date 2026-05-20",open,R2026-05-22-1,,
+A002,w21_halden_call.txt,2,Confirm the cost centre codes for the export,Sofia Lindqvist,Halden Logistics,Head of Procurement,2026-05-30,"""by 30 May"", meeting date 2026-05-20",open,R2026-05-22-1,,
+A003,w19_meridian_call.txt,8,Send the current distributor list,Priya Shah,Meridian Foods,Commercial Director,2026-05-22,"""by 22 May"", meeting date 2026-05-06",open,R2026-05-08-1,,
+A004,w20_meridian_call.txt,7,Draft the pricing survey for the distributors,Aiden Brooks,Our firm,Consultant,2026-05-20,"""by 20 May"", meeting date 2026-05-12",closed,R2026-05-15-1,R2026-05-22-1,w21_meridian_call.txt line 4
+A005,w18_halden_call.txt,5,Write up the supplier interviews,Aiden Brooks,Our firm,Consultant,2026-05-05,"""by 5 May"", meeting date 2026-04-29",closed,R2026-05-01-1,R2026-05-22-1,w21_halden_call.txt line 6
+A006,w17_northgate_call.txt,2,Send the claims extract for the last quarter,Tom Reilly,Northgate Insurance,Head of Claims,2026-05-08,"""by 8 May"", meeting date 2026-04-22",closed,R2026-04-24-1,R2026-05-22-1,w21_northgate_call.txt line 8
+A007,w20_northgate_call.txt,8,Set the date for the board pre-read,not stated,,,2026-05-19,"""by 19 May"", meeting date 2026-05-13",open,R2026-05-15-1,,
+A008,w17_meridian_call.txt,3,Collect the survey returns from the distributors,not stated,,,2026-05-01,"""by 1 May"", meeting date 2026-04-22",closed,R2026-04-24-1,R2026-05-22-1,w21_meridian_call.txt line 7

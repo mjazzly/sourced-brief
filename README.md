@@ -138,6 +138,30 @@ node eval/run_eval.js --arm reviewer --model claude-haiku-5-5
 
 **The verdict rule, fixed before the first run:** B earns its place only if it meets the bar in more of its five runs than A2 and its median cost a brief stays below the ceiling's median over its three runs. If A2 meets the bar in as many of five runs as B, or more, the second agent is folded, and the review step stays in the skill only if A2 meets the bar in more of five runs than A1. Ties go to the arm with fewer parts. If neither A2 nor B meets the bar in any run, the page says so and names every miss.
 
+## WORK-10: when the week no longer fits in one read
+
+The same job and the same checker on a week grown from six files to about two hundred, in Python on LangGraph, with the existing tool server unchanged behind it. The design and every decision are in `WORK-10-DESIGN.md`. All new code is in `graph/`; nothing in `lib/`, `server.js`, `eval/check.js`, `eval/run_eval.js`, `eval/expected/`, `data/cases/`, `data/week/`, `skill/SKILL.md`, `arms/` or the WORK-09 records changes.
+
+**The grown week.** `node graph/make_grown.mjs` copies each `data/cases/<case>` folder byte for byte into `data/cases-grown/<case>` and writes 200 archive files beside the six: 25 earlier weeks of project, supplier, meeting and risk notes, released briefs, and tracker, answers and decision log snapshots, with near misses on purpose (the same metrics with older values, older actions under the same ids). `node graph/prove_grown.mjs` proves, before any model call, that the archive fires no gate the six-file case does not fire: the six files identical, the archive's shape, the declined lists, every tracker date claim, every expected sentence through the checker, a forbidden scan, and a scripted stand-in through the real server meeting the bar.
+
+**The graph** (`graph/sb_graph.py`): sources (list and read every file through the server's tools), retrieve (build the index, pick the lines), draft (one model call, JSON schema output), record_stops (the server's `stop` tool), wait (a LangGraph `interrupt()` on a disagreement; the runner plays the person with the fixed answer in `eval/answers.txt`), submit (`draft_brief` once), record. The server is reached over MCP with `langchain.mcp.MCPAdapter`, one `server.js` process and one session a brief. The index has one entry per line or row with its reference in the server's grammar; K searches it with BM25 (`bm25s`), V with a local embedding model (`fastembed`, `BAAI/bge-small-en-v1.5`, in `graph/models/`, no key) in `InMemoryVectorStore`. The five section queries are fixed and hashed in `graph/queries.json`.
+
+**The arms:** P the graph reading every entry of `data/cases`; PG every entry of `data/cases-grown`; E the Node harness as it stands, run on the grown week in a scratch copy of the repo; K and V the top 20 lines a section of the grown week. `graph/check_case.mjs` is the one checker (it imports `eval/check.js`) and the only reader of `eval/expected/` in a run; it also names each miss a retrieval miss or a drafting miss, and measures recall in stage 0.
+
+```bash
+cd graph && uv sync                                   # Python 3.12 and the pinned packages, from uv.lock
+uv run run.py --arm P --mock                          # no API call: a local stand-in; never recorded (also PG, K, V, E)
+uv run run.py stage0                                  # recall and the captured requests; no API call
+uv run run.py stage0 --count                          # adds the token counts (free endpoint) and the forecast
+uv run run.py --arm K --model claude-haiku-5-5 --stage 1
+```
+
+Each paid run is priced call by call from `graph/prices.json` (both Haiku 5.5 tiers) and entered in the spend ledger `eval/results-graph/spend.json`, capped at US$8.00; a run whose forecast would pass the cap is refused, and one whose cost passes twice its forecast holds its stage. Records go to `eval/results-graph/<label>.json` with a trace per brief.
+
+**The results page** is `eval/GRAPH.md`, rebuilt from the records with `node graph/page.mjs`.
+
+The stage 0 request captures (`eval/results-graph/stage0/requests/` and `recount-*/`) are not committed: `uv run run.py stage0` rebuilds them (`--arm F` for arm F's, `--recount` for the recount, which calls the free token counting endpoint), and their token counts are in `eval/results-graph/forecast.json`.
+
 ## Limits
 
 One synthetic week folder; six source files in the shapes of the three earlier builds; five fixed sections; the disagreement rule reads an action id and a date on one document line; a name is any two capitalised words; one brief per week folder; a number is checked as present at its source, not for what the sentence uses it to count; no chart, no export, no external system connected.

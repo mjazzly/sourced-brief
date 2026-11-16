@@ -1,0 +1,2588 @@
+{
+  "label": "G20261116202332-F-haiku-5-5",
+  "case": "01_clean",
+  "case_id": "01_clean",
+  "arm": "F",
+  "k": null,
+  "has_fixed_answer": false,
+  "week_ending": "2026-10-30",
+  "latest_run": "R2026-10-30-1",
+  "files": [
+    "answers.csv",
+    "archive_2026-05-01_answers.csv",
+    "archive_2026-05-01_brief.md",
+    "archive_2026-05-01_decisions.csv",
+    "archive_2026-05-01_meeting.md",
+    "archive_2026-05-01_project.md",
+    "archive_2026-05-01_risk.md",
+    "archive_2026-05-01_supplier.md",
+    "archive_2026-05-01_tracker.csv",
+    "archive_2026-05-08_answers.csv",
+    "archive_2026-05-08_brief.md",
+    "archive_2026-05-08_decisions.csv",
+    "archive_2026-05-08_meeting.md",
+    "archive_2026-05-08_project.md",
+    "archive_2026-05-08_risk.md",
+    "archive_2026-05-08_supplier.md",
+    "archive_2026-05-08_tracker.csv",
+    "archive_2026-05-15_answers.csv",
+    "archive_2026-05-15_brief.md",
+    "archive_2026-05-15_decisions.csv",
+    "archive_2026-05-15_meeting.md",
+    "archive_2026-05-15_project.md",
+    "archive_2026-05-15_risk.md",
+    "archive_2026-05-15_supplier.md",
+    "archive_2026-05-15_tracker.csv",
+    "archive_2026-05-22_answers.csv",
+    "archive_2026-05-22_brief.md",
+    "archive_2026-05-22_decisions.csv",
+    "archive_2026-05-22_meeting.md",
+    "archive_2026-05-22_project.md",
+    "archive_2026-05-22_risk.md",
+    "archive_2026-05-22_supplier.md",
+    "archive_2026-05-22_tracker.csv",
+    "archive_2026-05-29_answers.csv",
+    "archive_2026-05-29_brief.md",
+    "archive_2026-05-29_decisions.csv",
+    "archive_2026-05-29_meeting.md",
+    "archive_2026-05-29_project.md",
+    "archive_2026-05-29_risk.md",
+    "archive_2026-05-29_supplier.md",
+    "archive_2026-05-29_tracker.csv",
+    "archive_2026-06-05_answers.csv",
+    "archive_2026-06-05_brief.md",
+    "archive_2026-06-05_decisions.csv",
+    "archive_2026-06-05_meeting.md",
+    "archive_2026-06-05_project.md",
+    "archive_2026-06-05_risk.md",
+    "archive_2026-06-05_supplier.md",
+    "archive_2026-06-05_tracker.csv",
+    "archive_2026-06-12_answers.csv",
+    "archive_2026-06-12_brief.md",
+    "archive_2026-06-12_decisions.csv",
+    "archive_2026-06-12_meeting.md",
+    "archive_2026-06-12_project.md",
+    "archive_2026-06-12_risk.md",
+    "archive_2026-06-12_supplier.md",
+    "archive_2026-06-12_tracker.csv",
+    "archive_2026-06-19_answers.csv",
+    "archive_2026-06-19_brief.md",
+    "archive_2026-06-19_decisions.csv",
+    "archive_2026-06-19_meeting.md",
+    "archive_2026-06-19_project.md",
+    "archive_2026-06-19_risk.md",
+    "archive_2026-06-19_supplier.md",
+    "archive_2026-06-19_tracker.csv",
+    "archive_2026-06-26_answers.csv",
+    "archive_2026-06-26_brief.md",
+    "archive_2026-06-26_decisions.csv",
+    "archive_2026-06-26_meeting.md",
+    "archive_2026-06-26_project.md",
+    "archive_2026-06-26_risk.md",
+    "archive_2026-06-26_supplier.md",
+    "archive_2026-06-26_tracker.csv",
+    "archive_2026-07-03_answers.csv",
+    "archive_2026-07-03_brief.md",
+    "archive_2026-07-03_decisions.csv",
+    "archive_2026-07-03_meeting.md",
+    "archive_2026-07-03_project.md",
+    "archive_2026-07-03_risk.md",
+    "archive_2026-07-03_supplier.md",
+    "archive_2026-07-03_tracker.csv",
+    "archive_2026-07-10_answers.csv",
+    "archive_2026-07-10_brief.md",
+    "archive_2026-07-10_decisions.csv",
+    "archive_2026-07-10_meeting.md",
+    "archive_2026-07-10_project.md",
+    "archive_2026-07-10_risk.md",
+    "archive_2026-07-10_supplier.md",
+    "archive_2026-07-10_tracker.csv",
+    "archive_2026-07-17_answers.csv",
+    "archive_2026-07-17_brief.md",
+    "archive_2026-07-17_decisions.csv",
+    "archive_2026-07-17_meeting.md",
+    "archive_2026-07-17_project.md",
+    "archive_2026-07-17_risk.md",
+    "archive_2026-07-17_supplier.md",
+    "archive_2026-07-17_tracker.csv",
+    "archive_2026-07-24_answers.csv",
+    "archive_2026-07-24_brief.md",
+    "archive_2026-07-24_decisions.csv",
+    "archive_2026-07-24_meeting.md",
+    "archive_2026-07-24_project.md",
+    "archive_2026-07-24_risk.md",
+    "archive_2026-07-24_supplier.md",
+    "archive_2026-07-24_tracker.csv",
+    "archive_2026-07-31_answers.csv",
+    "archive_2026-07-31_brief.md",
+    "archive_2026-07-31_decisions.csv",
+    "archive_2026-07-31_meeting.md",
+    "archive_2026-07-31_project.md",
+    "archive_2026-07-31_risk.md",
+    "archive_2026-07-31_supplier.md",
+    "archive_2026-07-31_tracker.csv",
+    "archive_2026-08-07_answers.csv",
+    "archive_2026-08-07_brief.md",
+    "archive_2026-08-07_decisions.csv",
+    "archive_2026-08-07_meeting.md",
+    "archive_2026-08-07_project.md",
+    "archive_2026-08-07_risk.md",
+    "archive_2026-08-07_supplier.md",
+    "archive_2026-08-07_tracker.csv",
+    "archive_2026-08-14_answers.csv",
+    "archive_2026-08-14_brief.md",
+    "archive_2026-08-14_decisions.csv",
+    "archive_2026-08-14_meeting.md",
+    "archive_2026-08-14_project.md",
+    "archive_2026-08-14_risk.md",
+    "archive_2026-08-14_supplier.md",
+    "archive_2026-08-14_tracker.csv",
+    "archive_2026-08-21_answers.csv",
+    "archive_2026-08-21_brief.md",
+    "archive_2026-08-21_decisions.csv",
+    "archive_2026-08-21_meeting.md",
+    "archive_2026-08-21_project.md",
+    "archive_2026-08-21_risk.md",
+    "archive_2026-08-21_supplier.md",
+    "archive_2026-08-21_tracker.csv",
+    "archive_2026-08-28_answers.csv",
+    "archive_2026-08-28_brief.md",
+    "archive_2026-08-28_decisions.csv",
+    "archive_2026-08-28_meeting.md",
+    "archive_2026-08-28_project.md",
+    "archive_2026-08-28_risk.md",
+    "archive_2026-08-28_supplier.md",
+    "archive_2026-08-28_tracker.csv",
+    "archive_2026-09-04_answers.csv",
+    "archive_2026-09-04_brief.md",
+    "archive_2026-09-04_decisions.csv",
+    "archive_2026-09-04_meeting.md",
+    "archive_2026-09-04_project.md",
+    "archive_2026-09-04_risk.md",
+    "archive_2026-09-04_supplier.md",
+    "archive_2026-09-04_tracker.csv",
+    "archive_2026-09-11_answers.csv",
+    "archive_2026-09-11_brief.md",
+    "archive_2026-09-11_decisions.csv",
+    "archive_2026-09-11_meeting.md",
+    "archive_2026-09-11_project.md",
+    "archive_2026-09-11_risk.md",
+    "archive_2026-09-11_supplier.md",
+    "archive_2026-09-11_tracker.csv",
+    "archive_2026-09-18_answers.csv",
+    "archive_2026-09-18_brief.md",
+    "archive_2026-09-18_decisions.csv",
+    "archive_2026-09-18_meeting.md",
+    "archive_2026-09-18_project.md",
+    "archive_2026-09-18_risk.md",
+    "archive_2026-09-18_supplier.md",
+    "archive_2026-09-18_tracker.csv",
+    "archive_2026-09-25_answers.csv",
+    "archive_2026-09-25_brief.md",
+    "archive_2026-09-25_decisions.csv",
+    "archive_2026-09-25_meeting.md",
+    "archive_2026-09-25_project.md",
+    "archive_2026-09-25_risk.md",
+    "archive_2026-09-25_supplier.md",
+    "archive_2026-09-25_tracker.csv",
+    "archive_2026-10-02_answers.csv",
+    "archive_2026-10-02_brief.md",
+    "archive_2026-10-02_decisions.csv",
+    "archive_2026-10-02_meeting.md",
+    "archive_2026-10-02_project.md",
+    "archive_2026-10-02_risk.md",
+    "archive_2026-10-02_supplier.md",
+    "archive_2026-10-02_tracker.csv",
+    "archive_2026-10-09_answers.csv",
+    "archive_2026-10-09_brief.md",
+    "archive_2026-10-09_decisions.csv",
+    "archive_2026-10-09_meeting.md",
+    "archive_2026-10-09_project.md",
+    "archive_2026-10-09_risk.md",
+    "archive_2026-10-09_supplier.md",
+    "archive_2026-10-09_tracker.csv",
+    "archive_2026-10-16_answers.csv",
+    "archive_2026-10-16_brief.md",
+    "archive_2026-10-16_decisions.csv",
+    "archive_2026-10-16_meeting.md",
+    "archive_2026-10-16_project.md",
+    "archive_2026-10-16_risk.md",
+    "archive_2026-10-16_supplier.md",
+    "archive_2026-10-16_tracker.csv",
+    "brief_previous.md",
+    "decision_log.csv",
+    "merged.csv",
+    "project_note.md",
+    "supplier_note.md",
+    "tracker.csv"
+  ],
+  "read": [
+    "answers.csv",
+    "archive_2026-05-01_answers.csv",
+    "archive_2026-05-01_brief.md",
+    "archive_2026-05-01_decisions.csv",
+    "archive_2026-05-01_meeting.md",
+    "archive_2026-05-01_project.md",
+    "archive_2026-05-01_risk.md",
+    "archive_2026-05-01_supplier.md",
+    "archive_2026-05-01_tracker.csv",
+    "archive_2026-05-08_answers.csv",
+    "archive_2026-05-08_brief.md",
+    "archive_2026-05-08_decisions.csv",
+    "archive_2026-05-08_meeting.md",
+    "archive_2026-05-08_project.md",
+    "archive_2026-05-08_risk.md",
+    "archive_2026-05-08_supplier.md",
+    "archive_2026-05-08_tracker.csv",
+    "archive_2026-05-15_answers.csv",
+    "archive_2026-05-15_brief.md",
+    "archive_2026-05-15_decisions.csv",
+    "archive_2026-05-15_meeting.md",
+    "archive_2026-05-15_project.md",
+    "archive_2026-05-15_risk.md",
+    "archive_2026-05-15_supplier.md",
+    "archive_2026-05-15_tracker.csv",
+    "archive_2026-05-22_answers.csv",
+    "archive_2026-05-22_brief.md",
+    "archive_2026-05-22_decisions.csv",
+    "archive_2026-05-22_meeting.md",
+    "archive_2026-05-22_project.md",
+    "archive_2026-05-22_risk.md",
+    "archive_2026-05-22_supplier.md",
+    "archive_2026-05-22_tracker.csv",
+    "archive_2026-05-29_answers.csv",
+    "archive_2026-05-29_brief.md",
+    "archive_2026-05-29_decisions.csv",
+    "archive_2026-05-29_meeting.md",
+    "archive_2026-05-29_project.md",
+    "archive_2026-05-29_risk.md",
+    "archive_2026-05-29_supplier.md",
+    "archive_2026-05-29_tracker.csv",
+    "archive_2026-06-05_answers.csv",
+    "archive_2026-06-05_brief.md",
+    "archive_2026-06-05_decisions.csv",
+    "archive_2026-06-05_meeting.md",
+    "archive_2026-06-05_project.md",
+    "archive_2026-06-05_risk.md",
+    "archive_2026-06-05_supplier.md",
+    "archive_2026-06-05_tracker.csv",
+    "archive_2026-06-12_answers.csv",
+    "archive_2026-06-12_brief.md",
+    "archive_2026-06-12_decisions.csv",
+    "archive_2026-06-12_meeting.md",
+    "archive_2026-06-12_project.md",
+    "archive_2026-06-12_risk.md",
+    "archive_2026-06-12_supplier.md",
+    "archive_2026-06-12_tracker.csv",
+    "archive_2026-06-19_answers.csv",
+    "archive_2026-06-19_brief.md",
+    "archive_2026-06-19_decisions.csv",
+    "archive_2026-06-19_meeting.md",
+    "archive_2026-06-19_project.md",
+    "archive_2026-06-19_risk.md",
+    "archive_2026-06-19_supplier.md",
+    "archive_2026-06-19_tracker.csv",
+    "archive_2026-06-26_answers.csv",
+    "archive_2026-06-26_brief.md",
+    "archive_2026-06-26_decisions.csv",
+    "archive_2026-06-26_meeting.md",
+    "archive_2026-06-26_project.md",
+    "archive_2026-06-26_risk.md",
+    "archive_2026-06-26_supplier.md",
+    "archive_2026-06-26_tracker.csv",
+    "archive_2026-07-03_answers.csv",
+    "archive_2026-07-03_brief.md",
+    "archive_2026-07-03_decisions.csv",
+    "archive_2026-07-03_meeting.md",
+    "archive_2026-07-03_project.md",
+    "archive_2026-07-03_risk.md",
+    "archive_2026-07-03_supplier.md",
+    "archive_2026-07-03_tracker.csv",
+    "archive_2026-07-10_answers.csv",
+    "archive_2026-07-10_brief.md",
+    "archive_2026-07-10_decisions.csv",
+    "archive_2026-07-10_meeting.md",
+    "archive_2026-07-10_project.md",
+    "archive_2026-07-10_risk.md",
+    "archive_2026-07-10_supplier.md",
+    "archive_2026-07-10_tracker.csv",
+    "archive_2026-07-17_answers.csv",
+    "archive_2026-07-17_brief.md",
+    "archive_2026-07-17_decisions.csv",
+    "archive_2026-07-17_meeting.md",
+    "archive_2026-07-17_project.md",
+    "archive_2026-07-17_risk.md",
+    "archive_2026-07-17_supplier.md",
+    "archive_2026-07-17_tracker.csv",
+    "archive_2026-07-24_answers.csv",
+    "archive_2026-07-24_brief.md",
+    "archive_2026-07-24_decisions.csv",
+    "archive_2026-07-24_meeting.md",
+    "archive_2026-07-24_project.md",
+    "archive_2026-07-24_risk.md",
+    "archive_2026-07-24_supplier.md",
+    "archive_2026-07-24_tracker.csv",
+    "archive_2026-07-31_answers.csv",
+    "archive_2026-07-31_brief.md",
+    "archive_2026-07-31_decisions.csv",
+    "archive_2026-07-31_meeting.md",
+    "archive_2026-07-31_project.md",
+    "archive_2026-07-31_risk.md",
+    "archive_2026-07-31_supplier.md",
+    "archive_2026-07-31_tracker.csv",
+    "archive_2026-08-07_answers.csv",
+    "archive_2026-08-07_brief.md",
+    "archive_2026-08-07_decisions.csv",
+    "archive_2026-08-07_meeting.md",
+    "archive_2026-08-07_project.md",
+    "archive_2026-08-07_risk.md",
+    "archive_2026-08-07_supplier.md",
+    "archive_2026-08-07_tracker.csv",
+    "archive_2026-08-14_answers.csv",
+    "archive_2026-08-14_brief.md",
+    "archive_2026-08-14_decisions.csv",
+    "archive_2026-08-14_meeting.md",
+    "archive_2026-08-14_project.md",
+    "archive_2026-08-14_risk.md",
+    "archive_2026-08-14_supplier.md",
+    "archive_2026-08-14_tracker.csv",
+    "archive_2026-08-21_answers.csv",
+    "archive_2026-08-21_brief.md",
+    "archive_2026-08-21_decisions.csv",
+    "archive_2026-08-21_meeting.md",
+    "archive_2026-08-21_project.md",
+    "archive_2026-08-21_risk.md",
+    "archive_2026-08-21_supplier.md",
+    "archive_2026-08-21_tracker.csv",
+    "archive_2026-08-28_answers.csv",
+    "archive_2026-08-28_brief.md",
+    "archive_2026-08-28_decisions.csv",
+    "archive_2026-08-28_meeting.md",
+    "archive_2026-08-28_project.md",
+    "archive_2026-08-28_risk.md",
+    "archive_2026-08-28_supplier.md",
+    "archive_2026-08-28_tracker.csv",
+    "archive_2026-09-04_answers.csv",
+    "archive_2026-09-04_brief.md",
+    "archive_2026-09-04_decisions.csv",
+    "archive_2026-09-04_meeting.md",
+    "archive_2026-09-04_project.md",
+    "archive_2026-09-04_risk.md",
+    "archive_2026-09-04_supplier.md",
+    "archive_2026-09-04_tracker.csv",
+    "archive_2026-09-11_answers.csv",
+    "archive_2026-09-11_brief.md",
+    "archive_2026-09-11_decisions.csv",
+    "archive_2026-09-11_meeting.md",
+    "archive_2026-09-11_project.md",
+    "archive_2026-09-11_risk.md",
+    "archive_2026-09-11_supplier.md",
+    "archive_2026-09-11_tracker.csv",
+    "archive_2026-09-18_answers.csv",
+    "archive_2026-09-18_brief.md",
+    "archive_2026-09-18_decisions.csv",
+    "archive_2026-09-18_meeting.md",
+    "archive_2026-09-18_project.md",
+    "archive_2026-09-18_risk.md",
+    "archive_2026-09-18_supplier.md",
+    "archive_2026-09-18_tracker.csv",
+    "archive_2026-09-25_answers.csv",
+    "archive_2026-09-25_brief.md",
+    "archive_2026-09-25_decisions.csv",
+    "archive_2026-09-25_meeting.md",
+    "archive_2026-09-25_project.md",
+    "archive_2026-09-25_risk.md",
+    "archive_2026-09-25_supplier.md",
+    "archive_2026-09-25_tracker.csv",
+    "archive_2026-10-02_answers.csv",
+    "archive_2026-10-02_brief.md",
+    "archive_2026-10-02_decisions.csv",
+    "archive_2026-10-02_meeting.md",
+    "archive_2026-10-02_project.md",
+    "archive_2026-10-02_risk.md",
+    "archive_2026-10-02_supplier.md",
+    "archive_2026-10-02_tracker.csv",
+    "archive_2026-10-09_answers.csv",
+    "archive_2026-10-09_brief.md",
+    "archive_2026-10-09_decisions.csv",
+    "archive_2026-10-09_meeting.md",
+    "archive_2026-10-09_project.md",
+    "archive_2026-10-09_risk.md",
+    "archive_2026-10-09_supplier.md",
+    "archive_2026-10-09_tracker.csv",
+    "archive_2026-10-16_answers.csv",
+    "archive_2026-10-16_brief.md",
+    "archive_2026-10-16_decisions.csv",
+    "archive_2026-10-16_meeting.md",
+    "archive_2026-10-16_project.md",
+    "archive_2026-10-16_risk.md",
+    "archive_2026-10-16_supplier.md",
+    "archive_2026-10-16_tracker.csv",
+    "brief_previous.md",
+    "decision_log.csv",
+    "merged.csv",
+    "project_note.md",
+    "supplier_note.md",
+    "tracker.csv"
+  ],
+  "declined": [],
+  "index_entries": 1712,
+  "index_seconds": 0.004,
+  "queries": null,
+  "retrieved_by_section": null,
+  "lines": [
+    "answers.csv D202610300900-Q01",
+    "answers.csv D202610300900-Q02",
+    "answers.csv D202610300900-Q03",
+    "answers.csv D202610300900-Q04",
+    "brief_previous.md line 1",
+    "brief_previous.md line 2",
+    "brief_previous.md line 4",
+    "brief_previous.md line 5",
+    "brief_previous.md line 7",
+    "brief_previous.md line 8",
+    "brief_previous.md line 9",
+    "brief_previous.md line 10",
+    "brief_previous.md line 12",
+    "brief_previous.md line 13",
+    "brief_previous.md line 14",
+    "brief_previous.md line 15",
+    "brief_previous.md line 16",
+    "brief_previous.md line 18",
+    "brief_previous.md line 19",
+    "brief_previous.md line 21",
+    "brief_previous.md line 22",
+    "brief_previous.md line 24",
+    "decision_log.csv line 2",
+    "decision_log.csv line 3",
+    "decision_log.csv line 4",
+    "decision_log.csv line 5",
+    "decision_log.csv line 6",
+    "decision_log.csv line 7",
+    "decision_log.csv line 8",
+    "decision_log.csv line 9",
+    "decision_log.csv line 10",
+    "merged.csv line 2",
+    "merged.csv line 3",
+    "merged.csv line 4",
+    "merged.csv line 5",
+    "merged.csv line 6",
+    "merged.csv line 7",
+    "merged.csv line 8",
+    "merged.csv line 9",
+    "merged.csv line 10",
+    "merged.csv line 11",
+    "merged.csv line 12",
+    "merged.csv line 13",
+    "merged.csv line 14",
+    "merged.csv line 15",
+    "merged.csv line 16",
+    "merged.csv line 17",
+    "merged.csv line 18",
+    "merged.csv line 19",
+    "merged.csv line 20",
+    "merged.csv line 21",
+    "merged.csv line 22",
+    "merged.csv line 23",
+    "merged.csv line 24",
+    "merged.csv line 25",
+    "merged.csv line 26",
+    "merged.csv line 27",
+    "merged.csv line 28",
+    "merged.csv line 29",
+    "merged.csv line 30",
+    "merged.csv line 31",
+    "merged.csv line 32",
+    "merged.csv line 33",
+    "merged.csv line 34",
+    "merged.csv line 35",
+    "merged.csv line 36",
+    "project_note.md line 1",
+    "project_note.md line 3",
+    "project_note.md line 4",
+    "project_note.md line 5",
+    "project_note.md line 7",
+    "project_note.md line 9",
+    "project_note.md line 11",
+    "supplier_note.md line 1",
+    "supplier_note.md line 3",
+    "supplier_note.md line 4",
+    "supplier_note.md line 6",
+    "supplier_note.md line 8",
+    "tracker.csv A001",
+    "tracker.csv A002",
+    "tracker.csv A003",
+    "tracker.csv A004",
+    "tracker.csv A005",
+    "tracker.csv A006",
+    "tracker.csv A007",
+    "tracker.csv A008"
+  ],
+  "file_weeks": {
+    "answers.csv": [
+      "2026-10-30",
+      "latest timestamp 2026-10-30"
+    ],
+    "archive_2026-05-01_answers.csv": [
+      "2026-05-01",
+      "latest timestamp 2026-05-01"
+    ],
+    "archive_2026-05-01_brief.md": [
+      "2026-05-01",
+      "line 1: \"week ending 2026-05-01\""
+    ],
+    "archive_2026-05-01_decisions.csv": [
+      "2026-05-01",
+      "latest timestamp 2026-04-30"
+    ],
+    "archive_2026-05-01_meeting.md": [
+      "2026-05-01",
+      "line 1: \"week ending 2026-05-01\""
+    ],
+    "archive_2026-05-01_project.md": [
+      "2026-05-01",
+      "line 1: \"week ending 2026-05-01\""
+    ],
+    "archive_2026-05-01_risk.md": [
+      "2026-05-01",
+      "line 1: \"week ending 2026-05-01\""
+    ],
+    "archive_2026-05-01_supplier.md": [
+      "2026-05-01",
+      "line 1: \"week ending 2026-05-01\""
+    ],
+    "archive_2026-05-01_tracker.csv": [
+      "2026-05-01",
+      "latest run id 2026-05-01"
+    ],
+    "archive_2026-05-08_answers.csv": [
+      "2026-05-08",
+      "latest timestamp 2026-05-08"
+    ],
+    "archive_2026-05-08_brief.md": [
+      "2026-05-08",
+      "line 1: \"week ending 2026-05-08\""
+    ],
+    "archive_2026-05-08_decisions.csv": [
+      "2026-05-08",
+      "latest timestamp 2026-05-07"
+    ],
+    "archive_2026-05-08_meeting.md": [
+      "2026-05-08",
+      "line 1: \"week ending 2026-05-08\""
+    ],
+    "archive_2026-05-08_project.md": [
+      "2026-05-08",
+      "line 1: \"week ending 2026-05-08\""
+    ],
+    "archive_2026-05-08_risk.md": [
+      "2026-05-08",
+      "line 1: \"week ending 2026-05-08\""
+    ],
+    "archive_2026-05-08_supplier.md": [
+      "2026-05-08",
+      "line 1: \"week ending 2026-05-08\""
+    ],
+    "archive_2026-05-08_tracker.csv": [
+      "2026-05-08",
+      "latest run id 2026-05-08"
+    ],
+    "archive_2026-05-15_answers.csv": [
+      "2026-05-15",
+      "latest timestamp 2026-05-15"
+    ],
+    "archive_2026-05-15_brief.md": [
+      "2026-05-15",
+      "line 1: \"week ending 2026-05-15\""
+    ],
+    "archive_2026-05-15_decisions.csv": [
+      "2026-05-15",
+      "latest timestamp 2026-05-14"
+    ],
+    "archive_2026-05-15_meeting.md": [
+      "2026-05-15",
+      "line 1: \"week ending 2026-05-15\""
+    ],
+    "archive_2026-05-15_project.md": [
+      "2026-05-15",
+      "line 1: \"week ending 2026-05-15\""
+    ],
+    "archive_2026-05-15_risk.md": [
+      "2026-05-15",
+      "line 1: \"week ending 2026-05-15\""
+    ],
+    "archive_2026-05-15_supplier.md": [
+      "2026-05-15",
+      "line 1: \"week ending 2026-05-15\""
+    ],
+    "archive_2026-05-15_tracker.csv": [
+      "2026-05-15",
+      "latest run id 2026-05-15"
+    ],
+    "archive_2026-05-22_answers.csv": [
+      "2026-05-22",
+      "latest timestamp 2026-05-22"
+    ],
+    "archive_2026-05-22_brief.md": [
+      "2026-05-22",
+      "line 1: \"week ending 2026-05-22\""
+    ],
+    "archive_2026-05-22_decisions.csv": [
+      "2026-05-22",
+      "latest timestamp 2026-05-21"
+    ],
+    "archive_2026-05-22_meeting.md": [
+      "2026-05-22",
+      "line 1: \"week ending 2026-05-22\""
+    ],
+    "archive_2026-05-22_project.md": [
+      "2026-05-22",
+      "line 1: \"week ending 2026-05-22\""
+    ],
+    "archive_2026-05-22_risk.md": [
+      "2026-05-22",
+      "line 1: \"week ending 2026-05-22\""
+    ],
+    "archive_2026-05-22_supplier.md": [
+      "2026-05-22",
+      "line 1: \"week ending 2026-05-22\""
+    ],
+    "archive_2026-05-22_tracker.csv": [
+      "2026-05-22",
+      "latest run id 2026-05-22"
+    ],
+    "archive_2026-05-29_answers.csv": [
+      "2026-05-29",
+      "latest timestamp 2026-05-29"
+    ],
+    "archive_2026-05-29_brief.md": [
+      "2026-05-29",
+      "line 1: \"week ending 2026-05-29\""
+    ],
+    "archive_2026-05-29_decisions.csv": [
+      "2026-05-29",
+      "latest timestamp 2026-05-28"
+    ],
+    "archive_2026-05-29_meeting.md": [
+      "2026-05-29",
+      "line 1: \"week ending 2026-05-29\""
+    ],
+    "archive_2026-05-29_project.md": [
+      "2026-05-29",
+      "line 1: \"week ending 2026-05-29\""
+    ],
+    "archive_2026-05-29_risk.md": [
+      "2026-05-29",
+      "line 1: \"week ending 2026-05-29\""
+    ],
+    "archive_2026-05-29_supplier.md": [
+      "2026-05-29",
+      "line 1: \"week ending 2026-05-29\""
+    ],
+    "archive_2026-05-29_tracker.csv": [
+      "2026-05-29",
+      "latest run id 2026-05-29"
+    ],
+    "archive_2026-06-05_answers.csv": [
+      "2026-06-05",
+      "latest timestamp 2026-06-05"
+    ],
+    "archive_2026-06-05_brief.md": [
+      "2026-06-05",
+      "line 1: \"week ending 2026-06-05\""
+    ],
+    "archive_2026-06-05_decisions.csv": [
+      "2026-06-05",
+      "latest timestamp 2026-06-04"
+    ],
+    "archive_2026-06-05_meeting.md": [
+      "2026-06-05",
+      "line 1: \"week ending 2026-06-05\""
+    ],
+    "archive_2026-06-05_project.md": [
+      "2026-06-05",
+      "line 1: \"week ending 2026-06-05\""
+    ],
+    "archive_2026-06-05_risk.md": [
+      "2026-06-05",
+      "line 1: \"week ending 2026-06-05\""
+    ],
+    "archive_2026-06-05_supplier.md": [
+      "2026-06-05",
+      "line 1: \"week ending 2026-06-05\""
+    ],
+    "archive_2026-06-05_tracker.csv": [
+      "2026-06-05",
+      "latest run id 2026-06-05"
+    ],
+    "archive_2026-06-12_answers.csv": [
+      "2026-06-12",
+      "latest timestamp 2026-06-12"
+    ],
+    "archive_2026-06-12_brief.md": [
+      "2026-06-12",
+      "line 1: \"week ending 2026-06-12\""
+    ],
+    "archive_2026-06-12_decisions.csv": [
+      "2026-06-12",
+      "latest timestamp 2026-06-11"
+    ],
+    "archive_2026-06-12_meeting.md": [
+      "2026-06-12",
+      "line 1: \"week ending 2026-06-12\""
+    ],
+    "archive_2026-06-12_project.md": [
+      "2026-06-12",
+      "line 1: \"week ending 2026-06-12\""
+    ],
+    "archive_2026-06-12_risk.md": [
+      "2026-06-12",
+      "line 1: \"week ending 2026-06-12\""
+    ],
+    "archive_2026-06-12_supplier.md": [
+      "2026-06-12",
+      "line 1: \"week ending 2026-06-12\""
+    ],
+    "archive_2026-06-12_tracker.csv": [
+      "2026-06-12",
+      "latest run id 2026-06-12"
+    ],
+    "archive_2026-06-19_answers.csv": [
+      "2026-06-19",
+      "latest timestamp 2026-06-19"
+    ],
+    "archive_2026-06-19_brief.md": [
+      "2026-06-19",
+      "line 1: \"week ending 2026-06-19\""
+    ],
+    "archive_2026-06-19_decisions.csv": [
+      "2026-06-19",
+      "latest timestamp 2026-06-18"
+    ],
+    "archive_2026-06-19_meeting.md": [
+      "2026-06-19",
+      "line 1: \"week ending 2026-06-19\""
+    ],
+    "archive_2026-06-19_project.md": [
+      "2026-06-19",
+      "line 1: \"week ending 2026-06-19\""
+    ],
+    "archive_2026-06-19_risk.md": [
+      "2026-06-19",
+      "line 1: \"week ending 2026-06-19\""
+    ],
+    "archive_2026-06-19_supplier.md": [
+      "2026-06-19",
+      "line 1: \"week ending 2026-06-19\""
+    ],
+    "archive_2026-06-19_tracker.csv": [
+      "2026-06-19",
+      "latest run id 2026-06-19"
+    ],
+    "archive_2026-06-26_answers.csv": [
+      "2026-06-26",
+      "latest timestamp 2026-06-26"
+    ],
+    "archive_2026-06-26_brief.md": [
+      "2026-06-26",
+      "line 1: \"week ending 2026-06-26\""
+    ],
+    "archive_2026-06-26_decisions.csv": [
+      "2026-06-26",
+      "latest timestamp 2026-06-25"
+    ],
+    "archive_2026-06-26_meeting.md": [
+      "2026-06-26",
+      "line 1: \"week ending 2026-06-26\""
+    ],
+    "archive_2026-06-26_project.md": [
+      "2026-06-26",
+      "line 1: \"week ending 2026-06-26\""
+    ],
+    "archive_2026-06-26_risk.md": [
+      "2026-06-26",
+      "line 1: \"week ending 2026-06-26\""
+    ],
+    "archive_2026-06-26_supplier.md": [
+      "2026-06-26",
+      "line 1: \"week ending 2026-06-26\""
+    ],
+    "archive_2026-06-26_tracker.csv": [
+      "2026-06-26",
+      "latest run id 2026-06-26"
+    ],
+    "archive_2026-07-03_answers.csv": [
+      "2026-07-03",
+      "latest timestamp 2026-07-03"
+    ],
+    "archive_2026-07-03_brief.md": [
+      "2026-07-03",
+      "line 1: \"week ending 2026-07-03\""
+    ],
+    "archive_2026-07-03_decisions.csv": [
+      "2026-07-03",
+      "latest timestamp 2026-07-02"
+    ],
+    "archive_2026-07-03_meeting.md": [
+      "2026-07-03",
+      "line 1: \"week ending 2026-07-03\""
+    ],
+    "archive_2026-07-03_project.md": [
+      "2026-07-03",
+      "line 1: \"week ending 2026-07-03\""
+    ],
+    "archive_2026-07-03_risk.md": [
+      "2026-07-03",
+      "line 1: \"week ending 2026-07-03\""
+    ],
+    "archive_2026-07-03_supplier.md": [
+      "2026-07-03",
+      "line 1: \"week ending 2026-07-03\""
+    ],
+    "archive_2026-07-03_tracker.csv": [
+      "2026-07-03",
+      "latest run id 2026-07-03"
+    ],
+    "archive_2026-07-10_answers.csv": [
+      "2026-07-10",
+      "latest timestamp 2026-07-10"
+    ],
+    "archive_2026-07-10_brief.md": [
+      "2026-07-10",
+      "line 1: \"week ending 2026-07-10\""
+    ],
+    "archive_2026-07-10_decisions.csv": [
+      "2026-07-10",
+      "latest timestamp 2026-07-09"
+    ],
+    "archive_2026-07-10_meeting.md": [
+      "2026-07-10",
+      "line 1: \"week ending 2026-07-10\""
+    ],
+    "archive_2026-07-10_project.md": [
+      "2026-07-10",
+      "line 1: \"week ending 2026-07-10\""
+    ],
+    "archive_2026-07-10_risk.md": [
+      "2026-07-10",
+      "line 1: \"week ending 2026-07-10\""
+    ],
+    "archive_2026-07-10_supplier.md": [
+      "2026-07-10",
+      "line 1: \"week ending 2026-07-10\""
+    ],
+    "archive_2026-07-10_tracker.csv": [
+      "2026-07-10",
+      "latest run id 2026-07-10"
+    ],
+    "archive_2026-07-17_answers.csv": [
+      "2026-07-17",
+      "latest timestamp 2026-07-17"
+    ],
+    "archive_2026-07-17_brief.md": [
+      "2026-07-17",
+      "line 1: \"week ending 2026-07-17\""
+    ],
+    "archive_2026-07-17_decisions.csv": [
+      "2026-07-17",
+      "latest timestamp 2026-07-16"
+    ],
+    "archive_2026-07-17_meeting.md": [
+      "2026-07-17",
+      "line 1: \"week ending 2026-07-17\""
+    ],
+    "archive_2026-07-17_project.md": [
+      "2026-07-17",
+      "line 1: \"week ending 2026-07-17\""
+    ],
+    "archive_2026-07-17_risk.md": [
+      "2026-07-17",
+      "line 1: \"week ending 2026-07-17\""
+    ],
+    "archive_2026-07-17_supplier.md": [
+      "2026-07-17",
+      "line 1: \"week ending 2026-07-17\""
+    ],
+    "archive_2026-07-17_tracker.csv": [
+      "2026-07-17",
+      "latest run id 2026-07-17"
+    ],
+    "archive_2026-07-24_answers.csv": [
+      "2026-07-24",
+      "latest timestamp 2026-07-24"
+    ],
+    "archive_2026-07-24_brief.md": [
+      "2026-07-24",
+      "line 1: \"week ending 2026-07-24\""
+    ],
+    "archive_2026-07-24_decisions.csv": [
+      "2026-07-24",
+      "latest timestamp 2026-07-23"
+    ],
+    "archive_2026-07-24_meeting.md": [
+      "2026-07-24",
+      "line 1: \"week ending 2026-07-24\""
+    ],
+    "archive_2026-07-24_project.md": [
+      "2026-07-24",
+      "line 1: \"week ending 2026-07-24\""
+    ],
+    "archive_2026-07-24_risk.md": [
+      "2026-07-24",
+      "line 1: \"week ending 2026-07-24\""
+    ],
+    "archive_2026-07-24_supplier.md": [
+      "2026-07-24",
+      "line 1: \"week ending 2026-07-24\""
+    ],
+    "archive_2026-07-24_tracker.csv": [
+      "2026-07-24",
+      "latest run id 2026-07-24"
+    ],
+    "archive_2026-07-31_answers.csv": [
+      "2026-07-31",
+      "latest timestamp 2026-07-31"
+    ],
+    "archive_2026-07-31_brief.md": [
+      "2026-07-31",
+      "line 1: \"week ending 2026-07-31\""
+    ],
+    "archive_2026-07-31_decisions.csv": [
+      "2026-07-31",
+      "latest timestamp 2026-07-30"
+    ],
+    "archive_2026-07-31_meeting.md": [
+      "2026-07-31",
+      "line 1: \"week ending 2026-07-31\""
+    ],
+    "archive_2026-07-31_project.md": [
+      "2026-07-31",
+      "line 1: \"week ending 2026-07-31\""
+    ],
+    "archive_2026-07-31_risk.md": [
+      "2026-07-31",
+      "line 1: \"week ending 2026-07-31\""
+    ],
+    "archive_2026-07-31_supplier.md": [
+      "2026-07-31",
+      "line 1: \"week ending 2026-07-31\""
+    ],
+    "archive_2026-07-31_tracker.csv": [
+      "2026-07-31",
+      "latest run id 2026-07-31"
+    ],
+    "archive_2026-08-07_answers.csv": [
+      "2026-08-07",
+      "latest timestamp 2026-08-07"
+    ],
+    "archive_2026-08-07_brief.md": [
+      "2026-08-07",
+      "line 1: \"week ending 2026-08-07\""
+    ],
+    "archive_2026-08-07_decisions.csv": [
+      "2026-08-07",
+      "latest timestamp 2026-08-06"
+    ],
+    "archive_2026-08-07_meeting.md": [
+      "2026-08-07",
+      "line 1: \"week ending 2026-08-07\""
+    ],
+    "archive_2026-08-07_project.md": [
+      "2026-08-07",
+      "line 1: \"week ending 2026-08-07\""
+    ],
+    "archive_2026-08-07_risk.md": [
+      "2026-08-07",
+      "line 1: \"week ending 2026-08-07\""
+    ],
+    "archive_2026-08-07_supplier.md": [
+      "2026-08-07",
+      "line 1: \"week ending 2026-08-07\""
+    ],
+    "archive_2026-08-07_tracker.csv": [
+      "2026-08-07",
+      "latest run id 2026-08-07"
+    ],
+    "archive_2026-08-14_answers.csv": [
+      "2026-08-14",
+      "latest timestamp 2026-08-14"
+    ],
+    "archive_2026-08-14_brief.md": [
+      "2026-08-14",
+      "line 1: \"week ending 2026-08-14\""
+    ],
+    "archive_2026-08-14_decisions.csv": [
+      "2026-08-14",
+      "latest timestamp 2026-08-13"
+    ],
+    "archive_2026-08-14_meeting.md": [
+      "2026-08-14",
+      "line 1: \"week ending 2026-08-14\""
+    ],
+    "archive_2026-08-14_project.md": [
+      "2026-08-14",
+      "line 1: \"week ending 2026-08-14\""
+    ],
+    "archive_2026-08-14_risk.md": [
+      "2026-08-14",
+      "line 1: \"week ending 2026-08-14\""
+    ],
+    "archive_2026-08-14_supplier.md": [
+      "2026-08-14",
+      "line 1: \"week ending 2026-08-14\""
+    ],
+    "archive_2026-08-14_tracker.csv": [
+      "2026-08-14",
+      "latest run id 2026-08-14"
+    ],
+    "archive_2026-08-21_answers.csv": [
+      "2026-08-21",
+      "latest timestamp 2026-08-21"
+    ],
+    "archive_2026-08-21_brief.md": [
+      "2026-08-21",
+      "line 1: \"week ending 2026-08-21\""
+    ],
+    "archive_2026-08-21_decisions.csv": [
+      "2026-08-21",
+      "latest timestamp 2026-08-20"
+    ],
+    "archive_2026-08-21_meeting.md": [
+      "2026-08-21",
+      "line 1: \"week ending 2026-08-21\""
+    ],
+    "archive_2026-08-21_project.md": [
+      "2026-08-21",
+      "line 1: \"week ending 2026-08-21\""
+    ],
+    "archive_2026-08-21_risk.md": [
+      "2026-08-21",
+      "line 1: \"week ending 2026-08-21\""
+    ],
+    "archive_2026-08-21_supplier.md": [
+      "2026-08-21",
+      "line 1: \"week ending 2026-08-21\""
+    ],
+    "archive_2026-08-21_tracker.csv": [
+      "2026-08-21",
+      "latest run id 2026-08-21"
+    ],
+    "archive_2026-08-28_answers.csv": [
+      "2026-08-28",
+      "latest timestamp 2026-08-28"
+    ],
+    "archive_2026-08-28_brief.md": [
+      "2026-08-28",
+      "line 1: \"week ending 2026-08-28\""
+    ],
+    "archive_2026-08-28_decisions.csv": [
+      "2026-08-28",
+      "latest timestamp 2026-08-27"
+    ],
+    "archive_2026-08-28_meeting.md": [
+      "2026-08-28",
+      "line 1: \"week ending 2026-08-28\""
+    ],
+    "archive_2026-08-28_project.md": [
+      "2026-08-28",
+      "line 1: \"week ending 2026-08-28\""
+    ],
+    "archive_2026-08-28_risk.md": [
+      "2026-08-28",
+      "line 1: \"week ending 2026-08-28\""
+    ],
+    "archive_2026-08-28_supplier.md": [
+      "2026-08-28",
+      "line 1: \"week ending 2026-08-28\""
+    ],
+    "archive_2026-08-28_tracker.csv": [
+      "2026-08-28",
+      "latest run id 2026-08-28"
+    ],
+    "archive_2026-09-04_answers.csv": [
+      "2026-09-04",
+      "latest timestamp 2026-09-04"
+    ],
+    "archive_2026-09-04_brief.md": [
+      "2026-09-04",
+      "line 1: \"week ending 2026-09-04\""
+    ],
+    "archive_2026-09-04_decisions.csv": [
+      "2026-09-04",
+      "latest timestamp 2026-09-03"
+    ],
+    "archive_2026-09-04_meeting.md": [
+      "2026-09-04",
+      "line 1: \"week ending 2026-09-04\""
+    ],
+    "archive_2026-09-04_project.md": [
+      "2026-09-04",
+      "line 1: \"week ending 2026-09-04\""
+    ],
+    "archive_2026-09-04_risk.md": [
+      "2026-09-04",
+      "line 1: \"week ending 2026-09-04\""
+    ],
+    "archive_2026-09-04_supplier.md": [
+      "2026-09-04",
+      "line 1: \"week ending 2026-09-04\""
+    ],
+    "archive_2026-09-04_tracker.csv": [
+      "2026-09-04",
+      "latest run id 2026-09-04"
+    ],
+    "archive_2026-09-11_answers.csv": [
+      "2026-09-11",
+      "latest timestamp 2026-09-11"
+    ],
+    "archive_2026-09-11_brief.md": [
+      "2026-09-11",
+      "line 1: \"week ending 2026-09-11\""
+    ],
+    "archive_2026-09-11_decisions.csv": [
+      "2026-09-11",
+      "latest timestamp 2026-09-10"
+    ],
+    "archive_2026-09-11_meeting.md": [
+      "2026-09-11",
+      "line 1: \"week ending 2026-09-11\""
+    ],
+    "archive_2026-09-11_project.md": [
+      "2026-09-11",
+      "line 1: \"week ending 2026-09-11\""
+    ],
+    "archive_2026-09-11_risk.md": [
+      "2026-09-11",
+      "line 1: \"week ending 2026-09-11\""
+    ],
+    "archive_2026-09-11_supplier.md": [
+      "2026-09-11",
+      "line 1: \"week ending 2026-09-11\""
+    ],
+    "archive_2026-09-11_tracker.csv": [
+      "2026-09-11",
+      "latest run id 2026-09-11"
+    ],
+    "archive_2026-09-18_answers.csv": [
+      "2026-09-18",
+      "latest timestamp 2026-09-18"
+    ],
+    "archive_2026-09-18_brief.md": [
+      "2026-09-18",
+      "line 1: \"week ending 2026-09-18\""
+    ],
+    "archive_2026-09-18_decisions.csv": [
+      "2026-09-18",
+      "latest timestamp 2026-09-17"
+    ],
+    "archive_2026-09-18_meeting.md": [
+      "2026-09-18",
+      "line 1: \"week ending 2026-09-18\""
+    ],
+    "archive_2026-09-18_project.md": [
+      "2026-09-18",
+      "line 1: \"week ending 2026-09-18\""
+    ],
+    "archive_2026-09-18_risk.md": [
+      "2026-09-18",
+      "line 1: \"week ending 2026-09-18\""
+    ],
+    "archive_2026-09-18_supplier.md": [
+      "2026-09-18",
+      "line 1: \"week ending 2026-09-18\""
+    ],
+    "archive_2026-09-18_tracker.csv": [
+      "2026-09-18",
+      "latest run id 2026-09-18"
+    ],
+    "archive_2026-09-25_answers.csv": [
+      "2026-09-25",
+      "latest timestamp 2026-09-25"
+    ],
+    "archive_2026-09-25_brief.md": [
+      "2026-09-25",
+      "line 1: \"week ending 2026-09-25\""
+    ],
+    "archive_2026-09-25_decisions.csv": [
+      "2026-09-25",
+      "latest timestamp 2026-09-24"
+    ],
+    "archive_2026-09-25_meeting.md": [
+      "2026-09-25",
+      "line 1: \"week ending 2026-09-25\""
+    ],
+    "archive_2026-09-25_project.md": [
+      "2026-09-25",
+      "line 1: \"week ending 2026-09-25\""
+    ],
+    "archive_2026-09-25_risk.md": [
+      "2026-09-25",
+      "line 1: \"week ending 2026-09-25\""
+    ],
+    "archive_2026-09-25_supplier.md": [
+      "2026-09-25",
+      "line 1: \"week ending 2026-09-25\""
+    ],
+    "archive_2026-09-25_tracker.csv": [
+      "2026-09-25",
+      "latest run id 2026-09-25"
+    ],
+    "archive_2026-10-02_answers.csv": [
+      "2026-10-02",
+      "latest timestamp 2026-10-02"
+    ],
+    "archive_2026-10-02_brief.md": [
+      "2026-10-02",
+      "line 1: \"week ending 2026-10-02\""
+    ],
+    "archive_2026-10-02_decisions.csv": [
+      "2026-10-02",
+      "latest timestamp 2026-10-01"
+    ],
+    "archive_2026-10-02_meeting.md": [
+      "2026-10-02",
+      "line 1: \"week ending 2026-10-02\""
+    ],
+    "archive_2026-10-02_project.md": [
+      "2026-10-02",
+      "line 1: \"week ending 2026-10-02\""
+    ],
+    "archive_2026-10-02_risk.md": [
+      "2026-10-02",
+      "line 1: \"week ending 2026-10-02\""
+    ],
+    "archive_2026-10-02_supplier.md": [
+      "2026-10-02",
+      "line 1: \"week ending 2026-10-02\""
+    ],
+    "archive_2026-10-02_tracker.csv": [
+      "2026-10-02",
+      "latest run id 2026-10-02"
+    ],
+    "archive_2026-10-09_answers.csv": [
+      "2026-10-09",
+      "latest timestamp 2026-10-09"
+    ],
+    "archive_2026-10-09_brief.md": [
+      "2026-10-09",
+      "line 1: \"week ending 2026-10-09\""
+    ],
+    "archive_2026-10-09_decisions.csv": [
+      "2026-10-09",
+      "latest timestamp 2026-10-08"
+    ],
+    "archive_2026-10-09_meeting.md": [
+      "2026-10-09",
+      "line 1: \"week ending 2026-10-09\""
+    ],
+    "archive_2026-10-09_project.md": [
+      "2026-10-09",
+      "line 1: \"week ending 2026-10-09\""
+    ],
+    "archive_2026-10-09_risk.md": [
+      "2026-10-09",
+      "line 1: \"week ending 2026-10-09\""
+    ],
+    "archive_2026-10-09_supplier.md": [
+      "2026-10-09",
+      "line 1: \"week ending 2026-10-09\""
+    ],
+    "archive_2026-10-09_tracker.csv": [
+      "2026-10-09",
+      "latest run id 2026-10-09"
+    ],
+    "archive_2026-10-16_answers.csv": [
+      "2026-10-16",
+      "latest timestamp 2026-10-16"
+    ],
+    "archive_2026-10-16_brief.md": [
+      "2026-10-16",
+      "line 1: \"week ending 2026-10-16\""
+    ],
+    "archive_2026-10-16_decisions.csv": [
+      "2026-10-16",
+      "latest timestamp 2026-10-15"
+    ],
+    "archive_2026-10-16_meeting.md": [
+      "2026-10-16",
+      "line 1: \"week ending 2026-10-16\""
+    ],
+    "archive_2026-10-16_project.md": [
+      "2026-10-16",
+      "line 1: \"week ending 2026-10-16\""
+    ],
+    "archive_2026-10-16_risk.md": [
+      "2026-10-16",
+      "line 1: \"week ending 2026-10-16\""
+    ],
+    "archive_2026-10-16_supplier.md": [
+      "2026-10-16",
+      "line 1: \"week ending 2026-10-16\""
+    ],
+    "archive_2026-10-16_tracker.csv": [
+      "2026-10-16",
+      "latest run id 2026-10-16"
+    ],
+    "brief_previous.md": [
+      "2026-10-23",
+      "line 1: \"week ending 2026-10-23\""
+    ],
+    "decision_log.csv": [
+      "2026-10-30",
+      "latest timestamp 2026-10-29"
+    ],
+    "merged.csv": [
+      "2026-10-30",
+      "latest date in its rows (fallback: no run id or timestamp) 2026-10-26"
+    ],
+    "project_note.md": [
+      "2026-10-30",
+      "line 1: \"week ending 2026-10-30\""
+    ],
+    "supplier_note.md": [
+      "2026-10-30",
+      "line 1: \"week ending 2026-10-30\""
+    ],
+    "tracker.csv": [
+      "2026-10-30",
+      "latest run id 2026-10-30"
+    ]
+  },
+  "draft": {
+    "stops": [],
+    "sentences": [
+      {
+        "section": "what_moved",
+        "text": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A001",
+            "value": "Send the spend export for the last twelve months",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "tracker.csv A001",
+            "value": "twelve",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A001",
+            "value": "Sofia Lindqvist",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "status",
+            "ref": "tracker.csv A001",
+            "value": "closed this week",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_moved",
+        "text": "Confirm the distributor discount bands, Priya Shah: closed this week.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A003",
+            "value": "Confirm the distributor discount bands",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A003",
+            "value": "Priya Shah",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "status",
+            "ref": "tracker.csv A003",
+            "value": "closed this week",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_moved",
+        "text": "Share the claims backlog figures with the board pack, Tom Reilly: closed this week.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A006",
+            "value": "Share the claims backlog figures with the board pack",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A006",
+            "value": "Tom Reilly",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "status",
+            "ref": "tracker.csv A006",
+            "value": "closed this week",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_moved",
+        "text": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "decision_log.csv line 7",
+            "value": "09_week44_a.xlsx",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "decision_log.csv line 7",
+            "value": "12",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "decision_log.csv line 7",
+            "value": "12",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_moved",
+        "text": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "decision_log.csv line 10",
+            "value": "10_week44_b.xlsx",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "decision_log.csv line 10",
+            "value": "14",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "decision_log.csv line 10",
+            "value": "13",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "decision_log.csv line 10",
+            "value": "1",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_is_due",
+        "text": "A002 Send the draft category taxonomy, Aiden Brooks, due 2026-11-03.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A002",
+            "value": "A002",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "tracker.csv A002",
+            "value": "Send the draft category taxonomy",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A002",
+            "value": "Aiden Brooks",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "date",
+            "ref": "tracker.csv A002",
+            "value": "2026-11-03",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_is_due",
+        "text": "A005 Set up the introductions to the three logistics partners, Daniel Okafor, due 2026-11-04.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A005",
+            "value": "A005",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "tracker.csv A005",
+            "value": "Set up the introductions to the three logistics partners",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "tracker.csv A005",
+            "value": "three",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A005",
+            "value": "Daniel Okafor",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "date",
+            "ref": "tracker.csv A005",
+            "value": "2026-11-04",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_is_due",
+        "text": "A004 Send the revised price list to the distributors, owner not stated, due 2026-11-05.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A004",
+            "value": "A004",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "tracker.csv A004",
+            "value": "Send the revised price list to the distributors",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A004",
+            "value": "not stated",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "date",
+            "ref": "tracker.csv A004",
+            "value": "2026-11-05",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_is_due",
+        "text": "A007 Draft the board summary of the claims review, Aiden Brooks, due 2026-11-06.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A007",
+            "value": "A007",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "tracker.csv A007",
+            "value": "Draft the board summary of the claims review",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A007",
+            "value": "Aiden Brooks",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "date",
+            "ref": "tracker.csv A007",
+            "value": "2026-11-06",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_is_due",
+        "text": "A008 Return the signed distributor contracts, Priya Shah, due 2026-11-10.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A008",
+            "value": "A008",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "tracker.csv A008",
+            "value": "Return the signed distributor contracts",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A008",
+            "value": "Priya Shah",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "date",
+            "ref": "tracker.csv A008",
+            "value": "2026-11-10",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "what_changed",
+        "text": "Orders, September 2026: 4210; unchanged from last week.",
+        "claims": [
+          {
+            "kind": "metric",
+            "ref": "answers.csv D202610300900-Q01",
+            "value": "Orders",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "period",
+            "ref": "answers.csv D202610300900-Q01",
+            "value": "September 2026",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "change",
+            "ref": "",
+            "value": "",
+            "metric": "Orders",
+            "new_ref": "answers.csv D202610300900-Q01",
+            "new_value": "4210",
+            "old_ref": "brief_previous.md line 13",
+            "old_value": "4,210"
+          }
+        ]
+      },
+      {
+        "section": "what_changed",
+        "text": "Revenue, Q3 2026: 1,604,322.50; unchanged from last week.",
+        "claims": [
+          {
+            "kind": "metric",
+            "ref": "answers.csv D202610300900-Q02",
+            "value": "Revenue",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "period",
+            "ref": "answers.csv D202610300900-Q02",
+            "value": "Q3 2026",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "change",
+            "ref": "",
+            "value": "",
+            "metric": "Revenue",
+            "new_ref": "answers.csv D202610300900-Q02",
+            "new_value": "1,604,322.50",
+            "old_ref": "brief_previous.md line 14",
+            "old_value": "1,604,322.50"
+          }
+        ]
+      },
+      {
+        "section": "what_changed",
+        "text": "Returns rate, Q3 2026: 7.92%; unchanged from last week.",
+        "claims": [
+          {
+            "kind": "metric",
+            "ref": "answers.csv D202610300900-Q03",
+            "value": "Returns rate",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "period",
+            "ref": "answers.csv D202610300900-Q03",
+            "value": "Q3 2026",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "change",
+            "ref": "",
+            "value": "",
+            "metric": "Returns rate",
+            "new_ref": "answers.csv D202610300900-Q03",
+            "new_value": "7.92%",
+            "old_ref": "brief_previous.md line 15",
+            "old_value": "7.92%"
+          }
+        ]
+      },
+      {
+        "section": "what_changed",
+        "text": "Average order value, September 2026: 128.56; unchanged from last week.",
+        "claims": [
+          {
+            "kind": "metric",
+            "ref": "answers.csv D202610300900-Q04",
+            "value": "Average order value",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "period",
+            "ref": "answers.csv D202610300900-Q04",
+            "value": "September 2026",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "change",
+            "ref": "",
+            "value": "",
+            "metric": "Average order value",
+            "new_ref": "answers.csv D202610300900-Q04",
+            "new_value": "128.56",
+            "old_ref": "brief_previous.md line 16",
+            "old_value": "128.56"
+          }
+        ]
+      },
+      {
+        "section": "decisions",
+        "text": "\"Decision needed: whether to extend the pilot to the Riverside branch before the taxonomy is signed off.\"",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "project_note.md line 7",
+            "value": "Decision needed: whether to extend the pilot to the Riverside branch before the taxonomy is signed off.",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "decisions",
+        "text": "\"Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.\"",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "supplier_note.md line 6",
+            "value": "Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "supplier_note.md line 6",
+            "value": "Brightwater Packaging",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "supplier_note.md line 6",
+            "value": "twelve",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "number",
+            "ref": "supplier_note.md line 6",
+            "value": "six",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "open_questions",
+        "text": "A004 Send the revised price list to the distributors: owner not stated.",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "tracker.csv A004",
+            "value": "A004",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "tracker.csv A004",
+            "value": "Send the revised price list to the distributors",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "owner",
+            "ref": "tracker.csv A004",
+            "value": "not stated",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "open_questions",
+        "text": "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\"",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "project_note.md line 9",
+            "value": "Open question: does the spend export include the Harbour depot, or only the Central warehouse?",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      },
+      {
+        "section": "open_questions",
+        "text": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+        "claims": [
+          {
+            "kind": "text",
+            "ref": "supplier_note.md line 8",
+            "value": "Open question: can Brightwater Packaging hold the October price into Q1?",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          },
+          {
+            "kind": "text",
+            "ref": "supplier_note.md line 8",
+            "value": "Brightwater Packaging",
+            "metric": "",
+            "new_ref": "",
+            "new_value": "",
+            "old_ref": "",
+            "old_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "draft_error": null,
+  "model_call": {
+    "tokens": {
+      "in": 16295,
+      "fresh": 16295,
+      "cache_read": 0,
+      "cache_write": 0,
+      "out": 13887
+    },
+    "stop_reason": "end_turn",
+    "model": "claude-haiku-5-5",
+    "seconds": 51.64
+  },
+  "stops_recorded": [],
+  "answer": null,
+  "submitted": true,
+  "submit_result": {
+    "status": "RELEASED",
+    "page_file": "brief_2026-10-30.md",
+    "week_ending": "2026-10-30",
+    "sentences_released": 19,
+    "sentences_removed": 0,
+    "sections_with_no_source": [],
+    "claims_checked": 61,
+    "claims_passed": 61,
+    "removed": []
+  },
+  "draft_brief_payload": {
+    "sections": {
+      "what_moved": [
+        {
+          "text": "Send the spend export for the last twelve months, Sofia Lindqvist: closed this week.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A001",
+              "value": "Send the spend export for the last twelve months"
+            },
+            {
+              "kind": "number",
+              "ref": "tracker.csv A001",
+              "value": "twelve"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A001",
+              "value": "Sofia Lindqvist"
+            },
+            {
+              "kind": "status",
+              "ref": "tracker.csv A001",
+              "value": "closed this week"
+            }
+          ]
+        },
+        {
+          "text": "Confirm the distributor discount bands, Priya Shah: closed this week.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A003",
+              "value": "Confirm the distributor discount bands"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A003",
+              "value": "Priya Shah"
+            },
+            {
+              "kind": "status",
+              "ref": "tracker.csv A003",
+              "value": "closed this week"
+            }
+          ]
+        },
+        {
+          "text": "Share the claims backlog figures with the board pack, Tom Reilly: closed this week.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A006",
+              "value": "Share the claims backlog figures with the board pack"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A006",
+              "value": "Tom Reilly"
+            },
+            {
+              "kind": "status",
+              "ref": "tracker.csv A006",
+              "value": "closed this week"
+            }
+          ]
+        },
+        {
+          "text": "09_week44_a.xlsx: 12 rows read, 12 merged.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "decision_log.csv line 7",
+              "value": "09_week44_a.xlsx"
+            },
+            {
+              "kind": "number",
+              "ref": "decision_log.csv line 7",
+              "value": "12"
+            },
+            {
+              "kind": "number",
+              "ref": "decision_log.csv line 7",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "text": "10_week44_b.xlsx: 14 rows read, 13 merged, 1 held.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "decision_log.csv line 10",
+              "value": "10_week44_b.xlsx"
+            },
+            {
+              "kind": "number",
+              "ref": "decision_log.csv line 10",
+              "value": "14"
+            },
+            {
+              "kind": "number",
+              "ref": "decision_log.csv line 10",
+              "value": "13"
+            },
+            {
+              "kind": "number",
+              "ref": "decision_log.csv line 10",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "what_is_due": [
+        {
+          "text": "A002 Send the draft category taxonomy, Aiden Brooks, due 2026-11-03.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A002",
+              "value": "A002"
+            },
+            {
+              "kind": "text",
+              "ref": "tracker.csv A002",
+              "value": "Send the draft category taxonomy"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A002",
+              "value": "Aiden Brooks"
+            },
+            {
+              "kind": "date",
+              "ref": "tracker.csv A002",
+              "value": "2026-11-03"
+            }
+          ]
+        },
+        {
+          "text": "A005 Set up the introductions to the three logistics partners, Daniel Okafor, due 2026-11-04.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A005",
+              "value": "A005"
+            },
+            {
+              "kind": "text",
+              "ref": "tracker.csv A005",
+              "value": "Set up the introductions to the three logistics partners"
+            },
+            {
+              "kind": "number",
+              "ref": "tracker.csv A005",
+              "value": "three"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A005",
+              "value": "Daniel Okafor"
+            },
+            {
+              "kind": "date",
+              "ref": "tracker.csv A005",
+              "value": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "text": "A004 Send the revised price list to the distributors, owner not stated, due 2026-11-05.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A004",
+              "value": "A004"
+            },
+            {
+              "kind": "text",
+              "ref": "tracker.csv A004",
+              "value": "Send the revised price list to the distributors"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A004",
+              "value": "not stated"
+            },
+            {
+              "kind": "date",
+              "ref": "tracker.csv A004",
+              "value": "2026-11-05"
+            }
+          ]
+        },
+        {
+          "text": "A007 Draft the board summary of the claims review, Aiden Brooks, due 2026-11-06.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A007",
+              "value": "A007"
+            },
+            {
+              "kind": "text",
+              "ref": "tracker.csv A007",
+              "value": "Draft the board summary of the claims review"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A007",
+              "value": "Aiden Brooks"
+            },
+            {
+              "kind": "date",
+              "ref": "tracker.csv A007",
+              "value": "2026-11-06"
+            }
+          ]
+        },
+        {
+          "text": "A008 Return the signed distributor contracts, Priya Shah, due 2026-11-10.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A008",
+              "value": "A008"
+            },
+            {
+              "kind": "text",
+              "ref": "tracker.csv A008",
+              "value": "Return the signed distributor contracts"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A008",
+              "value": "Priya Shah"
+            },
+            {
+              "kind": "date",
+              "ref": "tracker.csv A008",
+              "value": "2026-11-10"
+            }
+          ]
+        }
+      ],
+      "what_changed": [
+        {
+          "text": "Orders, September 2026: 4210; unchanged from last week.",
+          "claims": [
+            {
+              "kind": "metric",
+              "ref": "answers.csv D202610300900-Q01",
+              "value": "Orders"
+            },
+            {
+              "kind": "period",
+              "ref": "answers.csv D202610300900-Q01",
+              "value": "September 2026"
+            },
+            {
+              "kind": "change",
+              "metric": "Orders",
+              "new_ref": "answers.csv D202610300900-Q01",
+              "new_value": "4210",
+              "old_ref": "brief_previous.md line 13",
+              "old_value": "4,210"
+            }
+          ]
+        },
+        {
+          "text": "Revenue, Q3 2026: 1,604,322.50; unchanged from last week.",
+          "claims": [
+            {
+              "kind": "metric",
+              "ref": "answers.csv D202610300900-Q02",
+              "value": "Revenue"
+            },
+            {
+              "kind": "period",
+              "ref": "answers.csv D202610300900-Q02",
+              "value": "Q3 2026"
+            },
+            {
+              "kind": "change",
+              "metric": "Revenue",
+              "new_ref": "answers.csv D202610300900-Q02",
+              "new_value": "1,604,322.50",
+              "old_ref": "brief_previous.md line 14",
+              "old_value": "1,604,322.50"
+            }
+          ]
+        },
+        {
+          "text": "Returns rate, Q3 2026: 7.92%; unchanged from last week.",
+          "claims": [
+            {
+              "kind": "metric",
+              "ref": "answers.csv D202610300900-Q03",
+              "value": "Returns rate"
+            },
+            {
+              "kind": "period",
+              "ref": "answers.csv D202610300900-Q03",
+              "value": "Q3 2026"
+            },
+            {
+              "kind": "change",
+              "metric": "Returns rate",
+              "new_ref": "answers.csv D202610300900-Q03",
+              "new_value": "7.92%",
+              "old_ref": "brief_previous.md line 15",
+              "old_value": "7.92%"
+            }
+          ]
+        },
+        {
+          "text": "Average order value, September 2026: 128.56; unchanged from last week.",
+          "claims": [
+            {
+              "kind": "metric",
+              "ref": "answers.csv D202610300900-Q04",
+              "value": "Average order value"
+            },
+            {
+              "kind": "period",
+              "ref": "answers.csv D202610300900-Q04",
+              "value": "September 2026"
+            },
+            {
+              "kind": "change",
+              "metric": "Average order value",
+              "new_ref": "answers.csv D202610300900-Q04",
+              "new_value": "128.56",
+              "old_ref": "brief_previous.md line 16",
+              "old_value": "128.56"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "text": "\"Decision needed: whether to extend the pilot to the Riverside branch before the taxonomy is signed off.\"",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "project_note.md line 7",
+              "value": "Decision needed: whether to extend the pilot to the Riverside branch before the taxonomy is signed off."
+            }
+          ]
+        },
+        {
+          "text": "\"Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six.\"",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "supplier_note.md line 6",
+              "value": "Decision needed: whether to renew the Brightwater Packaging contract for twelve months or six."
+            },
+            {
+              "kind": "text",
+              "ref": "supplier_note.md line 6",
+              "value": "Brightwater Packaging"
+            },
+            {
+              "kind": "number",
+              "ref": "supplier_note.md line 6",
+              "value": "twelve"
+            },
+            {
+              "kind": "number",
+              "ref": "supplier_note.md line 6",
+              "value": "six"
+            }
+          ]
+        }
+      ],
+      "open_questions": [
+        {
+          "text": "A004 Send the revised price list to the distributors: owner not stated.",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "tracker.csv A004",
+              "value": "A004"
+            },
+            {
+              "kind": "text",
+              "ref": "tracker.csv A004",
+              "value": "Send the revised price list to the distributors"
+            },
+            {
+              "kind": "owner",
+              "ref": "tracker.csv A004",
+              "value": "not stated"
+            }
+          ]
+        },
+        {
+          "text": "\"Open question: does the spend export include the Harbour depot, or only the Central warehouse?\"",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "project_note.md line 9",
+              "value": "Open question: does the spend export include the Harbour depot, or only the Central warehouse?"
+            }
+          ]
+        },
+        {
+          "text": "\"Open question: can Brightwater Packaging hold the October price into Q1?\"",
+          "claims": [
+            {
+              "kind": "text",
+              "ref": "supplier_note.md line 8",
+              "value": "Open question: can Brightwater Packaging hold the October price into Q1?"
+            },
+            {
+              "kind": "text",
+              "ref": "supplier_note.md line 8",
+              "value": "Brightwater Packaging"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "steps": [
+    {
+      "n": 1,
+      "node": "sources",
+      "tool_calls": 209,
+      "seconds": 0.11
+    },
+    {
+      "n": 2,
+      "node": "retrieve",
+      "entries": 1712,
+      "lines": 86,
+      "seconds": 0.0
+    },
+    {
+      "n": 3,
+      "node": "draft",
+      "tokens": {
+        "in": 16295,
+        "fresh": 16295,
+        "cache_read": 0,
+        "cache_write": 0,
+        "out": 13887
+      },
+      "stop_reason": "end_turn",
+      "model": "claude-haiku-5-5",
+      "seconds": 51.64,
+      "parsed": true
+    },
+    {
+      "n": 4,
+      "node": "record_stops",
+      "stops": 0
+    },
+    {
+      "n": 5,
+      "node": "wait",
+      "paused": false
+    },
+    {
+      "n": 6,
+      "node": "submit",
+      "submitted": true,
+      "released": 19,
+      "removed": 0
+    },
+    {
+      "n": 7,
+      "node": "record"
+    }
+  ],
+  "seconds": 52.21,
+  "paused": false,
+  "tool_calls": 210,
+  "cost_usd": 0.008573
+}

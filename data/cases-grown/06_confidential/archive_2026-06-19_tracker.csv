@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,w21_halden_call.txt,7,Share the depot map for the category review,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-05-31,"""by 31 May"", meeting date 2026-05-20",closed,R2026-05-22-1,R2026-06-12-1,w24_halden_call.txt line 4
+A002,w25_halden_call.txt,9,Name a contact for the Riverside depot,not stated,,,2026-06-23,"""by 23 June"", meeting date 2026-06-16",open,R2026-06-19-1,,
+A003,w24_meridian_call.txt,5,Share the margin by product line,Priya Shah,Meridian Foods,Commercial Director,2026-06-18,"""by 18 June"", meeting date 2026-06-10",closed,R2026-06-12-1,R2026-06-19-1,w25_meridian_call.txt line 5
+A004,w22_meridian_call.txt,8,Write up the distributor interviews,Aiden Brooks,Our firm,Consultant,2026-06-05,"""by 5 June"", meeting date 2026-05-27",closed,R2026-05-29-1,R2026-06-12-1,w24_meridian_call.txt line 8
+A005,w22_halden_call.txt,4,Draft the interview guide for the category owners,Aiden Brooks,Our firm,Consultant,2026-06-01,"""by 1 June"", meeting date 2026-05-26",closed,R2026-05-29-1,R2026-06-12-1,w24_halden_call.txt line 2
+A006,w22_northgate_call.txt,9,Write up the claims handler interviews,Aiden Brooks,Our firm,Consultant,2026-06-07,"""by 7 June"", meeting date 2026-05-26",open,R2026-05-29-1,,
+A007,w24_northgate_call.txt,7,Share the branch claims contacts,Tom Reilly,Northgate Insurance,Head of Claims,2026-07-01,"""by 1 July"", meeting date 2026-06-09",open,R2026-06-12-1,,
+A008,w22_meridian_call.txt,6,Confirm the promotion calendar for the quarter,Priya Shah,Meridian Foods,Commercial Director,2026-06-17,"""by 17 June"", meeting date 2026-05-27",closed,R2026-05-29-1,R2026-06-19-1,w25_meridian_call.txt line 4

@@ -22,3 +22,10 @@ _*.mjs
 
 # the WORK-09 working brief stays local
 WORK-09-BRIEF.md
+
+# the WORK-10 working brief stays local
+WORK-10-BRIEF.md
+
+# WORK-10 stage 0 request captures; rebuilt with run.py stage0, token counts kept in eval/results-graph/forecast.json
+eval/results-graph/stage0/requests/
+eval/results-graph/stage0/recount-20261116153216/

@@ -1,0 +1,11 @@
+run_id,at,file,step,source,target,result,detail
+N2026-06-18-1,2026-06-18T09:10:00,week25_b.xlsx,header,,,found,header on row 1
+N2026-06-18-1,2026-06-18T09:10:00,week25_b.xlsx,map,Store,branch,mapped,synonym of branch
+N2026-06-18-1,2026-06-18T09:10:02,week25_b.xlsx,reconcile,,,ok,11 read = 11 merged + 0 held + 0 removed
+N2026-06-25-1,2026-06-25T09:17:00,week26_a.xlsx,header,,,found,header on row 2; 1 title row set aside
+N2026-06-25-1,2026-06-25T09:17:00,week26_a.xlsx,map,Store,branch,mapped,synonym of branch
+N2026-06-25-1,2026-06-25T09:17:01,week26_a.xlsx,hold_row,row 5,quantity,held,"quantity ""n/a"" fails whole number"
+N2026-06-25-1,2026-06-25T09:17:02,week26_a.xlsx,reconcile,,,ok,10 read = 9 merged + 1 held + 0 removed
+N2026-06-25-1,2026-06-25T09:12:00,week26_b.xlsx,header,,,found,header on row 2; 1 title row set aside
+N2026-06-25-1,2026-06-25T09:12:00,week26_b.xlsx,map,Txn date,sale_date,mapped,synonym of sale_date
+N2026-06-25-1,2026-06-25T09:12:02,week26_b.xlsx,reconcile,,,ok,14 read = 14 merged + 0 held + 0 removed

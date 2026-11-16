@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,w37_halden_call.txt,5,Write up the supplier interviews,Aiden Brooks,Our firm,Consultant,2026-09-24,"""by 24 September"", meeting date 2026-09-08",open,R2026-09-11-1,,
+A002,w35_halden_call.txt,9,Book the warehouse walk-through at the Central branch,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-08-31,"""by 31 August"", meeting date 2026-08-25",closed,R2026-08-28-1,R2026-09-18-1,w38_halden_call.txt line 9
+A003,w37_meridian_call.txt,6,Draft the pricing survey for the distributors,Aiden Brooks,Our firm,Consultant,2026-10-01,"""by 1 October"", meeting date 2026-09-09",open,R2026-09-11-1,,
+A004,w38_meridian_call.txt,7,Confirm the promotion calendar for the quarter,Priya Shah,Meridian Foods,Commercial Director,2026-09-23,"""by 23 September"", meeting date 2026-09-15",open,R2026-09-18-1,,
+A005,w37_halden_call.txt,6,Share the depot map for the category review,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-09-22,"""by 22 September"", meeting date 2026-09-09",open,R2026-09-11-1,,
+A006,w35_northgate_call.txt,3,Write up the claims handler interviews,Aiden Brooks,Our firm,Consultant,2026-09-04,"""by 4 September"", meeting date 2026-08-26",closed,R2026-08-28-1,R2026-09-11-1,w37_northgate_call.txt line 9
+A007,w35_northgate_call.txt,8,Share the branch claims contacts,Tom Reilly,Northgate Insurance,Head of Claims,2026-09-11,"""by 11 September"", meeting date 2026-08-25",closed,R2026-08-28-1,R2026-09-18-1,w38_northgate_call.txt line 6
+A008,w37_meridian_call.txt,2,Write up the distributor interviews,Aiden Brooks,Our firm,Consultant,2026-09-17,"""by 17 September"", meeting date 2026-09-08",open,R2026-09-11-1,,

@@ -1,0 +1,9 @@
+action_id,transcript,source_line,action,owner,owner_company,owner_role,due,due_note,status,added_run,closed_run,closed_by
+A001,w21_halden_call.txt,7,Share the depot map for the category review,Daniel Okafor,Halden Logistics,Chief Operating Officer,2026-05-31,"""by 31 May"", meeting date 2026-05-20",open,R2026-05-22-1,,
+A002,w21_halden_call.txt,2,Confirm the cost centre codes for the export,Sofia Lindqvist,Halden Logistics,Head of Procurement,2026-05-30,"""by 30 May"", meeting date 2026-05-20",open,R2026-05-22-1,,
+A003,w19_meridian_call.txt,8,Send the current distributor list,Priya Shah,Meridian Foods,Commercial Director,2026-05-22,"""by 22 May"", meeting date 2026-05-06",closed,R2026-05-08-1,R2026-06-05-1,w23_meridian_call.txt line 8
+A004,w22_meridian_call.txt,8,Write up the distributor interviews,Aiden Brooks,Our firm,Consultant,2026-06-05,"""by 5 June"", meeting date 2026-05-27",open,R2026-05-29-1,,
+A005,w22_halden_call.txt,4,Draft the interview guide for the category owners,Aiden Brooks,Our firm,Consultant,2026-06-01,"""by 1 June"", meeting date 2026-05-26",open,R2026-05-29-1,,
+A006,w22_northgate_call.txt,9,Write up the claims handler interviews,Aiden Brooks,Our firm,Consultant,2026-06-07,"""by 7 June"", meeting date 2026-05-26",open,R2026-05-29-1,,
+A007,w20_northgate_call.txt,8,Set the date for the board pre-read,not stated,,,2026-05-19,"""by 19 May"", meeting date 2026-05-13",closed,R2026-05-15-1,R2026-05-29-1,w22_northgate_call.txt line 4
+A008,w22_meridian_call.txt,6,Confirm the promotion calendar for the quarter,Priya Shah,Meridian Foods,Commercial Director,2026-06-17,"""by 17 June"", meeting date 2026-05-27",open,R2026-05-29-1,,
